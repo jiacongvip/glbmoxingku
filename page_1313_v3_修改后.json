@@ -1,0 +1,376 @@
+{
+  "id": 1313,
+  "name": "商城系统",
+  "content": [
+    {
+      "id": "M1791252800583087976",
+      "temp": "banner",
+      "params": {
+        "margin_y": 0,
+        "bgcolor": "#ffffff",
+        "style": "",
+        "height": 200,
+        "borderradius": 0,
+        "indicator": 1,
+        "autoplay": 1,
+        "interval": 3000,
+        "margin_x": 0,
+        "padding_x": 0,
+        "padding_y": 0,
+        "platform": {
+          "all": true
+        },
+        "quanxian": {
+          "all": true
+        },
+        "showmids": "",
+        "main_title": "",
+        "main_title_color": "#333333",
+        "sub_title": "",
+        "sub_title_color": "#999999",
+        "show_more": "0",
+        "more_text": "查看更多",
+        "more_text_color": "#666666",
+        "hrefurl": "",
+        "hrefname": "",
+        "istop": "0",
+        "bgimg": "",
+        "indicatordots": "1",
+        "shape": "",
+        "align": "center",
+        "indicatorcolor": "rgba(0,0,0,0.3)",
+        "indicatoractivecolor": "#ffffff"
+      },
+      "data": [
+        {
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/bfee8cf613736e0d301dbc386ea539d3.jpg",
+          "text": "",
+          "hrefurl": "",
+          "hrefname": ""
+        }
+      ]
+    },
+    {
+      "id": "M1791537173461186605",
+      "temp": "notice",
+      "params": {
+        "content": "欢迎光临，足球定制装备持续上新，更多好物敬请期待！",
+        "fontsize": 13,
+        "color": "#333333",
+        "bgcolor": "#FFF7E6",
+        "align": "left",
+        "margin_x": 0,
+        "margin_y": 0,
+        "padding_x": 0,
+        "padding_y": 0,
+        "platform": {
+          "all": true
+        },
+        "quanxian": {
+          "all": true
+        }
+      },
+      "data": []
+    },
+    {
+      "id": "M1791252800584171256",
+      "temp": "menu",
+      "params": {
+        "margin_y": 0,
+        "num": "4",
+        "pernum": 8,
+        "showicon": "1",
+        "iconsize": 50,
+        "radius": 50,
+        "showtitle": "0",
+        "title": "",
+        "titlesize": 16,
+        "titlecolor": "#333333",
+        "showline": "0",
+        "bgcolor": "#ffffff",
+        "fontsize": 14,
+        "fontheight": 20,
+        "boxradius": 0,
+        "margin_x": 0,
+        "padding_x": 0,
+        "padding_y": 10,
+        "platform": {
+          "all": true
+        },
+        "quanxian": {
+          "all": true
+        },
+        "showmids": ""
+      },
+      "data": [
+        {
+          "id": "1791251857614",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/ec472c66383ccfef01c346b849aede17.png",
+          "text": "球服",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1362",
+          "hrefname": ""
+        },
+        {
+          "id": "1791251857615",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/76003ba91574556a702932e99f16301b.png",
+          "text": "半拉链",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1286",
+          "hrefname": ""
+        },
+        {
+          "id": "1791251857616",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/0cc2470a9051e7a9ac852ab2b60d3944.png",
+          "text": "风雨衣",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1281",
+          "hrefname": ""
+        },
+        {
+          "id": "1791251857617",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/6b0656c9a422c6591a9c3b71beaafbe3.png",
+          "text": "训练套装",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1285",
+          "hrefname": ""
+        }
+      ]
+    },
+    {
+      "id": "M1791252800584223991",
+      "temp": "menu",
+      "params": {
+        "margin_y": -18,
+        "num": "4",
+        "pernum": 8,
+        "showicon": "1",
+        "iconsize": 50,
+        "radius": 50,
+        "showtitle": "0",
+        "title": "",
+        "titlesize": 16,
+        "titlecolor": "#333333",
+        "showline": "0",
+        "bgcolor": "#ffffff",
+        "fontsize": 14,
+        "fontheight": 20,
+        "boxradius": 0,
+        "margin_x": 0,
+        "padding_x": 0,
+        "padding_y": 10,
+        "platform": {
+          "all": true
+        },
+        "quanxian": {
+          "all": true
+        },
+        "showmids": ""
+      },
+      "data": [
+        {
+          "id": "comp_1791252022122_5aoahsede",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/2e75f64dd2765d4756ad0ed5973063ba.png",
+          "text": "棉服",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1435",
+          "hrefname": ""
+        },
+        {
+          "id": "comp_1791252022122_yp965kukg",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/07e1c603ae37baeb0ec0660b50e744a7.png",
+          "text": "护腿板",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1283",
+          "hrefname": ""
+        },
+        {
+          "id": "comp_1791252022122_02f3hmsmj",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/0059d47c7aa4b1c065452e991db1cb36.png",
+          "text": "背包",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1282",
+          "hrefname": ""
+        },
+        {
+          "id": "comp_1791252022122_mfi4i5e2r",
+          "imgurl": "https://qiniuoss.changzhouyunshan.com/upload/223/20261006/28ee333f6d763a5889cb2db6277b0182.png",
+          "text": "球星卡",
+          "color": "#333333",
+          "hrefurl": "/customdiyPackage/index?category_id=1436",
+          "hrefname": ""
+        }
+      ]
+    },
+    {
+      "id": "M1791252800584343442",
+      "temp": "product",
+      "params": {
+        "margin_y": 0,
+        "bgcolor": "#ffffff",
+        "shownum": 10,
+        "productfrom": "1",
+        "bid": "0",
+        "sortby": "sort",
+        "proshownum": 10,
+        "page_load_num": 10,
+        "style": "waterfall",
+        "cardstyle": 1,
+        "showbtn": 1,
+        "btntext": "立即购买",
+        "borderradius": 0,
+        "margin_x": 0,
+        "padding_x": 0,
+        "padding_y": 0,
+        "show_more": "0",
+        "platform": {
+          "all": true
+        },
+        "quanxian": {
+          "all": true
+        },
+        "showmids": "",
+        "show_follow_buy": "0",
+        "follow_buy_avatar_source": "pool",
+        "follow_buy_avatar_count": 5,
+        "follow_buy_count_mode": "range",
+        "follow_buy_count_fixed": 3527,
+        "follow_buy_count_min": 3000,
+        "follow_buy_count_max": 5000,
+        "follow_buy_text": "{count}人正在跟买",
+        "follow_buy_random_mode": "daily",
+        "follow_buy_avatars": [],
+        "mixed_type": "random",
+        "mixed_layout": "2",
+        "enable_article": false,
+        "articlefrom": "0",
+        "article_category": "",
+        "article_sortby": "sort",
+        "article_shownum": 10,
+        "mixed_articles": [],
+        "enable_video": false,
+        "videofrom": "0",
+        "video_category": "",
+        "video_shownum": 10,
+        "mixed_videos": [],
+        "mixed_items": [],
+        "mixed_refresh_key": 0,
+        "fixed_positions": "",
+        "random_frequency": "5",
+        "showname": "1",
+        "showsellpoint": "0",
+        "show_group_tag": "1",
+        "show_service_tag": "1",
+        "showprice": "1",
+        "member_price_style": "1",
+        "showsales": "1",
+        "show_flash_sale": "0",
+        "flash_sale_text": "限时抢购",
+        "flash_sale_mode": "daily",
+        "flash_sale_hours": 24,
+        "flash_sale_theme": "orange",
+        "showstock": "0",
+        "showbname": "0",
+        "showcoupon": "0",
+        "showcart": "1",
+        "cartimg": "",
+        "buybtn_text": "立即购买",
+        "buybtn_width": 80,
+        "buybtn_height": 30,
+        "buybtn_radius": 15,
+        "buybtn_fontsize": 12,
+        "buybtn_textcolor": "#ffffff",
+        "buybtn_bgtype": "color",
+        "buybtn_bgcolor": "#ff5722",
+        "buybtn_gradcolor1": "#ff5722",
+        "buybtn_gradcolor2": "#ff9800",
+        "buybtn_graddir": "to right",
+        "saleimg": "",
+        "show_pic_badge": "0",
+        "pic_badge_type": "top_right",
+        "pic_badge_text": "",
+        "pic_badge_subtext": "",
+        "pic_badge_color": "#5abd5d",
+        "category": [],
+        "group": {
+          "all": true
+        },
+        "bgimg": "",
+        "main_title": "",
+        "main_title_color": "#333333",
+        "sub_title": "",
+        "sub_title_color": "#999999",
+        "more_text": "更多",
+        "more_text_color": "#999999",
+        "hrefurl": "",
+        "hrefname": "",
+        "pro_radius": 12
+      },
+      "data": []
+    }
+  ],
+  "pageinfo": [
+    {
+      "id": "M0000000000000",
+      "temp": "topbar",
+      "params": {
+        "title": "商城系统",
+        "bgcolor": "#F6F6F6",
+        "pageBgImage": "",
+        "pageBgImageMode": "cover",
+        "platform": {
+          "all": true
+        },
+        "quanxian": {
+          "all": true
+        },
+        "showmids": "",
+        "quanxiantips": "",
+        "hrefurl2": "",
+        "hrefname2": "",
+        "fufei": "0",
+        "money": 0,
+        "showgg": "0",
+        "guanggao": "https://qixian.czlangan.cn/static/imgsrc/picture-1.jpg",
+        "ggrenqun": [
+          true
+        ],
+        "cishu": "0",
+        "hrefurl": "",
+        "hrefname": "",
+        "menuStyle": "default",
+        "leftMode": "logo",
+        "locationType": "nearby",
+        "auto_location": "0",
+        "leftImage": "",
+        "leftImageWidth": 200,
+        "leftImageHeight": 60,
+        "leftImageMode": "aspectFit",
+        "leftWidth": 0,
+        "rightWidth": 0,
+        "scrollOpacity": "0",
+        "menuTextColor": "#333333",
+        "isOpacity": "0",
+        "opacity": 0.8,
+        "bgImage": "",
+        "bgImageStyle": "nav",
+        "bgImageHeight": 0,
+        "menuAlign": "center",
+        "showSearch": "0",
+        "searchPosition": "center",
+        "searchWidth": 200,
+        "searchHeight": 35,
+        "searchRadius": 18,
+        "searchPlaceholder": "请输入搜索内容",
+        "searchPlaceholderColor": "#999999",
+        "bgType": "solid",
+        "navBgColor": "#ffffff",
+        "gradientStart": "#1890ff",
+        "gradientEnd": "#52c41a",
+        "gradientDirection": "to right",
+        "topGradient": "0",
+        "topGradientHeight": 300
+      }
+    }
+  ]
+}

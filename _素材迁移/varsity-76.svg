@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180">
+  <path d="M31 30h178l17 60-17 60H31L14 90Z" fill="#f4e7c7" stroke="#173f57" stroke-width="8"/>
+  <path d="M39 43h162l13 47-13 47H39L26 90Z" fill="#c84545" stroke="#f4c64b" stroke-width="4"/>
+  <text x="120" y="82" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="25" font-weight="900" fill="#fff3d5">VARSITY</text>
+  <text x="120" y="128" text-anchor="middle" font-family="Georgia,serif" font-size="55" font-weight="900" fill="#f4c64b" stroke="#173f57" stroke-width="3" paint-order="stroke">76</text>
+</svg>

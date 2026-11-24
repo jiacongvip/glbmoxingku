@@ -1,0 +1,56 @@
+{
+  "total": 10,
+  "failed": [],
+  "results": [
+    {
+      "dir": "01-Unichant",
+      "product_id": 16,
+      "name": "01-Unichant"
+    },
+    {
+      "dir": "02-Unichant-Wolves",
+      "product_id": 17,
+      "name": "02-Unichant-Wolves"
+    },
+    {
+      "dir": "03-Unichant-Sky",
+      "product_id": 18,
+      "name": "03-Unichant-Sky"
+    },
+    {
+      "dir": "04-Unichant-Dark",
+      "product_id": 19,
+      "name": "04-Unichant-Dark"
+    },
+    {
+      "dir": "05-Unichant-Gradient",
+      "product_id": 20,
+      "name": "05-Unichant-Gradient"
+    },
+    {
+      "dir": "06-Unichant-GrayRed",
+      "product_id": 21,
+      "name": "06-Unichant-GrayRed"
+    },
+    {
+      "dir": "07-Unichant-Pinstripe",
+      "product_id": 22,
+      "name": "07-Unichant-Pinstripe"
+    },
+    {
+      "dir": "08-Unichant-Camo",
+      "product_id": 23,
+      "name": "08-Unichant-Camo"
+    },
+    {
+      "dir": "09-Unichant-Purple",
+      "product_id": 24,
+      "name": "09-Unichant-Purple"
+    },
+    {
+      "dir": "10-Unichant-GeoOrange",
+      "product_id": 25,
+      "name": "10-Unichant-GeoOrange"
+    }
+  ]
+}

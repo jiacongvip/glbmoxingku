@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220">
+  <defs><linearGradient id="grid" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff4ecb"/><stop offset="1" stop-color="#4ff5ff"/></linearGradient></defs>
+  <g fill="none" stroke="url(#grid)" stroke-width="3" opacity=".9">
+    <path d="M20 204 120 72l100 132M43 204l77-132 77 132M69 204l51-132 51 132M94 204l26-132 26 132M120 204V72"/>
+    <path d="M20 204h200M34 186h172M49 166h142M65 145h110M82 122h76M98 98h44"/>
+  </g>
+  <path d="m43 38 5 12 12 5-12 5-5 12-5-12-12-5 12-5Zm146 8 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#fff45c"/>
+  <circle cx="120" cy="54" r="15" fill="#714cff" stroke="#fff" stroke-width="4"/>
+</svg>

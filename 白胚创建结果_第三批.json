@@ -1,0 +1,66 @@
+{
+  "total": 12,
+  "failed": [],
+  "results": [
+    {
+      "dir": "57-Unichant-BlueWolf",
+      "product_id": 72,
+      "name": "57-Unichant-BlueWolf"
+    },
+    {
+      "dir": "58-Unichant-PinkBlueFade",
+      "product_id": 73,
+      "name": "58-Unichant-PinkBlueFade"
+    },
+    {
+      "dir": "59-Unichant-RedBlackBrush",
+      "product_id": 74,
+      "name": "59-Unichant-RedBlackBrush"
+    },
+    {
+      "dir": "60-Unichant-BlueRedStripe",
+      "product_id": 75,
+      "name": "60-Unichant-BlueRedStripe"
+    },
+    {
+      "dir": "61-Unichant-NavyPinkCamo",
+      "product_id": 76,
+      "name": "61-Unichant-NavyPinkCamo"
+    },
+    {
+      "dir": "62-Unichant-BlackYellowGeo",
+      "product_id": 77,
+      "name": "62-Unichant-BlackYellowGeo"
+    },
+    {
+      "dir": "63-Unichant-RedBlackGeo",
+      "product_id": 78,
+      "name": "63-Unichant-RedBlackGeo"
+    },
+    {
+      "dir": "64-Unichant-RedGeo",
+      "product_id": 79,
+      "name": "64-Unichant-RedGeo"
+    },
+    {
+      "dir": "65-Unichant-BlueCamo",
+      "product_id": 80,
+      "name": "65-Unichant-BlueCamo"
+    },
+    {
+      "dir": "66-Unichant-BlueCamoBlack",
+      "product_id": 81,
+      "name": "66-Unichant-BlueCamoBlack"
+    },
+    {
+      "dir": "67-Unichant-MaroonZigzag",
+      "product_id": 82,
+      "name": "67-Unichant-MaroonZigzag"
+    },
+    {
+      "dir": "68-Unichant-TealLightning",
+      "product_id": 83,
+      "name": "68-Unichant-TealLightning"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs><linearGradient id="petal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4eb4"/><stop offset=".5" stop-color="#7d50ff"/><stop offset="1" stop-color="#4ff3ff"/></linearGradient></defs>
+  <g fill="none" stroke="url(#petal)" stroke-width="13" stroke-linecap="round">
+    <path d="M110 110C84 85 80 52 101 29c26 8 40 37 9 81Z"/><path d="M110 110c25-26 58-30 81-9-8 26-37 40-81 9Z"/><path d="M110 110c26 25 30 58 9 81-26-8-40-37-9-81Z"/><path d="M110 110c-25 26-58 30-81 9 8-26 37-40 81-9Z"/>
+  </g>
+  <circle cx="110" cy="110" r="24" fill="#fff34c" stroke="#20202a" stroke-width="6"/>
+  <path d="M110 99c15 0 15 22 0 22-10 0-12-14-3-18 7-3 11 5 5 9" fill="none" stroke="#20202a" stroke-width="4" stroke-linecap="round"/>
+</svg>

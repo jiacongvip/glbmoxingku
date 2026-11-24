@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 210">
+  <defs><linearGradient id="liquid" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#20232a"/><stop offset=".18" stop-color="#fff"/><stop offset=".38" stop-color="#7e8c9f"/><stop offset=".55" stop-color="#f8fbff"/><stop offset=".75" stop-color="#444a55"/><stop offset="1" stop-color="#fff"/></linearGradient></defs>
+  <path d="M56 31c32-21 53 10 80 8 25-2 51 12 48 40-2 20 18 35 6 58-11 21-35 17-49 34-18 22-51 17-62-6-10-20-41-12-47-38-5-23 18-35 15-55-3-17-5-31 9-41Z" fill="url(#liquid)" stroke="#ff48ae" stroke-width="6"/>
+  <ellipse cx="84" cy="70" rx="24" ry="15" fill="#fff" opacity=".72" transform="rotate(-24 84 70)"/>
+  <path d="M146 79q27 24 4 52" fill="none" stroke="#5bf0ff" stroke-width="8" stroke-linecap="round"/>
+</svg>

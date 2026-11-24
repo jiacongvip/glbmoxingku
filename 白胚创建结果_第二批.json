@@ -1,0 +1,236 @@
+{
+  "total": 46,
+  "failed": [],
+  "results": [
+    {
+      "dir": "11-Unichant-Green",
+      "product_id": 26,
+      "name": "11-Unichant-Green"
+    },
+    {
+      "dir": "12-Unichant-Lilac",
+      "product_id": 27,
+      "name": "12-Unichant-Lilac"
+    },
+    {
+      "dir": "13-Unichant-Charcoal",
+      "product_id": 28,
+      "name": "13-Unichant-Charcoal"
+    },
+    {
+      "dir": "14-Unichant-Red",
+      "product_id": 29,
+      "name": "14-Unichant-Red"
+    },
+    {
+      "dir": "15-Unichant-NavyGold",
+      "product_id": 30,
+      "name": "15-Unichant-NavyGold"
+    },
+    {
+      "dir": "16-Unichant-White",
+      "product_id": 31,
+      "name": "16-Unichant-White"
+    },
+    {
+      "dir": "17-Unichant-NavyYellow",
+      "product_id": 32,
+      "name": "17-Unichant-NavyYellow"
+    },
+    {
+      "dir": "18-Unichant-DarkGeo",
+      "product_id": 33,
+      "name": "18-Unichant-DarkGeo"
+    },
+    {
+      "dir": "19-Unichant-BeigeStripe",
+      "product_id": 34,
+      "name": "19-Unichant-BeigeStripe"
+    },
+    {
+      "dir": "20-Unichant-Confetti",
+      "product_id": 35,
+      "name": "20-Unichant-Confetti"
+    },
+    {
+      "dir": "21-Unichant-TealMagenta",
+      "product_id": 36,
+      "name": "21-Unichant-TealMagenta"
+    },
+    {
+      "dir": "22-Unichant-WhitePink",
+      "product_id": 37,
+      "name": "22-Unichant-WhitePink"
+    },
+    {
+      "dir": "23-Unichant-Hoops",
+      "product_id": 38,
+      "name": "23-Unichant-Hoops"
+    },
+    {
+      "dir": "24-Unichant-MosaicOrange",
+      "product_id": 39,
+      "name": "24-Unichant-MosaicOrange"
+    },
+    {
+      "dir": "25-Unichant-ForestConfetti",
+      "product_id": 40,
+      "name": "25-Unichant-ForestConfetti"
+    },
+    {
+      "dir": "26-Unichant-BlueDrip",
+      "product_id": 41,
+      "name": "26-Unichant-BlueDrip"
+    },
+    {
+      "dir": "27-Unichant-RedScribble",
+      "product_id": 42,
+      "name": "27-Unichant-RedScribble"
+    },
+    {
+      "dir": "28-Unichant-RedStripe",
+      "product_id": 43,
+      "name": "28-Unichant-RedStripe"
+    },
+    {
+      "dir": "29-Unichant-AquaMesh",
+      "product_id": 44,
+      "name": "29-Unichant-AquaMesh"
+    },
+    {
+      "dir": "30-Unichant-BlueCamo",
+      "product_id": 45,
+      "name": "30-Unichant-BlueCamo"
+    },
+    {
+      "dir": "31-Unichant-GrayCamo",
+      "product_id": 46,
+      "name": "31-Unichant-GrayCamo"
+    },
+    {
+      "dir": "32-Unichant-GreenStripe",
+      "product_id": 47,
+      "name": "32-Unichant-GreenStripe"
+    },
+    {
+      "dir": "33-Unichant-NavyPink",
+      "product_id": 48,
+      "name": "33-Unichant-NavyPink"
+    },
+    {
+      "dir": "34-Unichant-IvoryStripe",
+      "product_id": 49,
+      "name": "34-Unichant-IvoryStripe"
+    },
+    {
+      "dir": "35-Unichant-BlueFade",
+      "product_id": 50,
+      "name": "35-Unichant-BlueFade"
+    },
+    {
+      "dir": "36-Unichant-RedBlack",
+      "product_id": 51,
+      "name": "36-Unichant-RedBlack"
+    },
+    {
+      "dir": "37-Unichant-YellowBlack",
+      "product_id": 52,
+      "name": "37-Unichant-YellowBlack"
+    },
+    {
+      "dir": "38-Unichant-NavyWhite",
+      "product_id": 53,
+      "name": "38-Unichant-NavyWhite"
+    },
+    {
+      "dir": "39-Unichant-IceSnow",
+      "product_id": 54,
+      "name": "39-Unichant-IceSnow"
+    },
+    {
+      "dir": "40-Unichant-NavyTeal",
+      "product_id": 55,
+      "name": "40-Unichant-NavyTeal"
+    },
+    {
+      "dir": "41-Unichant-WhiteRaglan",
+      "product_id": 56,
+      "name": "41-Unichant-WhiteRaglan"
+    },
+    {
+      "dir": "42-Unichant-GreenGold",
+      "product_id": 57,
+      "name": "42-Unichant-GreenGold"
+    },
+    {
+      "dir": "43-Unichant-BlackGoldStripe",
+      "product_id": 58,
+      "name": "43-Unichant-BlackGoldStripe"
+    },
+    {
+      "dir": "44-Unichant-BlackGoldLS",
+      "product_id": 59,
+      "name": "44-Unichant-BlackGoldLS"
+    },
+    {
+      "dir": "45-Unichant-GreenShoulder",
+      "product_id": 60,
+      "name": "45-Unichant-GreenShoulder"
+    },
+    {
+      "dir": "46-Unichant-BlackMesh",
+      "product_id": 61,
+      "name": "46-Unichant-BlackMesh"
+    },
+    {
+      "dir": "47-Unichant-OrangeBlack",
+      "product_id": 62,
+      "name": "47-Unichant-OrangeBlack"
+    },
+    {
+      "dir": "48-Unichant-RedBlueStripe",
+      "product_id": 63,
+      "name": "48-Unichant-RedBlueStripe"
+    },
+    {
+      "dir": "49-Unichant-PinkBlack",
+      "product_id": 64,
+      "name": "49-Unichant-PinkBlack"
+    },
+    {
+      "dir": "50-Unichant-NavyCyanCrack",
+      "product_id": 65,
+      "name": "50-Unichant-NavyCyanCrack"
+    },
+    {
+      "dir": "51-Unichant-AquaWave",
+      "product_id": 66,
+      "name": "51-Unichant-AquaWave"
+    },
+    {
+      "dir": "52-Unichant-NavyYellowBand",
+      "product_id": 67,
+      "name": "52-Unichant-NavyYellowBand"
+    },
+    {
+      "dir": "53-Unichant-BlackScratch",
+      "product_id": 68,
+      "name": "53-Unichant-BlackScratch"
+    },
+    {
+      "dir": "54-Unichant-RedNavy",
+      "product_id": 69,
+      "name": "54-Unichant-RedNavy"
+    },
+    {
+      "dir": "55-Unichant-CharcoalCyan",
+      "product_id": 70,
+      "name": "55-Unichant-CharcoalCyan"
+    },
+    {
+      "dir": "56-Unichant-BlackWhiteSplit",
+      "product_id": 71,
+      "name": "56-Unichant-BlackWhiteSplit"
+    }
+  ]
+}

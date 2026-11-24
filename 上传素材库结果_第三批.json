@@ -1,0 +1,315 @@
+{
+  "total": 48,
+  "failed": [
+    {
+      "dir": "69-Unichant-OrangeSmoke",
+      "file": "01-上衣正面-2D.png",
+      "msg": "file not found"
+    },
+    {
+      "dir": "69-Unichant-OrangeSmoke",
+      "file": "02-上衣背面-2D.png",
+      "msg": "file not found"
+    },
+    {
+      "dir": "69-Unichant-OrangeSmoke",
+      "file": "03-短裤正面-2D.png",
+      "msg": "file not found"
+    },
+    {
+      "dir": "69-Unichant-OrangeSmoke",
+      "file": "04-短裤背面-2D.png",
+      "msg": "file not found"
+    }
+  ],
+  "results": [
+    {
+      "dir": "57-Unichant-BlueWolf",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200836_83ea4aae.png",
+      "upload_id": 34572
+    },
+    {
+      "dir": "57-Unichant-BlueWolf",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200838_8aac484d.png",
+      "upload_id": 34573
+    },
+    {
+      "dir": "57-Unichant-BlueWolf",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200840_2a2f9b9e.png",
+      "upload_id": 34574
+    },
+    {
+      "dir": "57-Unichant-BlueWolf",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200844_6aed7fa7.png",
+      "upload_id": 34575
+    },
+    {
+      "dir": "58-Unichant-PinkBlueFade",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200846_abe0fce3.png",
+      "upload_id": 34576
+    },
+    {
+      "dir": "58-Unichant-PinkBlueFade",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200848_8c095eb6.png",
+      "upload_id": 34577
+    },
+    {
+      "dir": "58-Unichant-PinkBlueFade",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200849_6245cd56.png",
+      "upload_id": 34578
+    },
+    {
+      "dir": "58-Unichant-PinkBlueFade",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200852_0d39244a.png",
+      "upload_id": 34579
+    },
+    {
+      "dir": "59-Unichant-RedBlackBrush",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200853_f180b1de.png",
+      "upload_id": 34580
+    },
+    {
+      "dir": "59-Unichant-RedBlackBrush",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200855_1dfb7c45.png",
+      "upload_id": 34581
+    },
+    {
+      "dir": "59-Unichant-RedBlackBrush",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200857_8f77db7a.png",
+      "upload_id": 34582
+    },
+    {
+      "dir": "59-Unichant-RedBlackBrush",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200859_47efffeb.png",
+      "upload_id": 34583
+    },
+    {
+      "dir": "60-Unichant-BlueRedStripe",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200900_7926736a.png",
+      "upload_id": 34584
+    },
+    {
+      "dir": "60-Unichant-BlueRedStripe",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200902_9cddaf4e.png",
+      "upload_id": 34585
+    },
+    {
+      "dir": "60-Unichant-BlueRedStripe",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200904_ae37e78c.png",
+      "upload_id": 34586
+    },
+    {
+      "dir": "60-Unichant-BlueRedStripe",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200906_ff85854e.png",
+      "upload_id": 34587
+    },
+    {
+      "dir": "61-Unichant-NavyPinkCamo",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200907_45047948.png",
+      "upload_id": 34588
+    },
+    {
+      "dir": "61-Unichant-NavyPinkCamo",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200909_1a0f1097.png",
+      "upload_id": 34589
+    },
+    {
+      "dir": "61-Unichant-NavyPinkCamo",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200911_479ba6b6.png",
+      "upload_id": 34590
+    },
+    {
+      "dir": "61-Unichant-NavyPinkCamo",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200912_ef88e201.png",
+      "upload_id": 34591
+    },
+    {
+      "dir": "62-Unichant-BlackYellowGeo",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200914_10602f81.png",
+      "upload_id": 34592
+    },
+    {
+      "dir": "62-Unichant-BlackYellowGeo",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200916_1f47feca.png",
+      "upload_id": 34593
+    },
+    {
+      "dir": "62-Unichant-BlackYellowGeo",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200918_a4859973.png",
+      "upload_id": 34594
+    },
+    {
+      "dir": "62-Unichant-BlackYellowGeo",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200920_14eb5bbd.png",
+      "upload_id": 34595
+    },
+    {
+      "dir": "63-Unichant-RedBlackGeo",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200922_4a486db1.png",
+      "upload_id": 34596
+    },
+    {
+      "dir": "63-Unichant-RedBlackGeo",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200924_cc2cea6e.png",
+      "upload_id": 34597
+    },
+    {
+      "dir": "63-Unichant-RedBlackGeo",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200926_59f65134.png",
+      "upload_id": 34598
+    },
+    {
+      "dir": "63-Unichant-RedBlackGeo",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_200928_7074299e.png",
+      "upload_id": 34599
+    },
+    {
+      "dir": "64-Unichant-RedGeo",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201014_69dd7c73.png",
+      "upload_id": 34600
+    },
+    {
+      "dir": "64-Unichant-RedGeo",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201017_519001f8.png",
+      "upload_id": 34601
+    },
+    {
+      "dir": "64-Unichant-RedGeo",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201021_9d985011.png",
+      "upload_id": 34602
+    },
+    {
+      "dir": "64-Unichant-RedGeo",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201023_9558d191.png",
+      "upload_id": 34603
+    },
+    {
+      "dir": "65-Unichant-BlueCamo",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201025_774d6b6d.png",
+      "upload_id": 34604
+    },
+    {
+      "dir": "65-Unichant-BlueCamo",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201026_e1da37c7.png",
+      "upload_id": 34605
+    },
+    {
+      "dir": "65-Unichant-BlueCamo",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201028_c710596f.png",
+      "upload_id": 34606
+    },
+    {
+      "dir": "65-Unichant-BlueCamo",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201030_f954c07e.png",
+      "upload_id": 34607
+    },
+    {
+      "dir": "66-Unichant-BlueCamoBlack",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201032_120ddc14.png",
+      "upload_id": 34608
+    },
+    {
+      "dir": "66-Unichant-BlueCamoBlack",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201034_3449066b.png",
+      "upload_id": 34609
+    },
+    {
+      "dir": "66-Unichant-BlueCamoBlack",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201036_15fe38d8.png",
+      "upload_id": 34610
+    },
+    {
+      "dir": "66-Unichant-BlueCamoBlack",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201038_027c662b.png",
+      "upload_id": 34611
+    },
+    {
+      "dir": "67-Unichant-MaroonZigzag",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201040_b290b305.png",
+      "upload_id": 34612
+    },
+    {
+      "dir": "67-Unichant-MaroonZigzag",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201041_48defc58.png",
+      "upload_id": 34613
+    },
+    {
+      "dir": "67-Unichant-MaroonZigzag",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201043_e146e47f.png",
+      "upload_id": 34614
+    },
+    {
+      "dir": "67-Unichant-MaroonZigzag",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201045_a77b0947.png",
+      "upload_id": 34615
+    },
+    {
+      "dir": "68-Unichant-TealLightning",
+      "file": "01-上衣正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201047_83c2d0dd.png",
+      "upload_id": 34616
+    },
+    {
+      "dir": "68-Unichant-TealLightning",
+      "file": "02-上衣背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201049_9ceb3979.png",
+      "upload_id": 34617
+    },
+    {
+      "dir": "68-Unichant-TealLightning",
+      "file": "03-短裤正面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201052_7305a740.png",
+      "upload_id": 34618
+    },
+    {
+      "dir": "68-Unichant-TealLightning",
+      "file": "04-短裤背面-2D.png",
+      "url": "https://qiniuoss.changzhouyunshan.com/upload/223/20261014/aiapi_201054_56d4adc6.png",
+      "upload_id": 34619
+    }
+  ]
+}

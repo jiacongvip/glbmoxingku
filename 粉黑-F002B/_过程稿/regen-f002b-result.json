@@ -1,0 +1,59 @@
+{
+  "stamp": "20261003-221350",
+  "backups": [
+    "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/_过程稿/20261003-221350-粉黑-F002B-图版.png",
+    "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/_过程稿/20261003-221350-01-上衣正面-2D.png",
+    "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/_过程稿/20261003-221350-02-上衣背面-2D.png",
+    "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/_过程稿/20261003-221350-05-整套正面-3D.png",
+    "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/_过程稿/20261003-221350-06-整套背面-3D.png"
+  ],
+  "results": [
+    {
+      "tag": "board",
+      "status": "saved",
+      "task_id": "58c0e883-1074-8462-a353-3f1bad99e863",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B-图版.png",
+      "bytes": 1632427,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "tag": "01",
+      "status": "saved",
+      "task_id": "92e42887-1281-a877-570b-7341cedc52c6",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/01-上衣正面-2D.png",
+      "bytes": 846807,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "tag": "02",
+      "status": "saved",
+      "task_id": "5d14c25d-a191-bb24-7a4b-3e51d6fbe24d",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/02-上衣背面-2D.png",
+      "bytes": 840915,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "tag": "05",
+      "status": "saved",
+      "task_id": "c56c22fc-fd73-b6b5-c786-9ba1a33332f1",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/05-整套正面-3D.png",
+      "bytes": 591575,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "tag": "06",
+      "status": "saved",
+      "task_id": "7f01554f-2313-acc3-1fde-2f3b5211a9e0",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/粉黑-F002B/06-整套背面-3D.png",
+      "bytes": 1240819,
+      "width": 1254,
+      "height": 1254
+    }
+  ],
+  "shorts_unchanged": true,
+  "collar_ref": "https://qiniuoss.changzhouyunshan.com/upload/202610/03_2213514002.png"
+}
