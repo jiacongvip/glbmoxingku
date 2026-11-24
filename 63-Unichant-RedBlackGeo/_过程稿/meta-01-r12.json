@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2089487,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r12",
+  "method": "微调：图1=r11 全锁；图2=65 V尖；两处修改=①V尖收尖 ②白线细一半（纯白）",
+  "model": "gpt-image-2",
+  "task_id": "a48e7f17-7614-f2da-24ef-9219e0f034f6",
+  "refs": {
+    "lock_63r11": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0041174357_k63r11lock.png",
+    "vtip_65": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0041168605_k65vtip.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0043594369_k63front_r12.png",
+  "archived_prev": "20261025-004359_正面_r11-白边粗V尖平.png",
+  "generated_at": "2026-10-25 00:44:04 +0800",
+  "note": "白线减细、V尖收拢；仍未做到 65 那种右压左的叠压小尾巴"
+}

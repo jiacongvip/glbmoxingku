@@ -1,0 +1,21 @@
+submit 200 65ee0457-19cc-81dc-f0cd-40591d7a1016 {'id': '65ee0457-19cc-81dc-f0cd-40591d7a1016'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 running
+poll 14 running
+poll 15 running
+poll 16 succeeded
+download colortype 6 size 1254 1254 bytes 1803716 task 2e87c69c-ee65-7e0a-b4dapoll 22 succeeded
+download colortype 6 size 1254 1254 bytes 1203227 task 65ee0457-19cc-81dc-f0cd-40591d7a1016
+SAVED /Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/02-上衣背面-2D.png 1203227 task 65ee0457-19cc-81dc-f0cd-40591d7a1016 ct 6

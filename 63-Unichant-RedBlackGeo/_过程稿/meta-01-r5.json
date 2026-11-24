@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2889957,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r5",
+  "method": "参考 65：图1=65 正面（版型/领口锁死），图2=63 花色（红黑几何上胸+纯黑下摆），领圈黑+整圈白描边+红内衬",
+  "model": "gpt-image-2",
+  "task_id": "4c40c8fb-7e9c-07b6-7324-233989efba31",
+  "refs": {
+    "lock_65": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1805442734_k64lock65.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2349396454_k63paint5.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2354109213_k63front_r5.png",
+  "archived_prev": "20261024-235410_正面_r4-64底板.png",
+  "generated_at": "2026-10-24 23:54:17 +0800",
+  "note": "duomi 充值后补发；原始长宽比 1.0161，锁到 1838x1886（65 比例 1.0242）"
+}

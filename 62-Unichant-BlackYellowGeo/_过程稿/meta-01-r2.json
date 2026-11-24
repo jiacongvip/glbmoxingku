@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/01-上衣正面-2D.png",
+  "bytes": 2540142,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r2",
+  "method": "图1=用户定稿底板模板（_模板/65-底板模板-用户定稿.png），图2=62 花色",
+  "model": "gpt-image-2",
+  "task_id": "d224be74-202e-3730-cea8-966200ef8f1b",
+  "refs": {
+    "template_user": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1103111363_templateUSER.png",
+    "paint_62": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1009562978_k62paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1105245225_k62front_r2.png",
+  "archived_prev": "20261025-110524_正面_r1-57底板.png",
+  "generated_at": "2026-10-25 11:05:31 +0800"
+}

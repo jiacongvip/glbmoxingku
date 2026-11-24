@@ -1,0 +1,17 @@
+submit 200 221cbda9-94cf-f095-c485-79b7fd805425 {'id': '221cbda9-94cf-f095-c485-79b7fd805425'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 succeeded
+download colortype 6 size 1254 1254 bytes 1297052 url https://cdn3.dmiapi.com/20261013/38760bbf3ffec1772e22870940955a19.png?e=1792298146&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:qSB-zD1iYHrG_eHOcFDtcApgfv0= task 221cbda9-94cf-f095-c485-79b7fd805425
+SAVED /Users/jiacong/Desktop/球衣套装拆图/61-Unichant-NavyPinkCamo/03-短裤正面-2D.png 1297052 task 221cbda9-94cf-f095-c485-79b7fd805425 ct 6 wh 1254 1254 url https://cdn3.dmiapi.com/20261013/38760bbf3ffec1772e22870940955a19.png?e=1792298146&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:qSB-zD1iYHrG_eHOcFDtcApgfv0=

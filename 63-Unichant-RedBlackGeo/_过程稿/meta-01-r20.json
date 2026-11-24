@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 3406403,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r20",
+  "method": "gpt-image-2.5-flare；图1=57领子灰身模板；本轮加了两条硬约束：领口宽≈衣宽28%(≤30%)、深≈衣长19%(≤21%)",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "d2c475ac-87c3-8984-c285-ae8d127f23a3",
+  "refs": {
+    "template_57gray": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1147492905_template57gray.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1156558685_k63front_r20.png",
+  "archived_prev": "20261025-115655_正面_r19-领口偏大.png",
+  "generated_at": "2026-10-25 11:57:04 +0800",
+  "prompt_rule": "领口尺寸必须给比例数字（宽28%/深19%）并写下上限，否则模型会把领口画大一圈"
+}

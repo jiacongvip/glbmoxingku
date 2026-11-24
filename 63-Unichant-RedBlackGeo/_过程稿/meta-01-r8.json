@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 3389114,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r8",
+  "method": "微调：图1=r6 全锁；图2=64 V尖特写；唯一修改=领口下方黑V带变细并在底部交叉叠压（原来焊成一块厚板、平底）",
+  "model": "gpt-image-2",
+  "task_id": "6f5d09fc-0d3c-f1da-c232-e38cc5adf1af",
+  "refs": {
+    "lock_63r6": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0020201991_k63r6block.png",
+    "vtip_64": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0020192137_k64vtip.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0023257925_k63front_r8.png",
+  "archived_prev": "20261025-002324_正面_r6-白边两侧.png",
+  "generated_at": "2026-10-25 00:23:31 +0800",
+  "note": "V带变细+交叉叠压；副作用：白线比 r6 粗一点、领叶略大"
+}

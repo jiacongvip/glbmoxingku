@@ -1,0 +1,26 @@
+submit 200 0f1f2d3f-1d78-fa09-3bbf-66e988117e9f {'id': '0f1f2d3f-1d78-fa09-3bbf-66e988117e9f'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 running
+poll 14 running
+poll 15 running
+poll 16 running
+poll 17 running
+poll 18 running
+poll 19 running
+poll 20 running
+poll 21 running
+poll 22 succeeded
+download colortype 6 size 1254 1254 bytes 708171 task 607e5e72-abb0-da70-46ba-9223821169e9
+SAVED /Users/jiacong/Desktop/球衣套装拆图/65-Unichant-BlueCamo/05-整套正面-3D.png 708171 task 607e5e72-abb0-da70-46ba-9223821169e9 ct 6

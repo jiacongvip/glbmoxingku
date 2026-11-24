@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/60-Unichant-BlueRedStripe/01-上衣正面-2D.png",
+  "bytes": 3587506,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r2",
+  "method": "品红背景出图 + 色键抠图（解决光晕毛边）；底板=最终示意图领子底板；图2=60 花色",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "6d4884de-bbce-6904-895f-414201abee70",
+  "refs": {
+    "template_final": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1432311182_tmplFinal.png",
+    "paint_60": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1526533855_k60paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1541441656_k60front_r2.png",
+  "archived_prev": "20261025-154144_正面_旧2000.png",
+  "generated_at": "2026-10-25 15:41:53 +0800",
+  "note": "新工序验证成功：背景纯品红#FF00FF → 色键 (r>170,b>170,g<130) → 内缩2px → 无光晕毛边"
+}

@@ -1,0 +1,123 @@
+{
+  "kit": "67-Unichant-MaroonZigzag",
+  "files": {
+    "00-设计稿.png": {
+      "bytes": 1981018,
+      "ct": 2,
+      "w": 2290,
+      "h": 2560
+    },
+    "01-上衣正面-2D.png": {
+      "bytes": 1295837,
+      "ct": 6,
+      "w": 1254,
+      "h": 1254
+    },
+    "02-上衣背面-2D.png": {
+      "bytes": 1203227,
+      "ct": 6,
+      "w": 1254,
+      "h": 1254
+    },
+    "03-短裤正面-2D.png": {
+      "bytes": 1805003,
+      "ct": 6,
+      "w": 1254,
+      "h": 1254
+    },
+    "04-短裤背面-2D.png": {
+      "bytes": 1619179,
+      "ct": 6,
+      "w": 1254,
+      "h": 1254
+    },
+    "05-整套正面-3D.png": {
+      "bytes": 634700,
+      "ct": 6,
+      "w": 1254,
+      "h": 1254
+    },
+    "06-整套背面-3D.png": {
+      "bytes": 586104,
+      "ct": 6,
+      "w": 1254,
+      "h": 1254
+    }
+  },
+  "metas": {
+    "01": {
+      "file": "01-上衣正面-2D.png",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/01-上衣正面-2D.png",
+      "bytes": 1295837,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "9ec5a86c-a628-9091-87dc-b7e8bf6e52e7",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/b915a43fd77499fb44441ba91b209e3b.png?e=1792337599&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:QQss2HIRwPT46dWhnzDtqRpFJ4A="
+    },
+    "02": {
+      "file": "02-上衣背面-2D.png",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/02-上衣背面-2D.png",
+      "bytes": 1203227,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "65ee0457-19cc-81dc-f0cd-40591d7a1016",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/b1c9dc46ee2d030d1784b836f23afbbb.png?e=1792337757&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:UGz2t31cpRlUiTZTXvYTgiLhF2g="
+    },
+    "03": {
+      "file": "03-短裤正面-2D.png",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/03-短裤正面-2D.png",
+      "bytes": 1805003,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "e384f3ac-c23c-16cf-1203-2491f02a2bd7",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/c0bceaf4ad801be9be96d3eecdce450c.png?e=1792338508&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:JUtDdOxS8oyanmhwruDqzqJ1LoA="
+    },
+    "04": {
+      "file": "04-短裤背面-2D.png",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/04-短裤背面-2D.png",
+      "bytes": 1619179,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "4eb3190d-bcfa-277d-95ce-e0e3eb6de9bb",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/4ee9b88523304cd1f72ecabde3423b5a.png?e=1792338700&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:3LWm0mY7xpSBpN8emQPKuWBrfCY="
+    },
+    "05": {
+      "file": "05-整套正面-3D.png",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/05-整套正面-3D.png",
+      "bytes": 634700,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "892a97f9-7942-f716-e8f1-b480f5527a9f",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/27af753e6ba8f26ff40614aa9ca5fbd6.png?e=1792338960&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:iF3UiIMIRpH040JHwo8tTVrTs50="
+    },
+    "06": {
+      "file": "06-整套背面-3D.png",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/06-整套背面-3D.png",
+      "bytes": 586104,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "9a782d67-55c3-1452-1dc7-83ac29c1ed23",
+      "cdn_url": "https://cdn3.dmiapi.com/20261014/c3a8e5a010c42c1be335c1d9ac78ee71.png?e=1792339225&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:RN4kByxvcnB5rRb-DnS2OaL1GgY="
+    }
+  },
+  "oss_urls": {
+    "F013-front": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_2030573172.png",
+    "F013-back": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_2030596760.png",
+    "POSE_F": "https://qiniuoss.changzhouyunshan.com/upload/202610/01_1842423141.png",
+    "POSE_B": "https://qiniuoss.changzhouyunshan.com/upload/202610/01_1842432537.png",
+    "67-ref-01-jersey-front.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2327111348.png",
+    "67-ref-02-jersey-back.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2327122369.png",
+    "67-ref-03-shorts-front.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2327147373.png",
+    "67-ref-04-shorts-back.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2327153455.png",
+    "67-01-front-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2333392214.png",
+    "67-02-back-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2346253356.png",
+    "67-03-shorts-front-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2349326914.png",
+    "67-04-shorts-back-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_2352293338.png"
+  }
+}

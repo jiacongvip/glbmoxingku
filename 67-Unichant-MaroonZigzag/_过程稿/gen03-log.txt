@@ -1,0 +1,22 @@
+submit 200 67bb0c24-3abe-0aba-b5f9-317bb22b1594 {'id': '67bb0c24-3abe-0aba-b5f9-317bb22b1594'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 succeedepoll 14 running
+poll 15 running
+poll 16 running
+poll 17 running
+poll 18 running
+poll 19 succeeded
+download colortype 6 size 1254 1254 bytes 1805003 task e384f3ac-c23c-16cf-1203-2491f02a2bd7
+SAVED /Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/03-短裤正面-2D.png 1805003 task e384f3ac-c23c-16cf-1203-2491f02a2bd7 ct 6

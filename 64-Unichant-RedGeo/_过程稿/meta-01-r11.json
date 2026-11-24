@@ -1,0 +1,34 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 2015290,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    69,
+    92,
+    1907,
+    1907
+  ],
+  "content_wh": [
+    1838,
+    1815
+  ],
+  "round": "r11",
+  "method": "lock-geo + paint-swap（图1=66 正面几何，图2=64 红几何花色）",
+  "model": "gpt-image-2",
+  "params": {
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "task_id": "7181d2b8-a018-dd58-d88a-c7f90a384fe0",
+  "refs": {
+    "lock_66": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2241235803_k64lock66.png",
+    "paint_64": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2241242697_k64paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2251241529_k64front_r11.png",
+  "archived_prev": "20261023-225122_正面_r10-黑领白边.png",
+  "generated_at": "2026-10-23 22:51:32 +0800",
+  "note": "内容宽 1838 = 66 内容宽；高 1814（比 66 的 1862 短 2.6%）；黑 V 领圈+红内衬+白插肩滚边+黑袖口带"
+}

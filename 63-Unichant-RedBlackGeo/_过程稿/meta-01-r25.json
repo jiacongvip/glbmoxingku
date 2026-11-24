@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 1936725,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r25",
+  "method": "底板=用户定稿模板抬袖版（只把袖子抬起，其它不变）；图2=63花色",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "0e3ef983-f02e-4737-d4db-08f635ec4801",
+  "refs": {
+    "template_raise": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1337354396_tmplRaise.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1339092538_k63front_r25.png",
+  "archived_prev": "20261025-133908_正面_r24-61底板.png",
+  "generated_at": "2026-10-25 13:39:18 +0800"
+}

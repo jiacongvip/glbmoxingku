@@ -1,0 +1,30 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/01-上衣正面-2D.png",
+  "bytes": 2539307,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r6",
+  "method": "图1=用户底板；图2=62花色；图3=57领口V尖特写（只学收口结构）。领口收口=两条独立带子斜切方头错开叠压",
+  "model": "gpt-image-2",
+  "task_id": "0e21199c-285b-0c23-10ae-d70fe2792203",
+  "refs": {
+    "template_user": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1103111363_templateUSER.png",
+    "paint_62": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1009562978_k62paint.png",
+    "vtip_57": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1123349227_vtip57ref.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1128332821_k62front_r6.png",
+  "archived_prev": "20261025-112832_正面_r3-收口未照参考.png",
+  "generated_at": "2026-10-25 11:28:40 +0800",
+  "prompt_trick": "文字描述收口效果差，改用第三张参考图（57的V尖特写）+ 一段结构说明，一次就对"
+}

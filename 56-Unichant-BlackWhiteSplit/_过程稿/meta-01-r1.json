@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/56-Unichant-BlackWhiteSplit/01-上衣正面-2D.png",
+  "bytes": 2041427,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=最终示意图领子底板；图2=56 黑白对半+网点过渡",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "2b932e79-0bba-9f73-d719-d61f17fb28e7",
+  "refs": {
+    "template_final": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1432311182_tmplFinal.png",
+    "paint_56": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1613451123_k56paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1615108999_k56front_r1.png",
+  "archived_prev": "20261025-161510_正面_旧1024.png",
+  "generated_at": "2026-10-25 16:15:18 +0800"
+}

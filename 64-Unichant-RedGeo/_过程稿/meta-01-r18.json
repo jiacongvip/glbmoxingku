@@ -1,0 +1,34 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 1656804,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    69,
+    108,
+    1907,
+    1892
+  ],
+  "content_wh": [
+    1838,
+    1784
+  ],
+  "round": "r18",
+  "method": "微调：整圈领子等比缩小 15-20%（图1=r17 全锁，图2=59 领口尺寸），只动领子",
+  "model": "gpt-image-2",
+  "params": {
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "task_id": "d84fc358-fc30-c8db-3739-48b4c9c57d1c",
+  "note_r16_r17": "r16/r17 收窄失败（r16 反而变宽、r17 只收 8%），未写入定稿，raw 在 box",
+  "refs": {
+    "lock_r17": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2337022613_k64r17lock.png",
+    "neck_59": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2337011827_k59neckt.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2343169719_k64front_r18.png",
+  "archived_prev": "20261023-234316_正面_r15-插肩缝深色.png",
+  "generated_at": "2026-10-23 23:43:22 +0800"
+}

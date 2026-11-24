@@ -1,0 +1,34 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 1649227,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    69,
+    108,
+    1907,
+    1892
+  ],
+  "content_wh": [
+    1838,
+    1784
+  ],
+  "round": "r13",
+  "method": "微调：图1=r12 全锁，图2=59 领口白描边样式参考；本轮唯一新增=黑V形片外缘补白描边",
+  "model": "gpt-image-2",
+  "params": {
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "task_id": "e9ef5bd8-2b91-af6f-37b4-6bc0ba63bd04",
+  "refs": {
+    "lock_r12": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2301137649_k64r12lock.png",
+    "style_59": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2301149937_k59collarref.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2304179985_k64front_r13.png",
+  "archived_prev": "20261023-230417_正面_r12-领圈白边.png",
+  "generated_at": "2026-10-23 23:04:23 +0800",
+  "note": "整圈白描边（领叶+V形片）；内容 1837x1784，比 66 的 1862 短 4.2%（宽仍锁 1838）"
+}

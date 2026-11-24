@@ -1,0 +1,29 @@
+up 58-01-front-2d.png -> https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326316107.png
+up 58-02-back-2d.png -> https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326347554.png
+up 58-03-shorts-front-2d.png -> https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326373189.png
+up 58-04-shorts-back-2d.png -> https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326392971.png
+refs {"u01": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326316107.png", "u02": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326347554.png", "u03": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326373189.png", "u04": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326392971.png", "POSE_F": "https://qiniuoss.changzhouyunshan.com/upload/202610/01_1842423141.png", "POSE_B": "https://qiniuoss.changzhouyunshan.com/upload/202610/01_1842432537.png"}
+submit 05 code=200 tid=ee087781-73b0-35be-fa27-3e81b0a4e08c attempt=0 ok
+poll 05 i=0 st=running tid=ee087781-73b0-35be-fa27-3e81b0a4e08c
+poll 05 i=6 st=running tid=ee087781-73b0-35be-fa27-3e81b0a4e08c
+poll 05 i=12 st=running tid=ee087781-73b0-35be-fa27-3e81b0a4e08c
+poll 05 i=18 st=running tid=ee087781-73b0-35be-fa27-3e81b0a4e08c
+colortype reject 05-整套正面-3D.png ct=2
+RESULT 05 colortype_reject ee087781-73b0-35be-fa27-3e81b0a4e08c
+submit 05 code=200 tid=d9177039-0138-6d7e-812a-c553cd063a38 attempt=1 ok
+poll 05 i=0 st=running tid=d9177039-0138-6d7e-812a-c553cd063a38
+poll 05 i=6 st=running tid=d9177039-0138-6d7e-812a-c553cd063a38
+poll 05 i=12 st=running tid=d9177039-0138-6d7e-812a-c553cd063a38
+poll 05 i=18 st=running tid=d9177039-0138-6d7e-812a-c553cd063a38
+poll 05 i=24 st=running tid=d9177039-0138-6d7e-812a-c553cd063a38
+poll 05 i=30 st=running tid=d9177039-0138-6d7e-812a-c553cd063a38
+poll 05 i=36 st=running tid=d9177039-0138-6d7e-812a-c553cd063a38
+saved 05-整套正面-3D.png bytes=632168 1254x1254 ct=6
+RESULT 05 saved d9177039-0138-6d7e-812a-c553cd063a38
+submit 06 code=200 tid=bac960fc-0edd-32e0-f03a-aa92439c79c9 attempt=0 ok
+poll 06 i=0 st=running tid=bac960fc-0edd-32e0-f03a-aa92439c79c9
+poll 06 i=6 st=running tid=bac960fc-0edd-32e0-f03a-aa92439c79c9
+poll 06 i=12 st=running tid=bac960fc-0edd-32e0-f03a-aa92439c79c9
+saved 06-整套背面-3D.png bytes=729883 1254x1254 ct=6
+RESULT 06 saved bac960fc-0edd-32e0-f03a-aa92439c79c9
+ALLDONE ok05=True ok06=True

@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2062917,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r11",
+  "method": "微调：图1=r9 全锁；图2=59领叶；唯一修改=领子边缘加细白边（纯白，不发灰）",
+  "model": "gpt-image-2",
+  "task_id": "c61a035f-20ad-da2d-a356-9bd4f54dd1ab",
+  "refs": {
+    "lock_63r9": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0036054907_k63r9lock2.png",
+    "leaf_59": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2229526565_k59leaf.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0038325972_k63front_r11.png",
+  "archived_prev": "20261025-003832_正面_r9-领子照65无白边.png",
+  "generated_at": "2026-10-25 00:38:38 +0800",
+  "note": "白边纯白(#fff)细线，沿领叶外缘+内缘+V带两侧整圈；领型/结构/r9一致"
+}

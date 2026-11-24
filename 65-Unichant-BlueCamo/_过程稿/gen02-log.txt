@@ -1,0 +1,13 @@
+submit 200 a6419f88-8668-0de6-34a2-cc5f46c31b60 {'id': 'a6419f88-8668-0de6-34a2-cc5f46c31b60'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 succeeded
+download colortype 6 size 1254 1254 bytes 1115715 task a6419f88-8668-0de6-34a2-cc5f46c31b60
+SAVED /Users/jiacong/Desktop/球衣套装拆图/65-Unichant-BlueCamo/02-上衣背面-2D.png 1115715 task a6419f88-8668-0de6-34a2-cc5f46c31b60 ct 6

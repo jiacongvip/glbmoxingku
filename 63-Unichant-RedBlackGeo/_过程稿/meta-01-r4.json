@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2114157,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r4",
+  "method": "底板=64 当前定稿（版型+黑V领+整圈白描边+红内衬全锁），花色=63（上胸/两袖红黑几何，下躯干纯黑）",
+  "model": "gpt-image-2",
+  "task_id": "e8f006af-121e-2a13-9372-5e24b40bb968",
+  "refs": {
+    "lock_64": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2343193788_k63lock64.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2343204319_k63paint2.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2345544947_k63front_r4.png",
+  "archived_prev": "20261024-234554_正面_r3-圆领灰边.png",
+  "generated_at": "2026-10-24 23:46:00 +0800",
+  "note": "按用户要求：底板用 64/66/67 这一族，63 的设计稿圆领不再采用"
+}

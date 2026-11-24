@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 3145815,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r9",
+  "method": "图1=65（版型+领子结构全锁：两片领叶在底部交叉成V尖，无第三条V带、无白边），图2=63花色；领叶黑、内衬红",
+  "model": "gpt-image-2",
+  "task_id": "b094667e-48a8-6ac8-226a-9391b347bb8d",
+  "refs": {
+    "lock_65": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1805442734_k64lock65.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0028096741_k63paint9.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0030266692_k63front_r9.png",
+  "archived_prev": "20261025-003026_正面_r8-V带交叉白边粗.png",
+  "generated_at": "2026-10-25 00:30:32 +0800",
+  "note": "领子按 65：单条V带+底部交叉，去掉了白描边和第三条带；遗留：领叶与V带之间有极细红缝"
+}

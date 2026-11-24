@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2072204,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r2",
+  "method": "微调：图1=r1 全锁；图2=63设计稿领口；唯一修改=V领改圆领（黑圆环+红内衬，去掉白描边）",
+  "model": "gpt-image-2",
+  "task_id": "0300ce66-02a6-c6bc-b413-292345b6019f",
+  "refs": {
+    "lock_63r1": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2321074053_k63r1lock.png",
+    "collar_63_design": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2321061440_k63collarref.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2323381780_k63front_r2.png",
+  "archived_prev": "20261024-232338_正面_r1-V领.png",
+  "generated_at": "2026-10-24 23:23:45 +0800",
+  "note": "领型按63设计稿=圆领（黑环+红内衬），无白边；r1 的 V 领+白边作废"
+}

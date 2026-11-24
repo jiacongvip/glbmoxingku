@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 1857905,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r28",
+  "method": "底板=最终示意图领子底板（把分离出来的领子按1:1装到灰衣上）；图2=63花色",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "dc9f9175-fd18-33c0-3e5f-3475a9f0255b",
+  "refs": {
+    "template_final": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1432311182_tmplFinal.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1434139397_k63front_r28.png",
+  "archived_prev": "20261025-143412_正面_r27-示意领生成版.png",
+  "generated_at": "2026-10-25 14:34:21 +0800",
+  "note": "底板做对了：领子=示意图那套（黑领面+大倒三角+底部交叉带+白边）；生成时模型把领子略缩小"
+}

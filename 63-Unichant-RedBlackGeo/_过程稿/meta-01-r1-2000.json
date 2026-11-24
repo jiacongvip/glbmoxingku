@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2007028,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "版型/领口锁 65，花色用 63 红黑几何（上胸+两袖图案，下躯干纯黑，黑领+白描边+红内衬）",
+  "model": "gpt-image-2",
+  "task_id": "5974d534-abc1-6fcb-c5e7-45fe9afc09e2",
+  "refs": {
+    "lock_65": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1805442734_k64lock65.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2316519255_k63paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2320273170_k63front_r1.png",
+  "archived_prev": "20261024-232027_正面_旧1024.png",
+  "generated_at": "2026-10-24 23:20:33 +0800",
+  "note": "旧 63 正面是 1024 版；新版 2000，边缘已去白晕"
+}

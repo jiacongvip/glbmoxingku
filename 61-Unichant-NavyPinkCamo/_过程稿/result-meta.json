@@ -1,0 +1,70 @@
+{
+  "files": {
+    "01-上衣正面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/61-Unichant-NavyPinkCamo/01-上衣正面-2D.png",
+      "bytes": 1167905,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "028f5365-c6cb-4777-0490-78c4278e9383",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/e0232d572a1b9e69ae0962a38368587c.png?e=1792297866&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:HOd0sufJkZCqaDr1_oYS7uJrEUU="
+    },
+    "02-上衣背面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/61-Unichant-NavyPinkCamo/02-上衣背面-2D.png",
+      "bytes": 886712,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "c735c59e-6d96-4866-ae85-5d753f9e2da0",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/fb7a838d3f2f8c7d7cf0374183ac80b8.png?e=1792298047&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:45ppBTZA0jbbRUVTKCVgIK351Wk="
+    },
+    "03-短裤正面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/61-Unichant-NavyPinkCamo/03-短裤正面-2D.png",
+      "bytes": 1297052,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "221cbda9-94cf-f095-c485-79b7fd805425",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/38760bbf3ffec1772e22870940955a19.png?e=1792298146&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:qSB-zD1iYHrG_eHOcFDtcApgfv0="
+    },
+    "04-短裤背面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/61-Unichant-NavyPinkCamo/04-短裤背面-2D.png",
+      "bytes": 1480170,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "eec7e63c-c5bb-f585-2557-6e524fbb2f49",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/1d956eb0f69bb6cfcb73fc7ae261d536.png?e=1792298424&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:0oxscJdmz-OEqLIc1kkUDseoJHo="
+    },
+    "05-整套正面-3D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/61-Unichant-NavyPinkCamo/05-整套正面-3D.png",
+      "bytes": 626044,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "13a8fd83-e826-af92-95c4-d9d3584ad831",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/5cef7efbe5b515162f84baec0b343232.png?e=1792298597&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:jiEjP75dUugBAtUGcFHdp47TIao="
+    },
+    "06-整套背面-3D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/61-Unichant-NavyPinkCamo/06-整套背面-3D.png",
+      "bytes": 637895,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "c8b373af-3908-c277-f1e6-7e7897110c2d",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/a393af085d45327adfd29bfd76f46ccc.png?e=1792298814&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:WqLOjHwtF3Ffq3wbOPKPRimV9cA="
+    }
+  },
+  "oss": {
+    "61-ref-01-jersey-front.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1226418280.png",
+    "61-ref-02-jersey-back.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1226443524.png",
+    "61-ref-03-shorts-front.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1226472106.png",
+    "61-ref-04-shorts-back.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1226502461.png",
+    "61-01-front-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1240409225.png",
+    "61-02-back-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1240428213.png",
+    "61-03-shorts-front-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1240452782.png",
+    "61-04-shorts-back-2d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1240478440.png",
+    "61-05-front-3d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1247117785.png",
+    "61-06-back-3d.png": "https://qiniuoss.changzhouyunshan.com/upload/202610/13_1247138066.png"
+  }
+}

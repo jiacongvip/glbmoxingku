@@ -1,0 +1,18 @@
+submit 200 fde8a28b-69df-6caf-a610-1ab44c6c19fb {'id': 'fde8a28b-69df-6caf-a610-1ab44c6c19fb'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 running
+poll 14 succeeded
+download colortype 6 size 1254 1254 bytes 1093123 task fde8a28b-69df-6caf-a610-1ab44c6c19fb
+SAVED /Users/jiacong/Desktop/球衣套装拆图/65-Unichant-BlueCamo/04-短裤背面-2D.png 1093123 task fde8a28b-69df-6caf-a610-1ab44c6c19fb ct 6

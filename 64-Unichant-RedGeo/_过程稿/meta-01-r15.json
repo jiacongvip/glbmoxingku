@@ -1,0 +1,33 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 2194482,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    69,
+    108,
+    1907,
+    1893
+  ],
+  "content_wh": [
+    1838,
+    1785
+  ],
+  "round": "r15",
+  "method": "微调：图1=r14 全锁；本轮唯一修改=插肩缝白线去掉，改细深色缝线（对齐59）",
+  "model": "gpt-image-2",
+  "params": {
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "task_id": "81598649-79cd-3bba-6372-4da9b0867294",
+  "refs": {
+    "lock_r14": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2317235771_k64r14lock.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2319532353_k64front_r15.png",
+  "archived_prev": "20261023-231953_正面_r14-白插肩线.png",
+  "generated_at": "2026-10-23 23:19:59 +0800",
+  "note": "插肩缝=细深色缝线（无白线）；领圈整圈白描边保留；内容 1838x1784"
+}

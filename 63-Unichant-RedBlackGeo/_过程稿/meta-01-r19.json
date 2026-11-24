@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2152567,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r19",
+  "method": "关键改动：底板模板换成“57领子+灰身”（把57的蓝身改成浅灰、领子原样保留），模型直接照抄领子，不再靠文字描述",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "a95b4364-3670-4baa-9edd-abbeb477cf99",
+  "refs": {
+    "template_57gray": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1147492905_template57gray.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1149184511_k63front_r19.png",
+  "archived_prev": "20261025-114917_正面_r18-flare旧模板.png",
+  "generated_at": "2026-10-25 11:49:25 +0800"
+}

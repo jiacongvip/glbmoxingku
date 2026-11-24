@@ -1,0 +1,34 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 2314194,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    69,
+    110,
+    1907,
+    1889
+  ],
+  "content_wh": [
+    1838,
+    1779
+  ],
+  "round": "r14",
+  "method": "59 作底板（几何+领子全锁）+ 64 红几何花色替换；两袖黑袖一并换成红几何",
+  "model": "gpt-image-2",
+  "params": {
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "task_id": "1d396b98-aeca-d3bf-17ee-249763812e25",
+  "refs": {
+    "lock_59": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2309242007_k64lock59.png",
+    "paint_64": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2309256135_k64paint2.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2312192125_k64front_r14.png",
+  "archived_prev": "20261023-231218_正面_r13-锁66版.png",
+  "generated_at": "2026-10-23 23:12:24 +0800",
+  "note": "黑V领圈+整圈白描边+红内衬+红几何衣身与两袖；内容 1838x1779（宽1838，比值1.033，59 为1.010）"
+}

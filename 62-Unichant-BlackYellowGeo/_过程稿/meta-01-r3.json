@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/01-上衣正面-2D.png",
+  "bytes": 2873604,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r3",
+  "method": "图1=用户定稿底板模板；图2=62 花色。已按用户要求删除“袖口细黑收边/插肩缝深色线/两侧无竖条”那条指令",
+  "model": "gpt-image-2",
+  "task_id": "65ad24ac-1c3f-7229-c6b9-0ccbdae4a6cb",
+  "refs": {
+    "template_user": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1103111363_templateUSER.png",
+    "paint_62": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1009562978_k62paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1113171060_k62front_r3.png",
+  "archived_prev": "20261025-111316_正面_r2-带袖口插肩描述.png",
+  "generated_at": "2026-10-25 11:13:23 +0800",
+  "prompt_rule": "不要再写袖口/插肩缝/侧条的具体做法，一律以图1底板为准"
+}

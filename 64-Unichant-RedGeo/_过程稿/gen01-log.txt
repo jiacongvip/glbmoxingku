@@ -1,0 +1,16 @@
+submit 200 7883739f-e337-d96b-b065-c170eecaed4b {'id': '7883739f-e337-d96b-b065-c170eecaed4b'}
+poll 0 running polls 1
+poll 1 running polls 2
+poll 2 running polls 3
+poll 3 running polls 4
+poll 4 running polls 5
+poll 5 running polls 6
+poll 6 running polls 7
+poll 7 running polls 8
+poll 8 running polls 9
+poll 9 running polls 10
+poll 10 running polls 11
+poll 11 running polls 12
+poll 12 running polls 13
+
+SAVED /Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png ct=6 task=7883739f-e337-d96b-b065-c170eecaed4b

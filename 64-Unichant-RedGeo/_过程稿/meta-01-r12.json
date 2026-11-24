@@ -1,0 +1,33 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 1576579,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    69,
+    100,
+    1907,
+    1901
+  ],
+  "content_wh": [
+    1838,
+    1801
+  ],
+  "round": "r12",
+  "method": "微调：图1=当前定稿全锁，本轮唯一新增=领圈白色描边",
+  "model": "gpt-image-2",
+  "params": {
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "task_id": "8db5a8c2-65c4-15db-d5ed-dae34b11c390",
+  "refs": {
+    "lock_r11": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2253345411_k64r11ref.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2255062381_k64front_r12.png",
+  "archived_prev": "20261023-225506_正面_r11-黑领无白边.png",
+  "generated_at": "2026-10-23 22:55:12 +0800",
+  "note": "黑V领圈+白色描边+红内衬+黑袖口带+白插肩滚边；内容 1838x1801（宽对齐66的1838）"
+}

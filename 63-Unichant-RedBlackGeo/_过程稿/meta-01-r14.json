@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2146729,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r14",
+  "method": "底板 = 65（轮廓/比例/领口/领子结构全锁）+ 63 花色；领圈黑、细白边、红内衬",
+  "model": "gpt-image-2",
+  "task_id": "b3b3a798-7487-207c-ee93-0488002f440a",
+  "refs": {
+    "lock_65": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1805442734_k64lock65.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1020007939_k63front_r14.png",
+  "archived_prev": "20261025-102000_正面_r13-57底板.png",
+  "generated_at": "2026-10-25 10:20:07 +0800",
+  "note": "与 r13（57底板）轮廓 IoU 0.9836；比例 1.0261 vs 1.0267"
+}

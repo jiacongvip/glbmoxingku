@@ -1,0 +1,35 @@
+{
+  "file": "06-整套背面-3D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/57-Unichant-BlueWolf/06-整套背面-3D.png",
+  "bytes": 1322473,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    606,
+    58,
+    1394,
+    1942
+  ],
+  "content_wh": [
+    788,
+    1884
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；图1=背面2D成品（取花色/后领圈），图2=旧3D（取姿势/短裤/袜/鞋/构图）；Muse 出图 2048x4096 后 key_magenta + to_canvas 2000x2000 + USM(2.0,90,2)",
+  "model": "Muse (muse.ai)",
+  "task_id": "f84c26ed-33e1-4dbe-8611-950be4d171a6",
+  "muse_thread": "https://muse.ai/thread/f84c26ed-33e1-4dbe-8611-950be4d171a6",
+  "refs": {
+    "paint": "02-上衣背面-2D.png",
+    "pose": "20261116-144351_旧_06-整套背面-3D.png"
+  },
+  "cdn_url": "",
+  "archived_prev": "20261116-144351_旧_06-整套背面-3D.png",
+  "raw": "20261116-145614_raw_06-magenta.png",
+  "raw_size": [
+    2048,
+    4096
+  ],
+  "generated_at": "2026-11-16 14:56:14 +0800",
+  "note": "后领圈黑白条与02同类。短裤带蓝色侧条，与旧06一致；与新05无侧条、以及设计稿正背都是细蓝侧条，均不一致。流程按文档是短裤照图2旧3D，故此差异是旧参考图就有的，不是这次抠图引入。"
+}

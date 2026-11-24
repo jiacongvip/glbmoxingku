@@ -1,0 +1,17 @@
+submit 200 d490c104-63ed-f072-49ce-9ccd69e92f6b {'id': 'd490c104-63ed-f072-49ce-9ccd69e92f6b'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 succeeded
+download colortype 6 size 1254 1254 bytes 989571 task d490c104-63ed-f072-49ce-9ccd69e92f6b
+SAVED /Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/04-短裤背面-2D.png 989571 task d490c104-63ed-f072-49ce-9ccd69e92f6b ct 6

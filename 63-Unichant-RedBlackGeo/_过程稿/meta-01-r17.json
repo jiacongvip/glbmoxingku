@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2149457,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r17",
+  "method": "图1=标准底板模板（模型生成的 65 纯色模板，灰底+黑V领+内外双白边+浅灰内衬），图2=63 花色",
+  "model": "gpt-image-2",
+  "task_id": "654a94f0-e9e2-8d83-2bf4-9d294ca2e588",
+  "refs": {
+    "template": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1056473738_templateSTD.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1059245921_k63front_r17.png",
+  "archived_prev": "20261025-105923_正面_r13-57底板.png",
+  "generated_at": "2026-10-25 10:59:30 +0800",
+  "note": "首版按标准模板出的 63；与 r13 轮廓 IoU 0.9488"
+}

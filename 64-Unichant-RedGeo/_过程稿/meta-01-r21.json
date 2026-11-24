@@ -1,0 +1,27 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 1647660,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "aspect_h_over_w": 1.0261,
+  "ref_65_aspect": 1.0242,
+  "round": "r21",
+  "method": "r19b（65底板+64花色）经边缘去白晕 + 按65的宽高比锁到 1838x1886",
+  "model": "gpt-image-2",
+  "task_id": "2d324464-3f83-c7a3-91f9-c92161891c54",
+  "note": "修掉整件外缘的白色光晕；版型比例对齐65；r20（轮廓更准但领口白边残缺、侧边毛刺）作废未采用",
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1851153365_k64front_r21.png",
+  "archived_prev": "20261024-185115_正面_r19-领口照65.png",
+  "generated_at": "2026-10-24 18:51:22 +0800"
+}

@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 1666433,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r23",
+  "method": "微调：图1=r21 全锁；图2=59左领叶特写；唯一修改=领叶外斜边补白线（原来只有内侧有）",
+  "model": "gpt-image-2",
+  "task_id": "7a2c92fc-4d00-9e1c-2f99-9f2aa58aaf80",
+  "refs": {
+    "lock_r21": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2227232480_k64r21lock.png",
+    "leaf_59": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2229526565_k59leaf.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_2232383252_k64front_r23.png",
+  "archived_prev": "20261024-223237_正面_r21-白边只包内侧.png",
+  "generated_at": "2026-10-24 22:32:43 +0800",
+  "note": "白边两侧全包（对齐59）；代价：领叶比65更立、V更深，轮廓 IoU 对65 0.939（r21为0.945）"
+}

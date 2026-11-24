@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2368713,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r24",
+  "method": "底板改用 61 号正面（袖子版型对）；图2=63花色；领子形状随61，颜色改黑并加细白线，内衬红",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "c262164f-f790-d09f-5895-092f22cdee28",
+  "refs": {
+    "base_61": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1326222928_ref61.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1331528302_k63front_r24.png",
+  "archived_prev": "20261025-133152_正面_r23-袖子偏短.png",
+  "generated_at": "2026-10-25 13:31:59 +0800",
+  "lesson": "自造灰底板会把袖子画走样；直接用 61 的真实正面当底板，袖子才是对的"
+}

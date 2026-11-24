@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 2914562,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r6",
+  "method": "微调：图1=r5 全锁；图2=59领口；唯一修改=领圈白边补内侧（原来只有外侧）",
+  "model": "gpt-image-2",
+  "task_id": "3b774512-8b6d-2013-bbb6-58ed44270e50",
+  "refs": {
+    "lock_63r5": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0013228223_k63r5lock.png",
+    "collar_59": "https://qiniuoss.changzhouyunshan.com/upload/202610/23_2330188588_k59neckref.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0015192866_k63front_r6.png",
+  "archived_prev": "20261025-001519_正面_r5-白边只外侧.png",
+  "generated_at": "2026-10-25 00:15:25 +0800",
+  "note": "白边两侧全包：外侧 + 与红内衬相接的内侧；V形片同"
+}

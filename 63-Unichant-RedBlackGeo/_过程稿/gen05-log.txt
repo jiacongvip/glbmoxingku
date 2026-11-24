@@ -1,0 +1,32 @@
+submit 200 61c06d9f-6833-6b83-fcf3-7ed4141c7196 {'id': '61c06d9f-6833-6b83-fcf3-7ed4141c7196'}
+poll 0 running polls 1
+poll 1 running polls 2
+poll 2 running polls 3
+poll 3 running polls 4
+poll 4 running polls 5
+poll 5 running polls 6
+poll 6 running polls 7
+poll 7 running polls 8
+poll 8 running polls 9
+poll 9 running polls 10
+poll 10 running polls 11
+poll 11 running polls 12
+poll 12 pending polls 13
+poll 13 running polls 14
+poll 14 running polls 15
+poll 15 running polls 16
+poll 16 running polls 17
+poll 17 running polls 18
+poll 18 running polls 19
+poll 19 running polls 20
+poll 20 running polls 21
+poll 21 succeeded polls 2poll 22 running polls 23
+poll 23 running polls 24
+poll 24 running polls 25
+poll 25 running polls 26
+poll 26 running polls 27
+poll 27 running polls 28
+poll 28 running polls 29
+poll 29 succeeded polls 30
+download colortype 6 size 1024 1024 bytes 1442968 url https://cdn3.dmiapi.com/20261013/612bad8aa46cca6d0daae8f6e1f1ee54.png?e=1792304964&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:AlxnuUUmSKQif83Xs3jziXKHOec= task 6108afd9-8d31-ffc2-2d15-9a31a9b10fb3
+SAVED /Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/05-整套正面-3D.png 1442968 task 6108afd9-8d31-ffc2-2d15-9a31a9b10fb3 ct 6 wh 1024 1024 oss_or_url https://cdn3.dmiapi.com/20261013/612bad8aa46cca6d0daae8f6e1f1ee54.png?e=1792304964&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:AlxnuUUmSKQif83Xs3jziXKHOec=

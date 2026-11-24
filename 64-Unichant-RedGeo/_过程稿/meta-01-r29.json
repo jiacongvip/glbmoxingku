@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 1164836,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r29",
+  "method": "底板=最终示意图领子底板（与 63 r28 同一标准）；图2=64 红几何花色",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "9e40b277-e3f3-a9a1-e25b-496839a3f31e",
+  "refs": {
+    "template_final": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1432311182_tmplFinal.png",
+    "paint_64": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1355216505_k64paint26.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1459563638_k64front_r29.png",
+  "archived_prev": "20261025-145956_正面_r23-57领抬袖.png",
+  "generated_at": "2026-10-25 15:00:04 +0800"
+}

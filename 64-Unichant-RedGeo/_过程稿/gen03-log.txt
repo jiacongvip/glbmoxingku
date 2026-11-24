@@ -1,0 +1,17 @@
+submit 200 4bb31ba4-a642-dc15-3d80-7e69ed1f43ed {'id': '4bb31ba4-a642-dc15-3d80-7e69ed1f43ed'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 succeeded
+download colortype 6 size 1254 1254 bytes 1681021 task 4bb31ba4-a642-dc15-3d80-7e69ed1f43ed
+SAVED /Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/03-短裤正面-2D.png 1681021 task 4bb31ba4-a642-dc15-3d80-7e69ed1f43ed ct 6

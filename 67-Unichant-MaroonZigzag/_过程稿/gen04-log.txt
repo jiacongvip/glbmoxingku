@@ -1,0 +1,10 @@
+submit 200 4eb3190d-bcfa-277d-95ce-e0e3eb6de9bb {'id': '4eb3190d-bcfa-277d-95ce-e0e3eb6de9bb'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll_net_err The read operation timed out keep 4eb3190d-bcfa-277d-95ce-e0e3eb6de9bb
+poll 5 succeeded
+download colortype 6 size 1254 1254 bytes 1619179 task 4eb3190d-bcfa-277d-95ce-e0e3eb6de9bb
+SAVED /Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/04-短裤背面-2D.png 1619179 task 4eb3190d-bcfa-277d-95ce-e0e3eb6de9bb ct 6
+c57b-70ae76f208d1 ct 6

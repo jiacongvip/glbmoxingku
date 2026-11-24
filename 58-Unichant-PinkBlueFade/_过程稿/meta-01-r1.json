@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/58-Unichant-PinkBlueFade/01-上衣正面-2D.png",
+  "bytes": 522652,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=最终示意图领子底板；图2=58 渐变花色；领面白、内衬玫红",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "6c9e2595-53c0-397e-7d41-6e269072252e",
+  "refs": {
+    "template_final": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1432311182_tmplFinal.png",
+    "paint_58": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1551599044_k58paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1554095009_k58front_r1.png",
+  "archived_prev": "20261025-155409_正面_旧1024.png",
+  "generated_at": "2026-10-25 15:54:16 +0800",
+  "note": "色键阈值要收紧到 r>225&b>225&g<90，否则会把 58 顶部的玫红吃掉"
+}

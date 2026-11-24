@@ -1,0 +1,74 @@
+[
+  {
+    "file": "00-设计稿.png",
+    "bytes": 1847190,
+    "task": null,
+    "cdn": null,
+    "w": 2290,
+    "h": 2560,
+    "ct": 2
+  },
+  {
+    "file": "00-设计稿.jpg",
+    "bytes": 324417,
+    "task": null,
+    "cdn": null,
+    "w": null,
+    "h": null,
+    "ct": null
+  },
+  {
+    "file": "01-上衣正面-2D.png",
+    "bytes": 1420497,
+    "task": "fc57fba0-c260-7c84-f755-909a1b48b282",
+    "cdn": "https://cdn3.dmiapi.com/20261013/b845d14be7ccc2edcee862a77abf8d75.png?e=1792318469&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:xjsxAbh77Rj2W-SfKDJoEaYnNUk=",
+    "w": 1254,
+    "h": 1254,
+    "ct": 6
+  },
+  {
+    "file": "02-上衣背面-2D.png",
+    "bytes": 1115715,
+    "task": "a6419f88-8668-0de6-34a2-cc5f46c31b60",
+    "cdn": "https://cdn3.dmiapi.com/20261013/5e8506ab3ad73ee2e0ca8232b0b23ac7.png?e=1792318534&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:YpQnn9T6MWiAVJbHNQ8fjL8YJvs=",
+    "w": 1254,
+    "h": 1254,
+    "ct": 6
+  },
+  {
+    "file": "03-短裤正面-2D.png",
+    "bytes": 2042595,
+    "task": "6f08cd42-4701-91fc-44db-8b921a80753d",
+    "cdn": "https://cdn3.dmiapi.com/20261013/b90ea53156b11b98cda17becc233f12a.png?e=1792318629&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:mc7klz46wi_C_mn6fYF3cL-uc3Q=",
+    "w": 1254,
+    "h": 1254,
+    "ct": 6
+  },
+  {
+    "file": "04-短裤背面-2D.png",
+    "bytes": 1093123,
+    "task": "fde8a28b-69df-6caf-a610-1ab44c6c19fb",
+    "cdn": "https://cdn3.dmiapi.com/20261013/d199be1b59adeda653451896d84d5ac1.png?e=1792318691&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:4b9kJwfM_baRFrrLulgRt2oYSpE=",
+    "w": 1254,
+    "h": 1254,
+    "ct": 6
+  },
+  {
+    "file": "05-整套正面-3D.png",
+    "bytes": 708171,
+    "task": "607e5e72-abb0-da70-46ba-9223821169e9",
+    "cdn": "https://cdn3.dmiapi.com/20261013/2e3e2d3dd566c5aa61644af23505e7f0.png?e=1792318827&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:mOpvxw-RLozMs48bEVyd1biwil4=",
+    "w": 1254,
+    "h": 1254,
+    "ct": 6
+  },
+  {
+    "file": "06-整套背面-3D.png",
+    "bytes": 616736,
+    "task": "d84167e6-cbb6-6a0b-2dfa-1acf876437ed",
+    "cdn": "https://cdn3.dmiapi.com/20261013/414809349b82326b28adc1c58945aa25.png?e=1792319048&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:N_gBakb4qJpHbJ-UBKlsc_7yNWo=",
+    "w": 1254,
+    "h": 1254,
+    "ct": 6
+  }
+]

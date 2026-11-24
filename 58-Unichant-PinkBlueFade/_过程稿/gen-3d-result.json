@@ -1,0 +1,44 @@
+{
+  "refs": {
+    "u01": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326316107.png",
+    "u02": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326347554.png",
+    "u03": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326373189.png",
+    "u04": "https://qiniuoss.changzhouyunshan.com/upload/202610/12_1326392971.png",
+    "POSE_F": "https://qiniuoss.changzhouyunshan.com/upload/202610/01_1842423141.png",
+    "POSE_B": "https://qiniuoss.changzhouyunshan.com/upload/202610/01_1842432537.png"
+  },
+  "results": [
+    {
+      "tag": "05",
+      "status": "colortype_reject",
+      "task_id": "ee087781-73b0-35be-fa27-3e81b0a4e08c",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/58-Unichant-PinkBlueFade/05-整套正面-3D.png",
+      "colortype": 2,
+      "attempt": 0
+    },
+    {
+      "tag": "05",
+      "status": "saved",
+      "task_id": "d9177039-0138-6d7e-812a-c553cd063a38",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/58-Unichant-PinkBlueFade/05-整套正面-3D.png",
+      "bytes": 632168,
+      "width": 1254,
+      "height": 1254,
+      "colortype": 6,
+      "attempt": 1
+    },
+    {
+      "tag": "06",
+      "status": "saved",
+      "task_id": "bac960fc-0edd-32e0-f03a-aa92439c79c9",
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/58-Unichant-PinkBlueFade/06-整套背面-3D.png",
+      "bytes": 729883,
+      "width": 1254,
+      "height": 1254,
+      "colortype": 6,
+      "attempt": 0
+    }
+  ],
+  "ok05": true,
+  "ok06": true
+}

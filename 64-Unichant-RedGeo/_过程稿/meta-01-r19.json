@@ -1,0 +1,34 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/01-上衣正面-2D.png",
+  "bytes": 1710953,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    69,
+    91,
+    1907,
+    1909
+  ],
+  "content_wh": [
+    1838,
+    1818
+  ],
+  "round": "r19",
+  "method": "版型+领口锁 65，花色换 64 红几何（黑领圈+整圈白描边+红内衬；去掉65的蓝迷彩/红蓝侧条/白内衬）",
+  "model": "gpt-image-2",
+  "params": {
+    "size": "1024x1024",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "task_id": "2d324464-3f83-c7a3-91f9-c92161891c54",
+  "refs": {
+    "lock_65": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1805442734_k64lock65.png",
+    "paint_64_r18": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1805455093_k64paint3.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/24_1807576390_k64front_r19.png",
+  "archived_prev": "20261024-180757_正面_r18-领口收小.png",
+  "generated_at": "2026-10-24 18:08:03 +0800",
+  "note": "65 内容 1819x1863（h/w 1.024），r19 内容 1838x1818（h/w 0.989），比 65 短约 3.4%"
+}

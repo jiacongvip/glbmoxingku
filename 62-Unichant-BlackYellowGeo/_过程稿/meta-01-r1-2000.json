@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/01-上衣正面-2D.png",
+  "bytes": 2659866,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "底板参考 57（轮廓+领子结构全锁），花色=62（上黑+下黄黑几何尖角），白内衬，细白边",
+  "model": "gpt-image-2",
+  "task_id": "ed992e75-efec-33b4-b244-015831601125",
+  "refs": {
+    "lock_57": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_0047102805_k63lock57.png",
+    "paint_62": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1009562978_k62paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1014278208_k62front_r1.png",
+  "archived_prev": "20261025-101427_正面_旧1024.png",
+  "generated_at": "2026-10-25 10:14:35 +0800",
+  "note": "照 63 r13 的做法；62 设计是白内衬"
+}

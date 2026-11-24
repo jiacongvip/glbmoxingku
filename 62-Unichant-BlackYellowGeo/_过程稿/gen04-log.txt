@@ -1,0 +1,57 @@
+submit 200 cc7c10bd-7092-a35e-74bb-83a435d5410a {'id': 'cc7c10bd-7092-a35e-74bb-83a435d5410a'}
+poll 0 running polls 1
+poll 1 running polls 2
+poll 2 running polls 3
+poll 3 running polls 4
+poll 4 running polls 5
+poll 5 running polls 6
+poll 6 running polls 7
+poll 7 running polls 8
+poll 8 running polls 9
+poll 9 running polls 10
+poll 10 running polls 11
+poll 11 running polls 12
+poll 12 running polls 13
+poll 13 running polls 14
+poll 14 running polls 15
+poll 15 running polls 16
+poll 16 running polls 17
+poll 17 running polls 18
+poll 18 running polls 19
+poll 19 running polls 20
+poll 20 running polls 21
+poll 21 running polls 22
+poll 22 running polls 23
+poll 23 running polls 24
+poll 24 running polls 25
+poll 25 running polls 26
+poll 26 running polls 27
+poll 27 running polls 28
+poll 28 succeeded polls 29
+download colortype 2 size 1024 1024 bytes 1238539 url https://cdn3.dmiapi.com/img/2026/10/13/1/task_FyryWpzM9BNdB6MG8MBrulXcEH55UeXe/0.png?e=1792301505&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:-LnhrfR3NrtEjEA_xPFftpYfxGo= task cc7c10bd-7092-a35e-74bb-83a435d5410a
+bad colortype 2
+submit 200 3b036265-7f1d-385d-7cee-61ee61aee8a9 {'id': '3b036265-7f1d-385d-7cee-61ee61aee8a9'}
+poll 29 running polls 1
+poll 30 running polls 2
+poll 31 running polls 3
+poll 32 running polls 4
+poll 33 running polls 5
+poll 34 running polls 6
+poll 35 running polls 7
+poll 36 running polls 8
+poll 37 running polls 9
+poll 38 running polls 10
+poll 39 running polls 11
+poll 40 running polls 12
+poll 41 running polls 13
+poll 42 running polls 14
+poll 43 running polls 15
+poll 44 running polls 16
+poll 45 running polls 17
+poll 46 running polls 18
+poll 47 running polls 19
+poll 48 running polls 20
+poll 49 running polls 21
+poll 50 succeeded polls 22
+download colortype 6 size 1254 1254 bytes 1130006 url https://cdn3.dmiapi.com/20261013/0460d202043b1ed4ea41f4e51b84d79a.png?e=1792301643&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:BNBQBemjgooaLgfj5TPz-Jjl3no= task 3b036265-7f1d-385d-7cee-61ee61aee8a9
+SAVED /Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/04-短裤背面-2D.png 1130006 task 3b036265-7f1d-385d-7cee-61ee61aee8a9 ct 6 wh 1254 1254 oss_or_url https://cdn3.dmiapi.com/20261013/0460d202043b1ed4ea41f4e51b84d79a.png?e=1792301643&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:BNBQBemjgooaLgfj5TPz-Jjl3no=

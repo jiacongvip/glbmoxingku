@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/63-Unichant-RedBlackGeo/01-上衣正面-2D.png",
+  "bytes": 1966273,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r23",
+  "method": "gpt-image-2.5-flare；底板换成“干净版”（把57的狼头/格子/袖口黑条全部抹掉，只保留领子），并加领口比例(28%/19%)与直切袖口约束",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "aee45190-0f36-f95f-9c90-910982a50786",
+  "refs": {
+    "template_clean3": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1310306594_templateClean3.png",
+    "paint_63": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1016294986_k63paint14.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1312035991_k63front_r23.png",
+  "archived_prev": "20261025-131202_正面_r20-领口对袖子短.png",
+  "generated_at": "2026-10-25 13:12:11 +0800",
+  "lesson": "旧底板里还残留 57 的狼头/棋盘格/袖口黑条，会干扰生成；底板必须抹干净"
+}

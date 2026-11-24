@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/67-Unichant-MaroonZigzag/01-上衣正面-2D.png",
+  "bytes": 1825469,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=最终示意图领子底板；图2=67 酒红锯齿+白袖+白侧条",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "c9f4441f-f0ea-9bed-9d2d-bd5f42162dc7",
+  "refs": {
+    "template_final": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1432311182_tmplFinal.png",
+    "paint_67": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1619263252_k67paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/25_1620512286_k67front_r1.png",
+  "archived_prev": "20261025-162051_正面_旧r3.png",
+  "generated_at": "2026-10-25 16:20:59 +0800"
+}

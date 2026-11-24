@@ -1,0 +1,17 @@
+submit 200 340a8fc9-2621-3d0d-d30e-0713c82fe33c {'id': '340a8fc9-2621-3d0d-d30e-0713c82fe33c'}
+poll 0 running
+poll 1 running
+poll 2 running
+poll 3 running
+poll 4 running
+poll 5 running
+poll 6 running
+poll 7 running
+poll 8 running
+poll 9 running
+poll 10 running
+poll 11 running
+poll 12 running
+poll 13 succeedepoll 14 succeeded
+download colortype 6 size 1254 1254 bytes 598422 task 5e362170-e0fe-a891-157c-01694024af32
+SAVED /Users/jiacong/Desktop/球衣套装拆图/64-Unichant-RedGeo/06-整套背面-3D.png 598422 task 5e362170-e0fe-a891-157c-01694024af32 ct 6

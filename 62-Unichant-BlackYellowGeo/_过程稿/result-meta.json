@@ -1,0 +1,75 @@
+{
+  "kit": "62-Unichant-BlackYellowGeo",
+  "dir": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo",
+  "files": {
+    "00-设计稿.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/00-设计稿.png",
+      "bytes": 1136114,
+      "w": 2290,
+      "h": 2560,
+      "ct": 2,
+      "task": null,
+      "cdn_url": null
+    },
+    "01-上衣正面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/01-上衣正面-2D.png",
+      "bytes": 1088459,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "56fce854-af38-5fd3-1591-08ceb8b7ac33",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/1fe49382cd8d8dd9cd9637e87cee1bf7.png?e=1792300990&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:mBhqzsnFXKNcFeH6WOX7qFea5iM="
+    },
+    "02-上衣背面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/02-上衣背面-2D.png",
+      "bytes": 1006628,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "0f741153-c1a6-be06-e749-6bd235ff5472",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/c3513ba65c67574a6f31ac7629583035.png?e=1792301177&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:v1VsuhBDhL2iZM5tJgZghVfF-qQ="
+    },
+    "03-短裤正面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/03-短裤正面-2D.png",
+      "bytes": 1282205,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "3a278da5-b90d-1d83-a28f-b145c9308062",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/b661a2f0040f3f56923a843c9ba524d1.png?e=1792301324&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:BWEDBxTI1yCawIxF4Fa_UWmJM3k="
+    },
+    "04-短裤背面-2D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/04-短裤背面-2D.png",
+      "bytes": 1130006,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "3b036265-7f1d-385d-7cee-61ee61aee8a9",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/0460d202043b1ed4ea41f4e51b84d79a.png?e=1792301643&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:BNBQBemjgooaLgfj5TPz-Jjl3no="
+    },
+    "05-整套正面-3D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/05-整套正面-3D.png",
+      "bytes": 1437593,
+      "w": 1024,
+      "h": 1024,
+      "ct": 6,
+      "task": "421ee1c5-c02a-b9d5-42f9-f5fc626f49c1",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/bcc22ac459fde498ff5b7c959e10ba3f.png?e=1792302143&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:_1S69MMhBm0Rt7FkFA8RMizlkzs="
+    },
+    "06-整套背面-3D.png": {
+      "path": "/Users/jiacong/Desktop/球衣套装拆图/62-Unichant-BlackYellowGeo/06-整套背面-3D.png",
+      "bytes": 561224,
+      "w": 1254,
+      "h": 1254,
+      "ct": 6,
+      "task": "10c2d610-9bfb-b0e3-4bdb-7d85f6ac7c3d",
+      "cdn_url": "https://cdn3.dmiapi.com/20261013/5312327e4ae4b03ba789c0241d49558d.png?e=1792302448&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:E4Ah70dbMBgIqw15nx-WEpioC3c="
+    }
+  },
+  "notes": {
+    "04": "first result ct=2, retried once -> ct=6 task 3b036265-7f1d-385d-7cee-61ee61aee8a9",
+    "05": "first result ct=2, retried once -> ct=6 task 421ee1c5-c02a-b9d5-42f9-f5fc626f49c1",
+    "collar": "F-013 black fabric, black inner shield, thin white outlines; back short black band + white outer + white inner",
+    "socks": "thin yellow cuff"
+  }
+}
