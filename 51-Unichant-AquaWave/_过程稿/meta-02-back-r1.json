@@ -1,0 +1,29 @@
+{
+  "file": "02-上衣背面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/51-Unichant-AquaWave/02-上衣背面-2D.png",
+  "bytes": 2233067,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    78,
+    1919,
+    1922
+  ],
+  "content_wh": [
+    1838,
+    1844
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=背面通用底板（新做）；图2=该套新正面（只取花色）",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "0092f80e-0244-c8c4-8dc7-f4462be0cb60",
+  "refs": {
+    "back_plate": "https://qiniuoss.changzhouyunshan.com/upload/202610/29_1444206859_backplate.png",
+    "front_source": "https://qiniuoss.changzhouyunshan.com/upload/202610/29_1444217802_k51frontsrc.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/29_1446013384_k51back_r1.png",
+  "archived_prev": "20261029-144601_背面_旧1254.png",
+  "generated_at": "2026-10-29 14:46:09 +0800",
+  "note": "背面工序样张：先出这张验证，通过后批量刷 48-55 等"
+}

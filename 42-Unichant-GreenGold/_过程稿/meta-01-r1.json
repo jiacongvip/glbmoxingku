@@ -1,0 +1,29 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/42-Unichant-GreenGold/01-上衣正面-2D.png",
+  "bytes": 1003666,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    118,
+    1919,
+    1882
+  ],
+  "content_wh": [
+    1838,
+    1764
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=F-006A 翻领底版；图2=42 绿金渐变+金领",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "22ac2267-bdf7-17b6-6101-d6ef7454b33c",
+  "refs": {
+    "template_f006a": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_1009439803_tmpl6a1024.png",
+    "paint_42": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_1009426163_k42paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_1012256809_k42front_r1.png",
+  "archived_prev": "20261026-101225_正面_旧1254.png",
+  "generated_at": "2026-10-26 10:12:30 +0800",
+  "note": "42 原始比例偏宽(0.96)，锁定尺寸时按等比适配，未拉伸"
+}

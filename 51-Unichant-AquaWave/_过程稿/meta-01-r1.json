@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/51-Unichant-AquaWave/01-上衣正面-2D.png",
+  "bytes": 2116709,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    57,
+    1919,
+    1943
+  ],
+  "content_wh": [
+    1838,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=F-002B 白色V领底版；图2=51 水纹花色",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "3167f5ec-0065-2a30-7af2-2c93a4619a9a",
+  "refs": {
+    "template_f002b": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_0932253433_tmpl2b1024.png",
+    "paint_51": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_0932247779_k51paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_0942419289_k51front_r1.png",
+  "archived_prev": "20261026-094239_正面_旧1254.png",
+  "generated_at": "2026-10-26 09:42:47 +0800"
+}

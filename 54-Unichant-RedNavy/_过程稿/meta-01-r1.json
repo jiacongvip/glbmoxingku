@@ -1,0 +1,24 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/54-Unichant-RedNavy/01-上衣正面-2D.png",
+  "bytes": 1148096,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    81,
+    64,
+    1919,
+    1936
+  ],
+  "content_wh": [
+    1838,
+    1872
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=F-002B 白色V领底版；图2=该套花色",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "f15ccc4b-d92c-9a53-c15d-f6785c2bfc0f",
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_1109469738_k54front_r1.png",
+  "archived_prev": "_过程稿/20261026*_正面_旧.png",
+  "generated_at": "2026-10-26 11:09:55 +0800"
+}

@@ -1,0 +1,22 @@
+{
+  "file": "06-整套背面-3D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/51-Unichant-AquaWave/06-整套背面-3D.png",
+  "bytes": 1170741,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    588,
+    57,
+    1411,
+    1943
+  ],
+  "content_wh": [
+    823,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；图1=新2D成品（取花色/领型），图2=旧3D（取姿势/短裤/袜/鞋/构图）",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "8a1c90dc-7ea3-f184-176d-9e638bedd259",
+  "generated_at": "2026-10-29 15:00:39 +0800"
+}
