@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "BODY REPAINT ONLY — COLLAR LOCKED FROM IMAGE 1 (do not touch).\n\nIMAGE 1 = kit 21 confirmed FRONT. This is the master template.\nCOLLAR RULE (highest priority — user test):\n- Copy IMAGE 1 collar 100% unchanged: same white crew rib band, same thickness, same opening, same front-center shape, same gray inner neck.\n- DO NOT recolor the collar (keep kit21 WHITE collar band).\n- DO NOT reshape, redesign, or invent any V tip / pointed notch.\n- Literally leave the collar as in IMAGE 1.\n\nBODY + SLEEVES ONLY — replace paint with kit 27:\n- Charcoal/black base on torso and sleeves\n- Bold red scribble/brushstroke pattern from IMAGE 2 (kit 27 paint) on body (and sleeves as in IMAGE 2)\n- Thin white raglan piping may stay if present in IMAGE 1/2 geometry\n- Cuffs: follow kit 27 red cuffs from IMAGE 2/3 (cuffs are not the collar)\n- Clean chest — no logos/text/numbers\n\nKeep IMAGE 1 silhouette, raglan, proportions 1:1 for the whole jersey; only fabric print/colors on body+sleeves change. Collar stays IMAGE 1 white crew exactly.\n\nIMAGE 2 = kit 27 paint reference (pattern/colors for body+sleeves only). Ignore its collar.\nIMAGE 3 = kit 27 design color check for body/sleeves scribble only. No logos/numbers/shorts. Do not use IMAGE 3 to recolor the collar.\n\nTransparent flat front, no mannequin, no text.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213141279.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213162774.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213187767.png"
+  ]
+}

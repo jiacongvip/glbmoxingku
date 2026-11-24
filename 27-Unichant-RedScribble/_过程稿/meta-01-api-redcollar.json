@@ -1,0 +1,33 @@
+{
+  "kit": "27-Unichant-RedScribble",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "api-redcollar (Duomi native red band; NO postprocess paint)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "5b4c210e-8eec-4f43-6a17-6f2a41494fae",
+  "method": "IMAGE1 kit21 geometry+collar SHAPE lock; body/sleeves kit27 black+red scribble; collar BAND solid RED generated IN Duomi API; rembg only for alpha; NO pixel recolor of collar",
+  "postprocess_collar_paint": false,
+  "req_json": "27-Unichant-RedScribble/_过程稿/req-01-api-redcollar.json",
+  "ref_urls": {
+    "geometry_collar21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213141279.png",
+    "paint27": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213162774.png",
+    "design27": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213187767.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/27-Unichant-RedScribble/01-上衣正面-2D.png",
+    "bytes": 862432,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1321462430.png"
+  },
+  "collar_crop": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/27-Unichant-RedScribble/_过程稿/01-collar-crop.png",
+    "bytes": 384897,
+    "width": 1606,
+    "height": 752,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1321482181.png"
+  },
+  "backup": "/Users/jiacong/Desktop/球衣套装拆图/27-Unichant-RedScribble/_过程稿/01-上衣正面-2D_before-api-redcollar_20261018-132124.png",
+  "created_at_asia_shanghai": "2026-10-18 13:21:50 CST"
+}

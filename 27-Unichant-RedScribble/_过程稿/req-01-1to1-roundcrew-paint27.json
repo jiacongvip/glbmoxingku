@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "1:1 body template + ROUND CREW collar (NO V tip).\n\nIMAGE 1 = flat jersey TEMPLATE for BODY/SLEEVES only (kit 21 FRONT).\nTrace IMAGE 1 body geometry 1:1:\n- identical silhouette, torso proportions, raglan curves, short-sleeve length, cuff/hem proportions\n- keep every body/sleeve edge and raglan seam path like IMAGE 1\n\nCOLLAR — OVERRIDE IMAGE 1 front-center shape (IMAGE 1 has a bad pointed tip; DO NOT COPY IT):\nREQUIRED:\n- classic thick rib CREW neck\n- smooth continuous round/U collar band all the way around\n- front of the neck opening = gentle circular arc / soft U\n- gray inner neck cue OK\nFORBIDDEN (critical — user rejected this):\n- pointed V at the front-center bottom of the collar band\n- V-neck tip / triangular dip / sharp notch where collar meets chest\n- any downward point or bucket tip at front center\nThe outer red collar band bottom edge across the chest must stay smooth and rounded — never a sharp V point.\n\nIMAGE 2 = PAINT only (kit 27 RedScribble FRONT).\nApply onto the locked body: charcoal/black base + bold red scribble on lower torso (and sleeves as in IMAGE 2); thin white raglan piping if present; solid RED cuffs; SOLID RED collar band color. Clean chest — no logos/text/numbers. IGNORE IMAGE 2 collar shape.\n\nIMAGE 3 = design color check only (red collar band + red scribble + charcoal). No logos/numbers/shorts.\n\nPriority:\n1) Body/sleeve geometry = IMAGE 1 1:1\n2) Collar = smooth round crew, NO front V tip\n3) Paint/colors = kit 27; collar band RED\n4) Transparent flat front, no mannequin, no text.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213141279.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213162774.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213187767.png"
+  ]
+}

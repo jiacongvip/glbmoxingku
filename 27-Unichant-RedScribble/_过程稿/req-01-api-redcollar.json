@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "API-NATIVE RED COLLAR — NO postprocess paint. Generate the final red collar band in this single generation.\n\nIMAGE 1 = kit 21 confirmed FRONT. GEOMETRY + COLLAR CONSTRUCTION MASTER (1:1).\nKeep IDENTICAL to IMAGE 1 (do not approximate, restyle, or invent):\n- silhouette / outline edges\n- torso length and width proportions\n- raglan sleeve curves and seam paths\n- short-sleeve length\n- crew collar CONSTRUCTION exactly: band THICKNESS (chunky rib), neck OPENING size, front-center SHAPE (slightly squared / shallow bucket U — NOT a thin smooth circle, NOT a V tip / pointed notch), rib texture, gray inner neck cue\n- cuff and hem proportions\nEvery edge, seam, and collar construction must match IMAGE 1 as if you overlaid a new fabric print on the same cut.\n\nONLY change fabric print + colors (from IMAGE 2 / IMAGE 3):\n- Body + sleeves: kit 27 charcoal/near-black base with bold red scribble/brushstroke pattern as in IMAGE 2 (paint master). Match IMAGE 2 print placement; thin white raglan piping if present in IMAGE 2; solid red cuffs as in IMAGE 2.\n- Collar BAND color: SOLID RED from kit 27 (IMAGE 2/3). Generate the red band IN this image — do NOT leave white/teal/magenta collar for later recolor. Keep IMAGE 1 collar geometry/shape unchanged; only the band face color is solid red. Gray inner neck cue stays gray.\n- Clean chest — no logos, text, or numbers.\n\nIMAGE 2 = PAINT only (kit 27). Steal pattern/colors for body+sleeves AND solid red for collar band. IGNORE IMAGE 2 collar SHAPE entirely — shape comes only from IMAGE 1.\nIMAGE 3 = design sheet color check (confirm solid red collar band + red scribble + charcoal). No logos/numbers/shorts.\n\nHard rules:\n1) Geometry + collar SHAPE = IMAGE 1 exactly (1:1). No V tip redesign. No reshaping.\n2) Collar BAND color = solid red generated now (not white, not teal). Gray inner kept.\n3) Pattern/colors body+sleeves = kit 27 only.\n4) Transparent flat front, no mannequin, no text. True RGBA alpha.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213141279.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213162774.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213187767.png"
+  ]
+}

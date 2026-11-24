@@ -1,0 +1,16 @@
+{
+  "id": "9395fc58-d5ff-2933-6a18-51ac265d58cf",
+  "state": "succeeded",
+  "progress": 0,
+  "create_time": 1792299136,
+  "update_time": 1792299266,
+  "action": "generate",
+  "data": {
+    "images": [
+      {
+        "url": "https://cdn3.dmiapi.com/20261018/340a3bce4cebdeec77b3897d6361ebda.png?e=1792731266&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:3TeGepa_3U-cmtG0DbMPLRvB4Yk=",
+        "file_name": "output.png"
+      }
+    ]
+  }
+}

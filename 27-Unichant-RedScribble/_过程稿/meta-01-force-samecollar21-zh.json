@@ -1,0 +1,16 @@
+{
+  "kit": "27-Unichant-RedScribble",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "force-samecollar21-zh (user proven CN + strengthen same collar style as kit21; white collar; body kit27)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "ffd08b57-a6d3-8141-4da2-f1a4be2306ad",
+  "ref_urls": {
+    "img1_tall21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1516356178.png",
+    "img2_body_paint": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1516456292.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/27-Unichant-RedScribble/01-上衣正面-2D.png",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1522535972.png",
+    "bytes": 1599165
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "01-上衣正面-2D.png",
+  "path": "/Users/jiacong/Desktop/球衣套装拆图/35-Unichant-BlueFade/01-上衣正面-2D.png",
+  "bytes": 1555817,
+  "w": 2000,
+  "h": 2000,
+  "content_bbox": [
+    98,
+    57,
+    1902,
+    1943
+  ],
+  "content_wh": [
+    1804,
+    1886
+  ],
+  "round": "r1-2000",
+  "method": "品红背景出图 + 色键抠图；底板=F-006A 翻领底版（白领）；图2=35 蓝色渐变",
+  "model": "gpt-image-2.5-flare",
+  "task_id": "a689f6b6-56d5-c8a5-6ce9-347616160ae0",
+  "refs": {
+    "template_f006a": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_1009439803_tmpl6a1024.png",
+    "paint_35": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_1049403169_k35paint.png"
+  },
+  "cdn_url": "https://qiniuoss.changzhouyunshan.com/upload/202610/26_1055443760_k35front_r1.png",
+  "archived_prev": "20261026-105544_正面_旧2000.png",
+  "generated_at": "2026-10-26 10:55:51 +0800"
+}

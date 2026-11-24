@@ -1,0 +1,13 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "KIT27 FRONT — STRONGER RETRY. Prior gen FAILED: still thin round crew. MUST visibly REPLACE collar with kit21 construction.\n\nIMAGE 1 = kit21 FULL FRONT = COLLAR CONSTRUCTION MASTER (copy 1:1).\nCollar geometry ONLY from IMAGE 1:\n- THICK chunky rib band (much thicker than a thin tube crew)\n- Front-center WRAP / OVERLAP / shallow bucket with a slight center meeting — NOT a continuous thin circular tube\n- Wide neck opening matching IMAGE 1 proportions\n- Gray inner neck cue inside the opening\nDo NOT copy teal/magenta paint or white collar color from IMAGE 1.\n\nIMAGE 2 = kit27 tall body paint (collar zone ALREADY BLANKED OUT — there is NO collar to copy).\nUse IMAGE 2 ONLY for: tall torso length, silhouette height, charcoal/near-black + bold red scribble on body/sleeves, white raglan piping, solid red cuffs. Fill the blanked neck area with the NEW collar from IMAGE 1/4. Never invent the old thin round red crew.\n\nIMAGE 3 = kit27 design sheet = SOLID RED collar BAND color + scribble palette check. Band = solid RED (API-native). No logos/numbers/shorts.\n\nIMAGE 4 = kit21 COLLAR CLOSE-UP crop = reinforce IMAGE 1 collar geometry (thickness, opening, front-center wrap/overlap, gray inner). Shape only; ignore white band color — paint band RED.\n\nHard rules:\n1) Collar MUST look like IMAGE 1/4 (kit21) — thick, front-center wrap/overlap — NOT thin continuous round crew. Old thin round collar is FORBIDDEN.\n2) Collar band color = solid RED.\n3) Body height + scribble paint = IMAGE 2.\n4) Transparent flat front, no mannequin, no text. True RGBA alpha. NO postprocess collar paint.\n",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1406248885.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1409118059.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1406297487.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1409273960.png"
+  ]
+}

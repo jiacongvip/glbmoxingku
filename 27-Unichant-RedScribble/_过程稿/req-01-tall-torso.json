@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "TALL TORSO REDO — API-NATIVE RED COLLAR (NO postprocess paint).\n\nCRITICAL PROPORTION CHANGE (user complaint): the BODY/TORSO must be TALLER / LONGER than kit21.\nMake the flat jersey ~15–20% taller in the torso (armpit-to-hem longer), hem sits lower, long rectangular football-jersey body like a tall kit flat. Keep width similar; do NOT make a short/cropped body. Sleeves stay short; collar stays the same size — only elongate the body panel below the chest.\n\nIMAGE 1 = kit 21 confirmed FRONT. Use for COLLAR CONSTRUCTION + raglan/sleeve cues ONLY (1:1 collar shape):\n- crew collar: band THICKNESS (chunky rib), neck OPENING, front-center SHAPE (slightly squared / shallow bucket U — NOT thin circle, NOT V tip / pointed notch), rib texture, gray inner neck cue\n- raglan sleeve curves and short-sleeve length, cuff construction\nDO NOT copy IMAGE 1 short torso length — OVERRIDE torso height as above (taller).\n\nIMAGE 2 = PAINT master (kit 27). Body+sleeves: charcoal/near-black base + bold red scribble/brushstroke pattern. Thin white raglan piping if in IMAGE 2. Solid red cuffs as in IMAGE 2. Collar BAND color = SOLID RED from kit 27 — generate red band IN this image (not white/teal). IGNORE IMAGE 2 collar SHAPE. Clean chest — no logos/text/numbers.\n\nIMAGE 3 = design sheet color check (solid red collar band + red scribble + charcoal). No logos/numbers/shorts.\n\nHard rules:\n1) Collar SHAPE = IMAGE 1 kit21 class; collar BAND COLOR = solid red generated now; gray inner kept.\n2) Torso HEIGHT = elongated ~15–20% taller than IMAGE 1 (long body, lower hem). This is the main fix.\n3) Paint body+sleeves = kit 27 only.\n4) Transparent flat front, no mannequin, no text. True RGBA alpha. NO postprocess collar recolor needed.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213141279.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213162774.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213187767.png"
+  ]
+}

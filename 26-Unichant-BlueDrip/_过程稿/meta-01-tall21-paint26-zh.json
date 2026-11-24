@@ -1,0 +1,18 @@
+{
+  "kit": "26-Unichant-BlueDrip",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "tall21-paint26-zh (IMAGE1 tall-21 geom+white collar; IMAGE2 paint26 jfront; IMAGE3 kit21 collar crop; CN prompt kit27-OK style)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "b9701736-ee69-3ad6-ab1f-65bf0f83cbdb",
+  "ref_urls": {
+    "tall21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1547595576.png",
+    "paint26": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1548013534.png",
+    "kit21_collar_crop": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1548023547.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/26-Unichant-BlueDrip/01-上衣正面-2D.png",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1553175981.png",
+    "gen_url": "https://cdn3.dmiapi.com/20261018/fec1ab9f2014546ba7adc30ca23b42a7.png?e=1792741993&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:1qkdtNxO0vKkTvtA9FBgsbzOyjo=",
+    "bytes": 1586583
+  }
+}

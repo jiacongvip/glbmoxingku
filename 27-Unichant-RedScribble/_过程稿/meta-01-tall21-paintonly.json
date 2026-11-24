@@ -1,0 +1,19 @@
+{
+  "kit": "27-Unichant-RedScribble",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "tall21-paintonly (IMAGE1 approved tall21 base 1:1; IMAGE2 paint-only product black+red scribble NO logos/numbers/design sheet; solid red collar API-native; NO postprocess)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "35ea9fa8-61a4-01ea-b38a-d8c0e9f36c5c",
+  "postprocess_collar_paint": false,
+  "postprocess_alpha": "none (API RGBA saved as-is)",
+  "ref_urls": {
+    "geom_tall21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1451094831.png",
+    "paint_only": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1451116527.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/27-Unichant-RedScribble/01-上衣正面-2D.png",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1454178791.png",
+    "gen_url": "https://cdn3.dmiapi.com/20261018/cf22af9e0b40fbe76715856faa5215b8.png?e=1792738442&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:Tt4CFOZZOtP0NxYq_tOAhmZECCI="
+  },
+  "created_at_asia_shanghai": "2026-10-18 14:54:19 CST"
+}

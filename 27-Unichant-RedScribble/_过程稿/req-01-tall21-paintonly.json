@@ -1,0 +1,11 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat-front football jersey product shot, transparent RGBA PNG with true alpha (no white/black matte).\n\nIMAGE 1 = APPROVED BASE LOCK (tall kit21). Copy 1:1 EXACTLY: silhouette, torso HEIGHT, sleeves, raglan, cuff/hem proportions, collar CONSTRUCTION/shape (thick rib crew opening). Keep IMAGE 1 geometry locked — do NOT reshape, shorten, widen, or change proportions.\n\nIMAGE 2 = PAINT ONLY (kit27 black + red scribble on jersey body/sleeves). Copy ONLY fabric colors/pattern: matte black body + aggressive red scribble/graffiti strokes on lower torso and sleeves. Collar band color = SOLID RED. Ignore IMAGE 2 geometry/height/collar shape completely. IMAGE 2 has NO logos, NO numbers, NO text — do not invent any.\n\nCritical:\n1) Geometry/height/collar SHAPE = IMAGE 1 exactly (1:1). Only recolor.\n2) Body/sleeves paint = black + red scribble from IMAGE 2 only.\n3) Collar band = SOLID RED (API-native). Keep IMAGE 1 collar construction.\n4) CLEAN chest — FORBID logos, numbers, text, UC, PLAYER, 30, typography of any kind.\n5) No design sheet, no shorts, no mannequin. True alpha background.\n6) Do NOT feed or recreate original kit branding.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1451094831.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1451116527.png"
+  ]
+}

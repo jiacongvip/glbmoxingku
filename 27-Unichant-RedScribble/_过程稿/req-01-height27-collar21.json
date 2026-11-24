@@ -1,0 +1,13 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "KIT27 FRONT — KEEP OK'd TALL HEIGHT, SWAP COLLAR TO KIT21, RED COLLAR API-NATIVE (NO postprocess paint).\n\nIMAGE 1 = CURRENT kit27 FRONT (user just OK'd this HEIGHT). TORSO HEIGHT + BODY PAINT MASTER.\nCopy from IMAGE 1: overall silhouette height, torso length (armpit-to-hem), how tall the body is vs width, hem position, garment fill in frame — KEEP THIS TALL PROPORTION EXACTLY.\nAlso copy ALL body+sleeve paint: charcoal/near-black base + bold red scribble/brushstroke, thin white raglan piping if present, solid red cuffs. Clean chest — no logos/text/numbers.\nIGNORE IMAGE 1 collar SHAPE completely (replace it). Do NOT shorten the torso.\n\nIMAGE 2 = kit 21 FRONT = COLLAR CONSTRUCTION / STYLE ONLY.\nCopy ONLY: crew collar SHAPE — chunky rib thickness, neck opening size, front-center shallow bucket U (NOT V tip / pointed notch / sharp tip), gray inner neck cue, rib proportions.\nDo NOT copy IMAGE 2 teal/magenta paint, white collar color, or shorter torso. Torso height stays IMAGE 1.\n\nIMAGE 3 = kit 27 design sheet = collar BAND COLOR check.\nCollar BAND fabric = SOLID RED (generate now, API-native). Charcoal + red scribble confirmation only. No logos/numbers/shorts.\n\nIMAGE 4 = kit 15 FRONT = optional HEIGHT reinforce only (same tall class as IMAGE 1). Do NOT copy navy/gold paint or collar.\n\nHard rules:\n1) Torso HEIGHT / body proportions = IMAGE 1 (current OK'd kit27) — tall long body; match IMAGE 4 height class if needed. NEVER shorten.\n2) Collar SHAPE = IMAGE 2 (kit21) exactly — chunky crew, shallow bucket U front-center, gray inner. Reject pointed/V tip.\n3) Collar BAND COLOR = SOLID RED from kit27 / IMAGE 3 — never white, never teal. Generate in-image (NO postprocess recolor).\n4) Body+sleeve paint = IMAGE 1 kit27 scribble only.\n5) Transparent flat front, no mannequin, no text. True RGBA alpha.\n",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1355313045.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1355348445.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1355362553.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1355389178.png"
+  ]
+}

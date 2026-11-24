@@ -1,0 +1,13 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "KIT27 FRONT — TORSO HEIGHT FROM KIT15, RED COLLAR API-NATIVE (NO postprocess paint).\n\nIMAGE 1 = kit 15 FRONT = TORSO HEIGHT / BODY PROPORTION MASTER (1:1).\nCopy ONLY from IMAGE 1: overall silhouette height, torso length (armpit-to-hem), how tall the body panel is vs width, hem position, garment fill in frame. Match kit15's TALL body look. Do NOT copy IMAGE 1 navy/gold paint, logos, numbers, or collar color.\n\nIMAGE 2 = kit 21 FRONT = COLLAR CONSTRUCTION + raglan/sleeve cues.\nCopy ONLY: crew collar SHAPE (chunky rib thickness, neck opening, front-center shallow bucket U — NOT V tip / pointed notch), gray inner neck cue, raglan seam paths, short-sleeve length, cuff construction. Do NOT copy IMAGE 2 teal/magenta paint or its shorter torso — torso height comes from IMAGE 1.\n\nIMAGE 3 = kit 27 PAINT master. Body+sleeves: charcoal/near-black base + bold red scribble/brushstroke. Thin white raglan piping if present. Solid red cuffs. Collar BAND COLOR = SOLID RED (generate in this image). IGNORE IMAGE 3 collar SHAPE and any wrong torso height. Clean chest — no logos/text/numbers.\n\nIMAGE 4 = kit 27 design sheet color check (red scribble + charcoal + solid red collar). No logos/numbers/shorts.\n\nHard rules:\n1) Torso HEIGHT / body proportions = IMAGE 1 (kit15) exactly — tall long body.\n2) Collar SHAPE = IMAGE 2 (kit21 class); collar BAND = solid RED generated now; gray inner kept.\n3) Paint body+sleeves = kit27 only.\n4) Transparent flat front, no mannequin, no text. True RGBA alpha. NO postprocess collar recolor.\n",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1347315566.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213141279.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213162774.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213187767.png"
+  ]
+}

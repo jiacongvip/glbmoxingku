@@ -1,0 +1,21 @@
+{
+  "kit": "27-Unichant-RedScribble",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "force-kit21collar-exact-zh (IMAGE1 kit21 FRONT collar master; IMAGE2 body height+paint; IMAGE3 kit21 collar crop; white collar; CN prompt)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "9ec0c583-8592-7799-7ce5-3dd15640922f",
+  "prior_task_id": "ffd08b57-a6d3-8141-4da2-f1a4be2306ad",
+  "ref_urls": {
+    "kit21_front": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1536082625.png",
+    "body27": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1536106084.png",
+    "kit21_collar_crop": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1536126463.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/27-Unichant-RedScribble/01-上衣正面-2D.png",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1547359dcf.png",
+    "bytes": 1036423,
+    "gen_url": "https://cdn3.dmiapi.com/20261018/54bb4f3fb461b376b51506c15dafd1b9.png?e=1792741080&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:mlt4WdkN9keMolT-5KH2-i5IcwM=",
+    "cdn_rgba": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1547359dcf.png"
+  },
+  "postprocess_alpha": "rembg only (raw was RGB)"
+}

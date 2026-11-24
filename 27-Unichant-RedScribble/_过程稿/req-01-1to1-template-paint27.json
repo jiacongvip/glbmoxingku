@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "1:1 TEMPLATE REPAINT — do NOT redesign.\n\nIMAGE 1 = the exact flat jersey TEMPLATE (kit 21 confirmed FRONT). Trace it pixel-geometry 1:1.\nKeep IDENTICAL to IMAGE 1 (do not approximate, restyle, or invent):\n- silhouette / outline edges\n- torso length and width proportions\n- raglan sleeve curves and seam paths\n- short-sleeve length\n- crew collar CONSTRUCTION exactly: band THICKNESS (chunky rib), neck OPENING size, front-center SHAPE (slightly squared / shallow bucket U — NOT a thin smooth circle), rib texture, gray inner neck cue\n- cuff and hem proportions\nEvery edge, seam, and collar construction must match IMAGE 1 as if you overlaid a new fabric print on the same cut.\n\nONLY change fabric print + colors (from IMAGE 2 / IMAGE 3):\n- Body + sleeves: kit 27 charcoal/near-black base with bold red scribble/brushstroke pattern as in IMAGE 2 (paint master). Match IMAGE 2 print placement; thin white raglan piping if present in IMAGE 2; solid red cuffs as in IMAGE 2.\n- Collar BAND color only: SOLID RED from kit 27 design/paint (IMAGE 2/3). Keep IMAGE 1 collar geometry; recolor the band red. Never keep kit21 teal/magenta/white collar paint, never kit18 yellow, never navy.\n- Clean chest — no logos, text, or numbers.\n\nIMAGE 2 = PAINT only (kit 27 current FRONT). Steal pattern/colors. IGNORE its collar shape entirely.\nIMAGE 3 = design sheet color check only (confirm red collar band + red scribble + charcoal). No logos/numbers/shorts.\n\nHard rules:\n1) Geometry = IMAGE 1 exactly (1:1 template). Reject any new collar or resized layout.\n2) Pattern/colors = kit 27 only.\n3) Transparent flat front, no mannequin, no text.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213141279.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213162774.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1213187767.png"
+  ]
+}

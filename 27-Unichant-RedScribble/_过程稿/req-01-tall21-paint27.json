@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Flat-front football jersey product shot, transparent RGBA PNG with true alpha (no white/black matte).\n\nIMAGE 1 = GEOMETRY + COLLAR SHAPE LOCK (approved tall kit21). Copy 1:1 ONLY: silhouette, torso HEIGHT, sleeves, raglan, cuff/hem proportions, and collar CONSTRUCTION/shape (thick rib crew, opening, wrap/meeting). Do NOT keep IMAGE 1 teal/magenta paint or white collar COLOR — keep the collar SHAPE only.\n\nIMAGE 2 = PAINT MASTER (kit27 RedScribble). Copy ALL fabric colors/pattern onto IMAGE 1 shape: black body + red scribble/graffiti strokes on torso and sleeves. Ignore IMAGE 2 height and any wrong collar geometry.\n\nIMAGE 3 = design sheet color check only. Confirm black+red scribble; collar BAND = SOLID RED (API-native). Do NOT copy logos, numbers, shorts, or typography.\n\nCritical:\n1) Geometry/height/collar SHAPE = IMAGE 1 exactly (1:1). Do NOT reshape, shorten, or widen.\n2) Paint/pattern ONLY from IMAGE 2/3 kit27 black+red scribble.\n3) Collar band color = SOLID RED via generation (not white, not teal). Keep IMAGE 1 collar construction.\n4) Clean flat front, no mannequin, no logos/text/numbers. True alpha background.\n5) ONLY change fabric colors/pattern — everything else locked to IMAGE 1.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://cdn3.dmiapi.com/20261018/c559245bcdf01e209e43ad5d7efaaa7c.png?e=1792736879&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:joyjrRyVGPyCnR9XMzI9qA92jkE=",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1350165770.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1406297487.png"
+  ]
+}
