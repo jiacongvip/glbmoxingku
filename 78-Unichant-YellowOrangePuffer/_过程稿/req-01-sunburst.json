@@ -1,0 +1,11 @@
+{
+  "prompt": "打板平面图。单件上衣正面 2D 技术打板图，黄橙羽绒绗缝拉链帽衫。\n\n图1 = 设计稿正面裁切（几何/外形/帽形锁死·打板轮廓）：\n- 1:1 抄图1外轮廓、绗缝横格、插肩袖、领口、帽子形态\n- 帽子按设计稿正面：帽子立起/戴上形态与图1一致（hoodie hood as on design front）\n- 忽略图1上任何 logo、队徽、DBM、贴章、文字\n\n图2 = 花色参考（已尽量去logo）：\n- 胸前黄底橙色虎纹/波浪条纹，铺满前身绗缝格\n- 插肩肩部纯橙色\n- 下袖纯黄绗缝\n- 双袖中臂深蓝横条臂带：纯深蓝无字；臂带下方可有小块灰/橄榄对比条\n- 白色/银色全长拉链居中\n- 腰侧斜插袋（橙包边）\n- 忽略图2残存logo痕迹\n\n输出要求：\n- 真正的服装打板平面图 / garment flat / technical flat，1024x1024\n- 真正透明背景（无灰底、无棋盘格、无阴影底板、无地面、无模特）\n- 禁止任何 logo、贴章、队徽、DBM、品牌标、号码、UNICHANT、文字\n- 保持：黄橙羽绒绗缝拉链帽衫；胸前黄底橙色虎纹；橙肩；深蓝无字臂带；帽子按设计稿正面；无logo无队徽；透明底\n- 必须可见水平绗缝格（puffer baffles）于衣身与袖\n",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/20_1056126634.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/20_1056249721.png"
+  ],
+  "model": "gpt-image-2.5-sunburst"
+}

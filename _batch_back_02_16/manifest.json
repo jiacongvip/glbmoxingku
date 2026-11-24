@@ -1,0 +1,137 @@
+[
+  {
+    "nn": "02",
+    "folder": "02-Unichant-Wolves",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/02-Unichant-Wolves/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/02-Unichant-Wolves/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/02-Unichant-Wolves/02-上衣背面-2D.png",
+    "name": "Unichant-Wolves"
+  },
+  {
+    "nn": "03",
+    "folder": "03-Unichant-Sky",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/03-Unichant-Sky/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/03-Unichant-Sky/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/03-Unichant-Sky/02-上衣背面-2D.png",
+    "name": "Unichant-Sky"
+  },
+  {
+    "nn": "04",
+    "folder": "04-Unichant-Dark",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/04-Unichant-Dark/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/04-Unichant-Dark/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/04-Unichant-Dark/02-上衣背面-2D.png",
+    "name": "Unichant-Dark"
+  },
+  {
+    "nn": "05",
+    "folder": "05-Unichant-Gradient",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/05-Unichant-Gradient/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/05-Unichant-Gradient/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/05-Unichant-Gradient/02-上衣背面-2D.png",
+    "name": "Unichant-Gradient"
+  },
+  {
+    "nn": "06",
+    "folder": "06-Unichant-GrayRed",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/06-Unichant-GrayRed/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/06-Unichant-GrayRed/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/06-Unichant-GrayRed/02-上衣背面-2D.png",
+    "name": "Unichant-GrayRed"
+  },
+  {
+    "nn": "07",
+    "folder": "07-Unichant-Pinstripe",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/07-Unichant-Pinstripe/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/07-Unichant-Pinstripe/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/07-Unichant-Pinstripe/02-上衣背面-2D.png",
+    "name": "Unichant-Pinstripe"
+  },
+  {
+    "nn": "08",
+    "folder": "08-Unichant-Camo",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/08-Unichant-Camo/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/08-Unichant-Camo/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/08-Unichant-Camo/02-上衣背面-2D.png",
+    "name": "Unichant-Camo"
+  },
+  {
+    "nn": "09",
+    "folder": "09-Unichant-Purple",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/09-Unichant-Purple/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/09-Unichant-Purple/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/09-Unichant-Purple/02-上衣背面-2D.png",
+    "name": "Unichant-Purple"
+  },
+  {
+    "nn": "10",
+    "folder": "10-Unichant-GeoOrange",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/10-Unichant-GeoOrange/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/10-Unichant-GeoOrange/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/10-Unichant-GeoOrange/02-上衣背面-2D.png",
+    "name": "Unichant-GeoOrange"
+  },
+  {
+    "nn": "11",
+    "folder": "11-Unichant-Green",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/11-Unichant-Green/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/11-Unichant-Green/02-上衣背面-2D.png",
+    "paint_src": "02-上衣背面-2D.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/11-Unichant-Green/02-上衣背面-2D.png",
+    "name": "Unichant-Green"
+  },
+  {
+    "nn": "12",
+    "folder": "12-Unichant-Lilac",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/12-Unichant-Lilac/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/12-Unichant-Lilac/_过程稿/lilac-jersey-b.png",
+    "paint_src": "lilac-jersey-b.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/12-Unichant-Lilac/02-上衣背面-2D.png",
+    "name": "Unichant-Lilac"
+  },
+  {
+    "nn": "13",
+    "folder": "13-Unichant-Charcoal",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/13-Unichant-Charcoal/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/13-Unichant-Charcoal/_过程稿/charcoal-jersey-b.png",
+    "paint_src": "charcoal-jersey-b.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/13-Unichant-Charcoal/02-上衣背面-2D.png",
+    "name": "Unichant-Charcoal"
+  },
+  {
+    "nn": "14",
+    "folder": "14-Unichant-Red",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/14-Unichant-Red/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/14-Unichant-Red/_过程稿/red-jersey-b.png",
+    "paint_src": "red-jersey-b.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/14-Unichant-Red/02-上衣背面-2D.png",
+    "name": "Unichant-Red"
+  },
+  {
+    "nn": "15",
+    "folder": "15-Unichant-NavyGold",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/15-Unichant-NavyGold/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/15-Unichant-NavyGold/_过程稿/navygold-jersey-b.png",
+    "paint_src": "navygold-jersey-b.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/15-Unichant-NavyGold/02-上衣背面-2D.png",
+    "name": "Unichant-NavyGold"
+  },
+  {
+    "nn": "16",
+    "folder": "16-Unichant-White",
+    "front": "/Users/jiacong/Desktop/球衣套装拆图/16-Unichant-White/01-上衣正面-2D.png",
+    "paint": "/Users/jiacong/Desktop/球衣套装拆图/16-Unichant-White/_过程稿/white-jersey-b.png",
+    "paint_src": "white-jersey-b.png",
+    "dest_back": "/Users/jiacong/Desktop/球衣套装拆图/16-Unichant-White/02-上衣背面-2D.png",
+    "name": "Unichant-White"
+  }
+]

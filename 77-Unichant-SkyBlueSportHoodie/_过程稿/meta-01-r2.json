@@ -1,0 +1,19 @@
+{
+  "kit": "77-Unichant-SkyBlueSportHoodie",
+  "view": "01-上衣正面-2D",
+  "round": "r2",
+  "model_requested": "gpt-image-2.5-sunburst",
+  "model_used": "gpt-image-2",
+  "model_note": "sunburst 系统繁忙; gpt-image-2 used",
+  "task_id": "ce82ffa0-c4c3-410a-8c32-aec38e82beba",
+  "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/19_204641863_k77front_r2.png",
+  "gen_url": "https://cdn3.dmiapi.com/20261019/7974231676b2b49725c6f65d28402342.png?e=1792845913&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:HzXKlKngiZjUTotDoRJ02OgI3SA=",
+  "refs": {
+    "geom": "https://qiniuoss.changzhouyunshan.com/upload/202610/19_2041423933.png",
+    "paint": "https://qiniuoss.changzhouyunshan.com/upload/202610/19_2041434646.png"
+  },
+  "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/77-Unichant-SkyBlueSportHoodie/01-上衣正面-2D.png",
+  "mac_ok": true,
+  "postprocess": "rembg + fit 2000x2000 transparent",
+  "note": "打板图 hood DOWN"
+}

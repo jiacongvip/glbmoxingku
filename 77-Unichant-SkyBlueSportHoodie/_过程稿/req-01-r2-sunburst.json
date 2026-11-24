@@ -1,0 +1,11 @@
+{
+  "prompt": "打板平面图。单件上衣正面 2D 技术打板图，浅蓝拉链帽衫。\n\n【帽子·最高优先级】\n- 帽子放下（与设计稿正面一致）：帽子折叠/挂在颈后肩后的平面打板样式\n- 禁止帽子戴上；禁止 hood up；禁止头罩立起戴在头上\n- 领口与帽形必须跟图1设计稿正面一致\n\n图1 = 设计稿正面裁切（几何/外形/帽形锁死·打板轮廓）：\n- 1:1 抄图1外轮廓、袖展、下摆、领口、帽子放下的平面形状\n- 帽子放下挂在颈后/肩后，可见后领与帽片平面结构\n- 忽略图1上任何 logo、队徽、贴章、SPORT 文字\n\n图2 = 花色参考（已尽量去logo）：\n- 天蓝/天蓝衣身 + 胸肩白底浅蓝云染/扎染人字/chevron 面板\n- 白色全长拉链居中到底\n- 腰侧斜插袋，袋口白色竖向包边\n- 双袖中臂纯深蓝横条臂带：无字，禁止 SPORT\n- 忽略图2残存涂改块/logo痕迹\n\n输出要求：\n- 真正的服装打板平面图 / garment flat / technical flat，1024x1024\n- 真正透明背景（无灰底、无棋盘格、无阴影底板、无地面、无模特）\n- 禁止任何 logo、贴章、队徽、SPORT、BE THE SOCCER PRO、品牌标、号码、UNICHANT\n- 保持：浅蓝拉链帽衫；胸前白底浅蓝云染；白拉链白袋边；纯深蓝臂带无字；帽子放下；无logo无队徽；透明底\n",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/19_2041423933.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/19_2041434646.png"
+  ],
+  "model": "gpt-image-2.5-sunburst"
+}

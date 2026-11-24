@@ -1,0 +1,18 @@
+{
+  "kit": "84-Unichant-RedZigzagPuffer",
+  "view": "01-上衣正面-2D",
+  "round": "r1",
+  "model_requested": "gpt-image-2.5-sunburst",
+  "model_used": "gpt-image-2",
+  "model_note": "sunburst 系统繁忙; gpt-image-2 succeeded",
+  "task_id": "d9961f55-4b00-6626-a85e-c3e979754be1",
+  "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/20_2339188023_k84front_r1.png",
+  "gen_url": "https://cdn3.dmiapi.com/20261020/dbc77348622b79eed355e880368ea6a4.png?e=1792942438&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:79w03YtC29oSFo60mrp9ih_gzdY=",
+  "refs": {
+    "geom_k78_front": "https://qiniuoss.changzhouyunshan.com/upload/202610/20_105906303_k78front_r1.png",
+    "paint": "https://qiniuoss.changzhouyunshan.com/upload/202610/20_2317399322_k84f.png"
+  },
+  "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/84-Unichant-RedZigzagPuffer/01-上衣正面-2D.png",
+  "mac_ok": true,
+  "postprocess": "rembg + fit 2000x2000 transparent"
+}

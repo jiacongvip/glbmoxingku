@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+  html,body{width:1080px;height:3660px;overflow:hidden}
+  body{font-family:"PingFang SC","Helvetica Neue",Arial,sans-serif;color:#EAF1FF;
+    background:
+      radial-gradient(1100px 620px at 8% -6%, rgba(120,86,255,.34), transparent 62%),
+      radial-gradient(900px 620px at 96% 4%, rgba(64,120,255,.30), transparent 64%),
+      radial-gradient(1200px 900px at 50% 46%, rgba(58,32,140,.55), transparent 68%),
+      radial-gradient(900px 700px at 12% 92%, rgba(255,122,24,.16), transparent 66%),
+      linear-gradient(180deg,#0B0722 0%,#160B33 28%,#120A2C 58%,#0A0620 100%);
+    position:relative}
+  body::before{content:"";position:absolute;inset:0;pointer-events:none;
+    background-image:radial-gradient(rgba(255,255,255,.10) 1px,transparent 1px);
+    background-size:46px 46px;opacity:.5;
+    mask-image:linear-gradient(180deg,rgba(0,0,0,.9),rgba(0,0,0,.15) 42%,rgba(0,0,0,.9))}
+  .wrap{position:relative;z-index:2;height:100%;display:flex;flex-direction:column}
+  .glass{background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.045));
+    border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(26px);
+    box-shadow:0 26px 60px rgba(3,0,20,.55), inset 0 1px 0 rgba(255,255,255,.22)}
+
+  /* 状态栏 */
+  .status{height:76px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 48px;font-size:26px;font-weight:600;color:#DDE7FA}
+  .status .r{display:flex;align-items:center;gap:12px}
+  .bars{display:flex;gap:5px;align-items:flex-end}
+  .bars i{width:6px;background:#DDE7FA;border-radius:2px}
+  .bars i:nth-child(1){height:10px}.bars i:nth-child(2){height:16px}.bars i:nth-child(3){height:22px}.bars i:nth-child(4){height:26px}
+  .batt{width:42px;height:20px;border:2px solid #DDE7FA;border-radius:6px;position:relative}
+  .batt::before{content:"";position:absolute;inset:3px;width:70%;background:#DDE7FA;border-radius:3px}
+
+  /* 顶部搜索 */
+  .head{flex:none;padding:14px 40px 0;display:flex;align-items:center;gap:20px}
+  .back{width:64px;height:64px;flex:none;display:grid;place-items:center;border-radius:20px}
+  .back svg{width:34px;height:34px;stroke:#E7EEFB;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .field{flex:1;height:92px;border-radius:26px;display:flex;align-items:center;gap:16px;padding:0 28px}
+  .field svg{width:32px;height:32px;stroke:#B9C8E6;stroke-width:2.8;fill:none;stroke-linecap:round}
+  .field .ph{font-size:28px;color:rgba(203,215,238,.62);letter-spacing:.5px}
+  .btn-s{width:150px;height:92px;border-radius:26px;display:grid;place-items:center;font-size:30px;font-weight:800;letter-spacing:2px;color:#2A1200;
+    background:linear-gradient(180deg,#FFC98A,#FF8A1E);box-shadow:0 16px 38px rgba(255,138,30,.42), inset 0 1px 0 #FFE3C2}
+
+  /* HERO */
+  .hero{flex:none;margin:24px 40px 0;height:620px;border-radius:40px;position:relative;overflow:hidden;
+    background:linear-gradient(135deg,#2B1A6E 0%,#160E3E 52%,#0E1E4E 100%);
+    border:1px solid rgba(150,130,255,.30);
+    box-shadow:0 40px 100px rgba(24,8,80,.6), inset 0 1px 0 rgba(255,255,255,.16)}
+  .hero .orb1{position:absolute;width:900px;height:900px;border-radius:50%;filter:blur(90px);
+    background:radial-gradient(circle,rgba(124,92,255,.62),transparent 62%);left:-320px;top:-380px}
+  .hero .orb2{position:absolute;width:560px;height:560px;border-radius:50%;filter:blur(70px);
+    background:radial-gradient(circle,rgba(255,138,30,.34),transparent 66%);right:-160px;bottom:-220px}
+  .hero .grid{position:absolute;inset:0;opacity:.22;
+    background-image:linear-gradient(rgba(190,180,255,.35) 1px,transparent 1px),linear-gradient(90deg,rgba(190,180,255,.35) 1px,transparent 1px);
+    background-size:90px 90px;mask-image:radial-gradient(120% 90% at 20% 30%,#000,transparent 72%)}
+  .hero .txt{position:absolute;left:56px;top:70px}
+  .kicker{display:inline-flex;align-items:center;gap:12px;height:52px;padding:0 22px;border-radius:16px;font-size:23px;font-weight:700;letter-spacing:1px;
+    color:#D9CDFF;background:rgba(124,92,255,.22);border:1px solid rgba(160,140,255,.42)}
+  .h1{margin-top:26px;font-size:104px;line-height:.98;font-weight:900;letter-spacing:2px;
+    background:linear-gradient(96deg,#FFFFFF,#E6DCFF 46%,#9FB6FF);-webkit-background-clip:text;background-clip:text;color:transparent;
+    text-shadow:0 10px 60px rgba(150,130,255,.35)}
+  .h2{margin-top:10px;font-size:78px;line-height:1;font-weight:900;letter-spacing:2px;
+    background:linear-gradient(96deg,#FFE2BE,#FF9A3D 62%,#FF7A18);-webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 8px 28px rgba(255,138,30,.35))}
+  .hsub{margin-top:30px;font-size:27px;letter-spacing:.8px;color:rgba(214,222,247,.82)}
+  .hsub b{color:#FFC98A;font-weight:800}
+  .hero .art{position:absolute;right:34px;bottom:44px;width:400px;height:400px}
+  .hero .art .plinth{position:absolute;left:40px;right:40px;bottom:24px;height:26px;border-radius:50%;
+    background:radial-gradient(ellipse at center,rgba(150,120,255,.55),transparent 70%);filter:blur(10px)}
+  .gift{position:absolute;left:70px;top:40px;width:264px;height:250px}
+  .gift .body{position:absolute;left:22px;top:96px;width:220px;height:150px;border-radius:18px;
+    background:linear-gradient(160deg,rgba(214,206,255,.95),rgba(120,120,255,.6) 52%,rgba(52,40,120,.75));
+    box-shadow:0 40px 70px rgba(90,60,220,.5), inset 0 2px 0 rgba(255,255,255,.7), inset 0 -20px 40px rgba(20,10,60,.45)}
+  .gift .lid{position:absolute;left:8px;top:58px;width:248px;height:56px;border-radius:14px;
+    background:linear-gradient(160deg,rgba(236,230,255,.98),rgba(140,140,255,.7));
+    box-shadow:0 18px 40px rgba(90,60,220,.45), inset 0 2px 0 rgba(255,255,255,.85)}
+  .gift .rib{position:absolute;left:118px;top:58px;width:28px;height:188px;border-radius:6px;
+    background:linear-gradient(180deg,#FFF2DE,#FFC27A 45%,#FF8A1E);box-shadow:0 8px 22px rgba(255,138,30,.45)}
+  .gift .bow{position:absolute;left:74px;top:22px;width:132px;height:58px}
+  .gift .bow i{position:absolute;top:0;width:66px;height:52px;border-radius:50% 50% 46% 46%;
+    background:linear-gradient(160deg,#FFE7C8,#FF9A3D 60%,#F06A0E);box-shadow:0 10px 24px rgba(240,106,14,.45)}
+  .gift .bow i.l{left:0;transform:rotate(-16deg)}
+  .gift .bow i.r{right:0;transform:rotate(16deg)}
+  .gift .spark{position:absolute;border-radius:50%;background:#FFF;box-shadow:0 0 18px #fff;opacity:.9}
+  .gift .s1{width:10px;height:10px;left:6px;top:96px}
+  .gift .s2{width:7px;height:7px;right:2px;top:150px}
+  .gift .s3{width:6px;height:6px;left:40px;top:20px}
+.hero .tagline{position:absolute;right:44px;top:56px;font-size:22px;letter-spacing:4px;color:rgba(196,186,255,.6)}
+
+
+  .stats{flex:none;margin:20px 40px 0;height:132px;border-radius:30px;display:flex;align-items:center;gap:26px;padding:0 30px;position:relative;
+    background:linear-gradient(140deg,rgba(255,255,255,.13),rgba(255,255,255,.045));
+    border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(24px);
+    box-shadow:0 22px 50px rgba(3,0,20,.5), inset 0 1px 0 rgba(255,255,255,.2)}
+  .stats .st{display:flex;flex-direction:column;gap:8px;min-width:196px}
+  .stats .st b{font-size:40px;font-weight:900;letter-spacing:.5px;
+    background:linear-gradient(180deg,#FFFFFF,#C9D6FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stats .st span{font-size:21px;color:rgba(190,203,228,.68);letter-spacing:.6px}
+  .stats .sp{width:1px;height:56px;background:linear-gradient(180deg,transparent,rgba(255,255,255,.22),transparent)}
+  .stats .st-btn{margin-left:auto;height:64px;padding:0 26px;border-radius:18px;display:grid;place-items:center;font-size:23px;font-weight:800;color:#2A1200;
+    background:linear-gradient(180deg,#FFD7A8,#FF8A1E);box-shadow:0 12px 28px rgba(255,138,30,.38)}
+
+  /* 限时条 */
+  .strip{flex:none;margin:22px 40px 0;height:104px;border-radius:28px;display:flex;align-items:center;justify-content:space-between;
+    padding:0 30px 0 34px;
+    background:linear-gradient(94deg,rgba(255,138,30,.22),rgba(255,255,255,.06) 42%,rgba(124,92,255,.18));
+    border:1px solid rgba(255,190,130,.34);box-shadow:0 18px 46px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.22)}
+  .strip .l{display:flex;align-items:center;gap:18px;font-size:29px;font-weight:700;letter-spacing:.8px;color:#FFE0BF}
+  .strip .fire{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;
+    background:linear-gradient(180deg,#FFC98A,#FF7A18);box-shadow:0 8px 20px rgba(255,122,24,.5)}
+  .strip .fire svg{width:26px;height:26px;fill:#2A1200}
+  .strip .go{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.10)}
+  .strip .go svg{width:24px;height:24px;stroke:#FFE0BF;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+  /* 区块标题 */
+  .sec{flex:none;padding:34px 40px 0}
+  .sec-h{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:24px}
+  .sec-t{display:flex;align-items:center;gap:16px}
+  .bar{width:9px;height:42px;border-radius:6px;background:linear-gradient(180deg,#FFC98A,#FF7A18);box-shadow:0 0 22px rgba(255,138,30,.75)}
+  .sec-t h3{font-size:40px;font-weight:900;letter-spacing:1.5px}
+  .sec-t .sub{font-size:23px;color:rgba(188,200,226,.66);letter-spacing:.5px;margin-left:4px}
+  .more{font-size:25px;color:rgba(196,208,232,.72);display:flex;align-items:center;gap:8px}
+
+  /* 消费自选区 2x2 */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .tile{border-radius:34px;padding:30px 28px 26px;position:relative;overflow:hidden;
+    background:linear-gradient(165deg,rgba(255,255,255,.12),rgba(255,255,255,.04));
+    border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(24px);
+    box-shadow:0 24px 54px rgba(3,0,20,.5), inset 0 1px 0 rgba(255,255,255,.2)}
+  .tile .glow{position:absolute;width:340px;height:340px;border-radius:50%;filter:blur(46px);right:-120px;top:-150px;opacity:.85}
+  .tile .disc{position:relative;height:212px;display:grid;place-items:center}
+  .tile .disc .halo{position:absolute;width:190px;height:190px;border-radius:50%;filter:blur(20px);opacity:.75}
+  .tile .disc .ring{position:absolute;width:168px;height:168px;border-radius:50%;border:1px solid rgba(255,255,255,.28);
+    background:radial-gradient(circle at 32% 26%,rgba(255,255,255,.42),rgba(255,255,255,.05) 58%,transparent 70%);
+    box-shadow:inset 0 2px 10px rgba(255,255,255,.35), 0 20px 40px rgba(3,0,20,.45)}
+  .tile .disc svg{position:relative;width:100px;height:100px;stroke:#FFF;stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round;
+    filter:drop-shadow(0 8px 18px rgba(10,0,40,.55))}
+  .tile .nm{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+  .tile .nm span{font-size:32px;font-weight:800;letter-spacing:1px}
+  .pill{height:44px;padding:0 18px;border-radius:14px;display:grid;place-items:center;font-size:22px;font-weight:800;color:#2A1200;
+    background:linear-gradient(180deg,#FFD7A8,#FFA345);box-shadow:0 8px 20px rgba(255,150,50,.35)}
+  .tile .desc{margin-top:10px;font-size:21px;color:rgba(190,203,228,.7);letter-spacing:.4px}
+
+  /* 品商汇 */
+  .brands{display:flex;justify-content:space-between;padding:8px 6px 4px}
+  .brand{width:214px;display:flex;flex-direction:column;align-items:center;gap:16px}
+  .logo{width:152px;height:152px;border-radius:50%;display:grid;place-items:center;position:relative;
+    font-size:34px;font-weight:900;letter-spacing:1px;color:#fff;
+    box-shadow:0 20px 44px rgba(3,0,20,.5), inset 0 2px 0 rgba(255,255,255,.4)}
+  .logo::after{content:"";position:absolute;inset:-10px;border-radius:50%;border:1px solid rgba(255,255,255,.14)}
+  .brand span{font-size:25px;color:rgba(216,226,246,.86);letter-spacing:.6px}
+  .b1{background:linear-gradient(160deg,#FF8A6B,#FF5E45)}
+  .b2{background:linear-gradient(160deg,#5AA8FF,#2F6BFF)}
+  .b3{background:linear-gradient(160deg,#5BE08A,#16B45C)}
+  .b4{background:linear-gradient(160deg,#FFC25A,#FF8A1E)}
+
+  /* 两张功能卡 */
+  .duo{display:flex;gap:24px}
+  .fcard{flex:1;border-radius:32px;padding:38px 30px;display:flex;align-items:center;gap:24px;position:relative;overflow:hidden;
+    background:linear-gradient(150deg,rgba(255,255,255,.13),rgba(255,255,255,.045));
+    border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(24px);
+    box-shadow:0 24px 56px rgba(3,0,20,.5), inset 0 1px 0 rgba(255,255,255,.2)}
+  .fcard .ic{width:104px;height:104px;border-radius:30px;flex:none;display:grid;place-items:center;
+    background:linear-gradient(160deg,rgba(124,92,255,.55),rgba(64,90,255,.22));border:1px solid rgba(160,140,255,.4);
+    box-shadow:0 16px 34px rgba(70,40,200,.45), inset 0 1px 0 rgba(255,255,255,.35)}
+  .fcard.orange .ic{background:linear-gradient(160deg,rgba(255,150,60,.55),rgba(255,122,24,.20));border-color:rgba(255,180,120,.42);
+    box-shadow:0 16px 34px rgba(255,110,20,.35)}
+  .fcard .ic svg{width:48px;height:48px;stroke:#fff;stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .fcard h4{font-size:31px;font-weight:800;letter-spacing:.8px}
+  .fcard p{margin-top:8px;font-size:21px;color:rgba(190,203,228,.72)}
+
+  /* 健康套餐 */
+  .tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .tier{border-radius:30px;padding:32px 18px 26px;text-align:center;position:relative;overflow:hidden;
+    background:linear-gradient(175deg,rgba(255,255,255,.12),rgba(255,255,255,.035));
+    border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(22px);
+    box-shadow:0 22px 50px rgba(3,0,20,.48), inset 0 1px 0 rgba(255,255,255,.2)}
+  .tier.hot{border-color:rgba(255,150,60,.6);
+    background:linear-gradient(175deg,rgba(255,138,30,.26),rgba(255,255,255,.05));
+    box-shadow:0 26px 60px rgba(255,110,20,.32), inset 0 1px 0 rgba(255,214,170,.4)}
+  .tier .p{font-size:44px;font-weight:900;letter-spacing:.5px;
+    background:linear-gradient(180deg,#FFFFFF,#FFD3A4);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tier .p small{font-size:22px;font-weight:800}
+  .tier .n{margin-top:10px;font-size:23px;color:rgba(206,216,238,.82);letter-spacing:.6px}
+  .tier .g{margin-top:30px;display:grid;place-items:center}
+  .tier .g .box{width:94px;height:76px;border-radius:12px;position:relative;
+    background:linear-gradient(160deg,#FFE1C4,#FF9A3D 55%,#F06A0E);
+    box-shadow:0 14px 28px rgba(240,106,14,.45), inset 0 2px 0 rgba(255,255,255,.7)}
+  .tier .g .box::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:20px;transform:translateX(-50%);
+    background:linear-gradient(180deg,#FFD9B4,#E85F06)}
+  .tier .g .box::after{content:"";position:absolute;left:-10px;top:16px;width:32px;height:26px;border-radius:8px;
+    background:linear-gradient(160deg,#FFD9B4,#F0790F);transform:rotate(-16deg)}
+  .tier .badge{position:absolute;left:0;right:0;top:0;height:6px;background:linear-gradient(90deg,#FFC98A,#FF7A18)}
+  .tier .buy{margin-top:26px;height:62px;border-radius:16px;display:grid;place-items:center;font-size:22px;font-weight:800;color:#2A1200;
+    background:linear-gradient(180deg,#FFD7A8,#FF8A1E);box-shadow:0 10px 24px rgba(255,138,30,.34)}
+  .tier.ghost .buy{color:#FFD2A6;background:rgba(255,138,30,.14);border:1px solid rgba(255,150,60,.45);box-shadow:none}
+
+
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .pcard{border-radius:32px;overflow:hidden;display:flex;flex-direction:column;
+    background:linear-gradient(165deg,rgba(255,255,255,.12),rgba(255,255,255,.04));
+    border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(24px);
+    box-shadow:0 24px 56px rgba(3,0,20,.5), inset 0 1px 0 rgba(255,255,255,.18)}
+  .pimg{position:relative;height:150px;overflow:hidden;background:linear-gradient(150deg,#241B63,#12102F 62%,#2A1430)}
+  .pimg.alt{background:linear-gradient(150deg,#123A5A,#0E1330 62%,#2A1B0B)}
+  .pimg .pglow{position:absolute;width:420px;height:420px;border-radius:50%;filter:blur(50px);
+    background:radial-gradient(circle,rgba(150,120,255,.55),transparent 62%);left:-90px;top:-140px}
+  .pimg.alt .pglow{background:radial-gradient(circle,rgba(255,150,60,.55),transparent 62%)}
+  .ptag{position:absolute;left:22px;top:20px;height:44px;padding:0 18px;border-radius:14px;display:grid;place-items:center;
+    font-size:21px;font-weight:800;color:#FFE1C4;background:rgba(0,0,0,.34);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(10px)}
+  .pimg .pic{position:absolute;left:50%;top:54%;transform:translate(-50%,-50%);width:120px;height:120px;
+    stroke:rgba(255,255,255,.9);stroke-width:1.6;fill:none;stroke-linecap:round;stroke-linejoin:round;
+    filter:drop-shadow(0 16px 30px rgba(0,0,0,.45))}
+  .pbody{padding:20px 24px 22px}
+  .pname{font-size:26px;font-weight:800;letter-spacing:.4px}
+  .pmeta{margin-top:10px;font-size:21px;color:rgba(190,203,228,.7)}
+  .pfoot{margin-top:14px;display:flex;align-items:center;justify-content:space-between}
+  .pprice{font-size:34px;font-weight:900;
+    background:linear-gradient(180deg,#FFF0DC,#FFB166);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .pprice small{font-size:22px;font-weight:800}
+  .pbuy{height:54px;padding:0 26px;border-radius:18px;display:grid;place-items:center;font-size:23px;font-weight:800;color:#2A1200;
+    background:linear-gradient(180deg,#FFD7A8,#FF8A1E);box-shadow:0 12px 26px rgba(255,138,30,.36)}
+  .promise{flex:none;margin:44px 40px 0;height:118px;border-radius:26px;display:flex;align-items:center;justify-content:space-between;padding:0 34px;
+    background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.03));
+    border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(20px)}
+  .promise .pi{display:flex;align-items:center;gap:12px;font-size:22px;color:rgba(206,216,238,.82);letter-spacing:.5px}
+  .promise .pi svg{width:30px;height:30px;stroke:#FFB166;stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+  /* 底部导航 */
+  .nav{margin-top:auto;flex:none;height:182px;padding:14px 54px 28px;display:flex;justify-content:space-between;align-items:flex-start;
+    background:linear-gradient(180deg,rgba(10,6,32,0),rgba(10,6,32,.86) 45%,rgba(10,6,32,.98));
+    border-top:1px solid rgba(255,255,255,.08);backdrop-filter:blur(30px)}
+  .nav .it{width:200px;display:flex;flex-direction:column;align-items:center;gap:10px;color:rgba(176,190,220,.6);font-size:22px;letter-spacing:.5px}
+  .nav .it.on{color:#FFB166}
+  .nav .it.on .ni{background:linear-gradient(180deg,rgba(255,138,30,.32),rgba(255,138,30,.10));border-color:rgba(255,150,60,.5);box-shadow:0 10px 26px rgba(255,120,20,.4)}
+  .ni{width:72px;height:72px;border-radius:22px;display:grid;place-items:center;border:1px solid transparent}
+  .nav svg{width:36px;height:36px;stroke:currentColor;fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+</style></head>
+<body><div class="wrap">
+
+  <div class="status">
+    <div>13:37</div>
+    <div class="r">
+      <div class="bars"><i></i><i></i><i></i><i></i></div>
+      <svg viewBox="0 0 24 24" style="width:28px;height:28px;stroke:#DDE7FA;fill:none;stroke-width:2.4;stroke-linecap:round"><path d="M5 12.5a10 10 0 0 1 14 0M8.5 16a6 6 0 0 1 7 0M12 19.5h.01"/></svg>
+      <div class="batt"></div>
+    </div>
+  </div>
+
+  <div class="head">
+    <div class="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></div>
+    <div class="field glass">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg>
+      <div class="ph">搜索商品 / 品牌 / 权益</div>
+    </div>
+    <div class="btn-s">搜索</div>
+  </div>
+
+  <div class="hero">
+    <div class="orb1"></div><div class="orb2"></div><div class="grid"></div>
+    <div class="txt">
+      <div class="kicker">国数交 · 数字资产商城</div>
+      <div class="h1">0 撸</div>
+      <div class="h2">送数据 值钱</div>
+      <div class="hsub">消费即挖矿 · 数据即资产 · <b>每月 19 号福利加码</b></div>
+    </div>
+    <div class="tagline">DIGITAL ASSET</div>
+    <div class="art">
+      <div class="plinth"></div>
+      <div class="gift"><div class="bow"><i class="l"></i><i class="r"></i></div><div class="body"></div><div class="lid"></div><div class="rib"></div><span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span></div>
+    </div>
+  </div>
+
+
+  <div class="stats">
+    <div class="st"><b>12,860</b><span>我的数据</span></div>
+    <div class="sp"></div>
+    <div class="st"><b>4,200</b><span>可用积分</span></div>
+    <div class="sp"></div>
+    <div class="st"><b>V3</b><span>会员等级</span></div>
+    <div class="st-btn">去兑换 ›</div>
+  </div>
+  <div class="strip">
+    <div class="l">
+      <div class="fire"><svg viewBox="0 0 24 24"><path d="M12 2c3 5 6 6 6 10a6 6 0 1 1-12 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3 1-6 2-9z"/></svg></div>
+      限时特价 · 每月 19 号 福利大赠送
+    </div>
+    <div class="go"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h"><div class="sec-t"><span class="bar"></span><h3>消费自选区</h3><span class="sub">消费即参与</span></div><div class="more">全部 ›</div></div>
+    <div class="grid2">
+      <div class="tile">
+        <div class="glow" style="background:radial-gradient(circle,rgba(255,150,60,.55),transparent 62%)"></div>
+        <div class="disc">
+          <div class="halo" style="background:radial-gradient(circle,rgba(255,150,60,.8),transparent 60%)"></div>
+          <div class="ring"></div>
+          <svg viewBox="0 0 24 24"><path d="M12 3l7 4v10l-7 4-7-4V7z"/><path d="M12 3v18M5 7l7 4 7-4"/></svg>
+        </div>
+        <div class="nm"><span>幸运盲盒</span><span class="pill">100%</span></div>
+        <div class="desc">开盒必得 · 数据翻倍</div>
+      </div>
+      <div class="tile">
+        <div class="glow" style="background:radial-gradient(circle,rgba(120,110,255,.6),transparent 62%)"></div>
+        <div class="disc">
+          <div class="halo" style="background:radial-gradient(circle,rgba(130,120,255,.8),transparent 60%)"></div>
+          <div class="ring"></div>
+          <svg viewBox="0 0 24 24"><path d="M6 8h12l-1 12H7z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg>
+        </div>
+        <div class="nm"><span>大众首选</span><span class="pill">80%</span></div>
+        <div class="desc">高性价比 · 每日上新</div>
+      </div>
+      <div class="tile">
+        <div class="glow" style="background:radial-gradient(circle,rgba(90,160,255,.6),transparent 62%)"></div>
+        <div class="disc">
+          <div class="halo" style="background:radial-gradient(circle,rgba(90,160,255,.8),transparent 60%)"></div>
+          <div class="ring"></div>
+          <svg viewBox="0 0 24 24"><path d="M4 6h2l2.2 10.2h9.4L20 9H7"/><circle cx="10" cy="19" r="1.3"/><circle cx="17" cy="19" r="1.3"/></svg>
+        </div>
+        <div class="nm"><span>精品汇聚</span><span class="pill">50%</span></div>
+        <div class="desc">严选好物 · 限量供应</div>
+      </div>
+      <div class="tile">
+        <div class="glow" style="background:radial-gradient(circle,rgba(80,220,160,.55),transparent 62%)"></div>
+        <div class="disc">
+          <div class="halo" style="background:radial-gradient(circle,rgba(80,220,160,.75),transparent 60%)"></div>
+          <div class="ring"></div>
+          <svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/></svg>
+        </div>
+        <div class="nm"><span>家庭生活</span><span class="pill">20%</span></div>
+        <div class="desc">柴米油盐 · 一站购齐</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h"><div class="sec-t"><span class="bar"></span><h3>品商汇</h3><span class="sub">品牌官方直供</span></div><div class="more">更多品牌 ›</div></div>
+    <div class="brands">
+      <div class="brand"><div class="logo b1">水星</div><span>水星家纺</span></div>
+      <div class="brand"><div class="logo b2">洁丽雅</div><span>洁丽雅</span></div>
+      <div class="brand"><div class="logo b3">苏泊尔</div><span>苏泊尔</span></div>
+      <div class="brand"><div class="logo b4">九阳</div><span>九阳</span></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="duo">
+      <div class="fcard">
+        <div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="M10.5 9.2l4.3 2.8-4.3 2.8z"/></svg></div>
+        <div><h4>每日看视频</h4><p>看视频 · 赚数据</p></div>
+      </div>
+      <div class="fcard orange">
+        <div class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3.6 20c.8-3.4 3-5 5.4-5s4.6 1.6 5.4 5"/><path d="M15.2 20c.4-2.4 1.4-3.6 2.8-3.6 1.1 0 2 .9 2.4 2.6"/></svg></div>
+        <div><h4>家人圈商城</h4><p>家人精选 · 专属商城</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h"><div class="sec-t"><span class="bar"></span><h3>健康套餐专区</h3><span class="sub">医学级 · 全周期管理</span></div><div class="more">权益说明 ›</div></div>
+    <div class="tiers">
+      <div class="tier">
+        <div class="p"><small>¥</small>1999</div><div class="n">健康套餐</div>
+        <div class="g"><div class="box"></div></div>
+        <div class="buy">立即购买</div>
+      </div>
+      <div class="tier hot">
+        <div class="badge"></div>
+        <div class="p"><small>¥</small>5999</div><div class="n">健康套餐</div>
+        <div class="g"><div class="box"></div></div>
+        <div class="buy">立即购买</div>
+      </div>
+      <div class="tier">
+        <div class="p"><small>¥</small>11999</div><div class="n">健康套餐</div>
+        <div class="g"><div class="box"></div></div>
+        <div class="buy">立即购买</div>
+      </div>
+      <div class="tier ghost">
+        <div class="p" style="font-size:30px;line-height:1.35">健康套餐<br>复购区</div><div class="n">老客续费 8 折</div>
+        <div class="g"><div class="box" style="filter:saturate(.7)"></div></div>
+        <div class="buy">去续费</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="sec">
+    <div class="sec-h"><div class="sec-t"><span class="bar"></span><h3>为你推荐</h3><span class="sub">买得多 · 数据返得多</span></div><div class="more">换一批 ›</div></div>
+    <div class="row2">
+      <div class="pcard">
+        <div class="pimg"><div class="pglow"></div><span class="ptag">数据 ×3</span><svg class="pic" viewBox="0 0 24 24"><path d="M4 9h16v3H4z"/><path d="M5 12h14v8H5z"/><path d="M9 9V7h6v2"/></svg></div>
+        <div class="pbody">
+          <div class="pname">水星家纺 · 抗菌四件套</div>
+          <div class="pmeta">品牌直供 · 30 天无忧退</div>
+          <div class="pfoot"><div class="pprice"><small>¥</small>459</div><div class="pbuy">立即购买</div></div>
+        </div>
+      </div>
+      <div class="pcard">
+        <div class="pimg alt"><div class="pglow"></div><span class="ptag">爆款</span><svg class="pic" viewBox="0 0 24 24"><path d="M8 4h8l-1 6H9z"/><path d="M7 10h10l-1.6 10H8.6z"/><path d="M10 20h4"/></svg></div>
+        <div class="pbody">
+          <div class="pname">九阳 · 破壁料理机 Y88</div>
+          <div class="pmeta">官方直降 · 赠延保 1 年</div>
+          <div class="pfoot"><div class="pprice"><small>¥</small>799</div><div class="pbuy">立即购买</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="it on"><div class="ni"><svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V21h13V9.5"/></svg></div><span>首页</span></div>
+    <div class="it"><div class="ni"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="M10.5 9.2l4.3 2.8-4.3 2.8z"/></svg></div><span>签到看视频</span></div>
+    <div class="it"><div class="ni"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M12 10v10"/><path d="M12 10C9 10 7 8.6 7 6.8 7 5.3 8.2 4 9.6 4 11.4 4 12 6.6 12 10z"/><path d="M12 10c3 0 5-1.4 5-3.2C17 5.3 15.8 4 14.4 4 12.6 4 12 6.6 12 10z"/></svg></div><span>礼补</span></div>
+    <div class="it"><div class="ni"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.4"/><path d="M4.5 20c.9-3.8 3.9-6 7.5-6s6.6 2.2 7.5 6"/></svg></div><span>我的</span></div>
+  </div>
+
+</div></body></html>

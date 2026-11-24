@@ -1,0 +1,11 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "打板平面图。只输出【一件】上衣正面，禁止背面，禁止双视图。\n\n图1 = 已批准黄橙羽绒正面（几何/帽形/绗缝轮廓锁）：1:1 抄外轮廓、水平绗缝、插肩、帽子姿势、拉链门襟比例；忽略图1花色。\n\n图2 = 本套花色（已去logo）：鲜红底 + 深红斜向锯齿/闪电暗纹铺满前身与袖；双袖中臂白色无字横臂带（可带细密网点过渡）；白色/银色全长拉链；腰侧竖插袋；帽子立起与图1同姿态；水平绗缝格必须可见。\n\n硬性禁止：任何 logo/队徽/OEM/文字/棉服字样/人体/双视图；真正透明底。",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/20_105906303_k78front_r1.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/20_2317399322_k84f.png"
+  ]
+}

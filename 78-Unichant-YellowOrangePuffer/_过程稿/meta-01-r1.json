@@ -1,0 +1,18 @@
+{
+  "kit": "78-Unichant-YellowOrangePuffer",
+  "view": "01-上衣正面-2D",
+  "round": "r1",
+  "model_requested": "gpt-image-2.5-sunburst",
+  "model_used": "gpt-image-2",
+  "model_note": "sunburst 系统繁忙; gpt-image-2 used",
+  "task_id": "85987015-15ed-b7c4-018b-5c7b41fe4372",
+  "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/20_105906303_k78front_r1.png",
+  "gen_url": "https://cdn3.dmiapi.com/20261020/ee1760f661b906d4d00b653a68b506f7.png?e=1792897103&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:jsUiMzpYsS4KemgfmFNpOR6OXJ0=",
+  "refs": {
+    "geom": "https://qiniuoss.changzhouyunshan.com/upload/202610/20_1056126634.png",
+    "paint": "https://qiniuoss.changzhouyunshan.com/upload/202610/20_1056249721.png"
+  },
+  "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/78-Unichant-YellowOrangePuffer/01-上衣正面-2D.png",
+  "mac_ok": true,
+  "postprocess": "rembg + fit 2000x2000 transparent"
+}

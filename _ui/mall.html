@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+  html,body{width:1080px;height:2280px;overflow:hidden}
+  body{
+    font-family:"PingFang SC","Helvetica Neue",Arial,sans-serif;
+    color:#EAF0FB;
+    background:
+      radial-gradient(1200px 700px at 10% -8%, rgba(255,122,24,.20), transparent 60%),
+      radial-gradient(900px 600px at 100% 8%, rgba(41,98,255,.22), transparent 62%),
+      radial-gradient(1000px 800px at 50% 110%, rgba(24,60,130,.45), transparent 65%),
+      linear-gradient(180deg,#060B18 0%,#0A1430 42%,#060B18 100%);
+    position:relative;
+  }
+  /* 背景星点/网格 */
+  body::before{
+    content:"";position:absolute;inset:0;
+    background-image:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
+    background-size:72px 72px;mask-image:linear-gradient(180deg,rgba(0,0,0,.8),transparent 70%);
+  }
+  .wrap{position:relative;z-index:2;height:100%;display:flex;flex-direction:column}
+  .status,.head,.banner,.sec,.video,.nav{flex:none}
+
+  /* 状态栏 */
+  .status{height:74px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 56px 4px;font-size:25px;font-weight:600;letter-spacing:.3px;color:#DCE6F7}
+  .status .right{display:flex;gap:12px;align-items:center;opacity:.9}
+  .bars{display:flex;gap:5px;align-items:flex-end}
+  .bars i{display:block;width:6px;background:#DCE6F7;border-radius:2px}
+  .bars i:nth-child(1){height:10px}.bars i:nth-child(2){height:16px}.bars i:nth-child(3){height:22px}.bars i:nth-child(4){height:28px;opacity:.4}
+  .batt{width:44px;height:22px;border:2px solid #DCE6F7;border-radius:6px;position:relative;opacity:.9}
+  .batt::before{content:"";position:absolute;inset:3px;width:66%;background:#DCE6F7;border-radius:3px}
+  .batt::after{content:"";position:absolute;right:-6px;top:6px;width:4px;height:8px;background:#DCE6F7;border-radius:2px}
+
+  .head{padding:16px 56px 0;display:flex;align-items:center;gap:26px}
+  .search{flex:1;height:96px;border-radius:30px;display:flex;align-items:center;padding:0 34px;gap:20px;
+    background:linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.06));
+    border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(26px);
+    box-shadow:0 18px 44px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.18)}
+  .search .ph{font-size:31px;color:rgba(226,236,252,.72);letter-spacing:.5px}
+  .icn{width:36px;height:36px;flex:none;stroke:#BFD0EC;stroke-width:3;fill:none;stroke-linecap:round}
+  .round{width:96px;height:96px;border-radius:32px;display:grid;place-items:center;flex:none;
+    background:linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.05));
+    border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(26px);
+    box-shadow:0 18px 44px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.18)}
+  .dot{position:absolute;width:14px;height:14px;border-radius:50%;background:#FF7A18;right:18px;top:16px;box-shadow:0 0 16px #FF7A18}
+  .round{position:relative}
+
+  /* Banner */
+  .banner{margin:22px 56px 0;height:292px;border-radius:40px;position:relative;overflow:hidden;
+    background:linear-gradient(120deg,#12224A 0%,#0E2B6B 45%,#3A1B0B 100%);
+    border:1px solid rgba(255,255,255,.16);box-shadow:0 34px 90px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.2)}
+  .banner .glow{position:absolute;width:720px;height:720px;border-radius:50%;filter:blur(60px);
+    background:radial-gradient(circle,rgba(255,122,24,.55),transparent 62%);right:-190px;top:-250px}
+  .banner .glow2{position:absolute;width:560px;height:560px;border-radius:50%;filter:blur(70px);
+    background:radial-gradient(circle,rgba(58,120,255,.45),transparent 64%);left:-160px;bottom:-260px}
+  .banner .inner{position:absolute;inset:0;padding:34px 48px 74px;display:flex;flex-direction:column;justify-content:space-between}
+  .chip{display:inline-flex;align-items:center;gap:12px;height:58px;padding:0 24px;border-radius:18px;font-size:24px;font-weight:600;letter-spacing:1px;
+    color:#FFD9B0;background:rgba(255,122,24,.16);border:1px solid rgba(255,122,24,.42);width:max-content}
+  .b-title{font-size:56px;line-height:1.1;font-weight:800;letter-spacing:1px;
+    background:linear-gradient(92deg,#FFFFFF,#FFD5AC 55%,#FF9D4D);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .b-sub{margin-top:18px;font-size:29px;color:rgba(222,233,252,.78);letter-spacing:.6px}
+  .b-cta{position:absolute;right:52px;bottom:52px;height:92px;padding:0 44px;border-radius:26px;display:grid;place-items:center;
+    font-size:30px;font-weight:800;letter-spacing:1px;color:#231000;
+    background:linear-gradient(180deg,#FFB568,#FF7A18);box-shadow:0 18px 44px rgba(255,122,24,.45), inset 0 1px 0 #FFD9B0}
+  .pager{position:absolute;left:48px;bottom:32px;display:flex;gap:10px}
+  .pager i{width:44px;height:8px;border-radius:6px;background:rgba(255,255,255,.28)}
+  .pager i.on{width:72px;background:linear-gradient(90deg,#FFB568,#FF7A18)}
+
+  /* 区块标题 */
+  .sec{padding:22px 56px 0}
+  .sec-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+  .sec-t{display:flex;align-items:center;gap:18px}
+  .bar-o{width:10px;height:40px;border-radius:6px;background:linear-gradient(180deg,#FFB568,#FF7A18);box-shadow:0 0 22px rgba(255,122,24,.7)}
+  .sec-t h3{font-size:36px;font-weight:800;letter-spacing:1px}
+  .sec-t span{font-size:24px;color:rgba(190,206,232,.7);margin-left:6px;letter-spacing:.5px}
+  .more{font-size:26px;color:rgba(190,206,232,.75);display:flex;align-items:center;gap:8px}
+
+  .row{display:flex;gap:26px}
+  .card{flex:1;border-radius:30px;padding:20px;position:relative;overflow:hidden;
+    background:linear-gradient(180deg,rgba(255,255,255,.12),rgba(255,255,255,.045));
+    border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(28px);
+    box-shadow:0 26px 60px rgba(0,0,0,.42), inset 0 1px 0 rgba(255,255,255,.2)}
+  .thumb{height:142px;border-radius:26px;position:relative;overflow:hidden;margin-bottom:22px;
+    background:linear-gradient(140deg,#1B2E63,#0B1836 60%,#3A1B0B)}
+  .thumb::after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;filter:blur(28px);
+    background:radial-gradient(circle,rgba(255,122,24,.55),transparent 62%);right:-90px;bottom:-120px}
+  .thumb.alt{background:linear-gradient(140deg,#123C5A,#0A1C36 60%,#123)}
+  .thumb.alt::after{background:radial-gradient(circle,rgba(64,190,255,.5),transparent 62%)}
+  .thumb.alt2{background:linear-gradient(140deg,#2A1B4E,#0B1836 62%,#10203F)}
+  .thumb.alt2::after{background:radial-gradient(circle,rgba(170,120,255,.5),transparent 62%)}
+  .c-name{font-size:26px;font-weight:700;letter-spacing:.4px}
+  .c-meta{margin-top:10px;font-size:22px;color:rgba(186,203,230,.72)}
+  .c-price{margin-top:20px;display:flex;align-items:flex-end;justify-content:space-between}
+  .price{font-size:34px;font-weight:800;color:#FFB166}
+  .price small{font-size:22px;font-weight:600;color:#FFB166;margin-right:4px}
+  .buy{height:58px;padding:0 24px;border-radius:18px;display:grid;place-items:center;font-size:23px;font-weight:800;color:#2A1200;
+    background:linear-gradient(180deg,#FFC183,#FF7A18);box-shadow:0 12px 26px rgba(255,122,24,.4)}
+  .tag{position:absolute;left:22px;top:22px;height:46px;padding:0 18px;border-radius:14px;display:grid;place-items:center;
+    font-size:21px;font-weight:700;color:#FFE1C4;background:rgba(0,0,0,.36);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(10px)}
+
+  /* 每日看视频 */
+  .video{margin:22px 56px 0;height:186px;border-radius:38px;padding:36px 40px;display:flex;align-items:center;gap:36px;position:relative;overflow:hidden;
+    background:linear-gradient(100deg,rgba(255,122,24,.20),rgba(255,255,255,.07) 46%,rgba(255,255,255,.04));
+    border:1px solid rgba(255,255,255,.17);backdrop-filter:blur(30px);
+    box-shadow:0 26px 64px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.2)}
+  .play{width:132px;height:132px;border-radius:50%;flex:none;display:grid;place-items:center;
+    background:linear-gradient(180deg,#FFB568,#FF7A18);box-shadow:0 16px 40px rgba(255,122,24,.5), inset 0 2px 0 rgba(255,255,255,.5)}
+  .play::before{content:"";width:0;height:0;border-left:38px solid #2A1200;border-top:24px solid transparent;border-bottom:24px solid transparent;margin-left:10px}
+  .v-info{flex:1}
+  .v-info h4{font-size:38px;font-weight:800;letter-spacing:.6px}
+  .v-info p{margin-top:12px;font-size:25px;color:rgba(196,212,238,.8)}
+  .pbar{margin-top:22px;height:12px;border-radius:8px;background:rgba(255,255,255,.16);overflow:hidden}
+  .pbar i{display:block;height:100%;width:62%;border-radius:8px;background:linear-gradient(90deg,#FFB568,#FF7A18);box-shadow:0 0 18px rgba(255,122,24,.8)}
+  .v-reward{flex:none;text-align:right}
+  .v-reward b{font-size:44px;color:#FFC07A;letter-spacing:.5px}
+  .v-reward span{display:block;margin-top:8px;font-size:23px;color:rgba(190,206,232,.72)}
+
+  /* 家人圈 */
+  .fam{display:flex;gap:24px;margin-top:4px}
+  .fam .card{padding:24px}
+  .fam .thumb{height:104px}
+  .fam .c-name{font-size:26px}
+  .fam .c-meta{font-size:21px;margin-top:8px}
+  .fam .price{font-size:30px}
+
+  /* 健康套餐 */
+  .tiers{display:flex;gap:22px}
+  .tier{flex:1;border-radius:28px;padding:20px 18px;position:relative;overflow:hidden;
+    background:linear-gradient(180deg,rgba(255,255,255,.11),rgba(255,255,255,.04));
+    border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(26px);
+    box-shadow:0 22px 54px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.18)}
+  .tier.hot{border-color:rgba(255,122,24,.55);
+    background:linear-gradient(180deg,rgba(255,122,24,.20),rgba(255,255,255,.05));
+    box-shadow:0 26px 64px rgba(255,90,0,.35), inset 0 1px 0 rgba(255,214,170,.35)}
+  .tier .badge{position:absolute;right:0;top:22px;height:44px;padding:0 18px;border-radius:14px 0 0 14px;display:grid;place-items:center;
+    font-size:20px;font-weight:800;color:#2A1200;background:linear-gradient(180deg,#FFC183,#FF7A18)}
+  .tier h5{font-size:29px;font-weight:800;letter-spacing:.5px}
+  .tier .t-sub{margin-top:10px;font-size:21px;color:rgba(190,206,232,.72);line-height:1.5}
+  .tier .t-price{margin-top:14px;font-size:40px;font-weight:900;color:#FFC07A;letter-spacing:.5px}
+  .tier .t-price small{font-size:22px;font-weight:700;margin-right:6px;color:#FFC07A}
+  .tier .t-btn{margin-top:14px;height:54px;border-radius:18px;display:grid;place-items:center;font-size:23px;font-weight:800;
+    color:#2A1200;background:linear-gradient(180deg,#FFC183,#FF7A18);box-shadow:0 12px 26px rgba(255,122,24,.38)}
+  .tier.ghost .t-btn{color:#FFD2A6;background:rgba(255,122,24,.14);border:1px solid rgba(255,122,24,.45);box-shadow:none}
+
+  .rebuy{margin-top:16px;height:110px;border-radius:32px;padding:0 34px;display:flex;align-items:center;gap:28px;
+    background:linear-gradient(100deg,rgba(255,255,255,.09),rgba(255,255,255,.035));
+    border:1px dashed rgba(255,255,255,.24);backdrop-filter:blur(22px)}
+  .rebuy .rk{width:96px;height:96px;border-radius:26px;flex:none;display:grid;place-items:center;
+    background:linear-gradient(180deg,rgba(255,122,24,.28),rgba(255,122,24,.10));border:1px solid rgba(255,122,24,.4)}
+  .rebuy .rt{flex:1}
+  .rebuy h6{font-size:30px;font-weight:800}
+  .rebuy p{margin-top:8px;font-size:22px;color:rgba(190,206,232,.72)}
+  .rebuy .go{font-size:25px;font-weight:800;color:#FFB166;display:flex;align-items:center;gap:8px}
+
+  /* 底部导航 */
+  .nav{margin-top:auto;height:164px;padding:14px 64px 30px;display:flex;justify-content:space-between;align-items:flex-start;
+    background:linear-gradient(180deg,rgba(6,11,24,0),rgba(6,11,24,.86) 42%,rgba(6,11,24,.98));
+    border-top:1px solid rgba(255,255,255,.08);backdrop-filter:blur(30px)}
+  .nav .it{width:150px;display:flex;flex-direction:column;align-items:center;gap:12px;color:rgba(176,194,222,.62);font-size:23px;letter-spacing:.5px}
+  .nav .it.on{color:#FFB166}
+  .nav .it.on .ni{background:linear-gradient(180deg,rgba(255,122,24,.30),rgba(255,122,24,.10));border-color:rgba(255,122,24,.5);box-shadow:0 10px 26px rgba(255,122,24,.35)}
+  .ni{width:66px;height:66px;border-radius:24px;display:grid;place-items:center;border:1px solid transparent}
+  .nav svg{width:34px;height:34px;stroke:currentColor;fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+</style></head>
+<body><div class="wrap">
+
+  <div class="status">
+    <div>9:41</div>
+    <div class="right">
+      <div class="bars"><i></i><i></i><i></i><i></i></div>
+      <svg class="icn" viewBox="0 0 24 24" style="width:30px;height:30px"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0M12 19.5h.01"/></svg>
+      <div class="batt"></div>
+    </div>
+  </div>
+
+  <div class="head">
+    <div class="search">
+      <svg class="icn" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+      <div class="ph">搜索数字藏品 / 健康套餐</div>
+    </div>
+    <div class="round">
+      <svg class="icn" viewBox="0 0 24 24" style="stroke:#BFD0EC"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  <div class="banner">
+    <div class="glow"></div><div class="glow2"></div>
+    <div class="inner">
+      <div>
+        <div class="chip">限时 · 数字藏品首发</div>
+        <div style="height:26px"></div>
+        <div class="b-title">星际光影 · 创世系列</div>
+        <div class="b-sub">限量 2026 份 · 链上确权 · 优先购权益</div>
+      </div>
+      <div class="pager"><i class="on"></i><i></i><i></i></div>
+      <div class="b-cta">立即抢购</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h">
+      <div class="sec-t"><span class="bar-o"></span><h3>消费自选区</h3><span>今日上新 12 款</span></div>
+      <div class="more">全部 ›</div>
+    </div>
+    <div class="row">
+      <div class="card">
+        <div class="thumb"><div class="tag">热卖</div></div>
+        <div class="c-name">星河徽章 · 典藏版</div>
+        <div class="c-meta">限量 999 · 已售 86%</div>
+        <div class="c-price"><div class="price"><small>¥</small>299</div><div class="buy">购买</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb alt"><div class="tag">新品</div></div>
+        <div class="c-name">深海之眼 · 动态</div>
+        <div class="c-meta">限量 1500 · 已售 42%</div>
+        <div class="c-price"><div class="price"><small>¥</small>499</div><div class="buy">购买</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb alt2"><div class="tag">合成</div></div>
+        <div class="c-name">紫曜晶体 · 稀有</div>
+        <div class="c-meta">限量 300 · 已售 97%</div>
+        <div class="c-price"><div class="price"><small>¥</small>899</div><div class="buy">购买</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="video">
+    <div class="play"></div>
+    <div class="v-info">
+      <h4>每日看视频 · 领积分</h4>
+      <p>今日进度 2/3 条 · 看完可得 50 积分</p>
+      <div class="pbar"><i></i></div>
+    </div>
+    <div class="v-reward"><b>+50</b><span>积分 / 条</span></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h">
+      <div class="sec-t"><span class="bar-o"></span><h3>家人圈商城</h3><span>为家人挑一份</span></div>
+      <div class="more">进入 ›</div>
+    </div>
+    <div class="fam">
+      <div class="card">
+        <div class="thumb alt"></div>
+        <div class="c-name">孝心礼盒</div>
+        <div class="c-meta">父母专属</div>
+        <div class="c-price"><div class="price"><small>¥</small>399</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"></div>
+        <div class="c-name">亲子套装</div>
+        <div class="c-meta">家庭共享</div>
+        <div class="c-price"><div class="price"><small>¥</small>599</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb alt2"></div>
+        <div class="c-name">长辈体检卡</div>
+        <div class="c-meta">全国通用</div>
+        <div class="c-price"><div class="price"><small>¥</small>699</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h">
+      <div class="sec-t"><span class="bar-o"></span><h3>健康套餐专区</h3><span>医学级 · 全周期</span></div>
+      <div class="more">权益说明 ›</div>
+    </div>
+    <div class="tiers">
+      <div class="tier">
+        <h5>基础版</h5>
+        <div class="t-sub">基因检测<br>季度报告</div>
+        <div class="t-price"><small>¥</small>1999</div>
+        <div class="t-btn">立即购买</div>
+      </div>
+      <div class="tier hot">
+        <div class="badge">最热</div>
+        <h5>进阶版</h5>
+        <div class="t-sub">全套筛查<br>专家 1v1</div>
+        <div class="t-price"><small>¥</small>5999</div>
+        <div class="t-btn">立即购买</div>
+      </div>
+      <div class="tier ghost">
+        <h5>尊享版</h5>
+        <div class="t-sub">年度管家<br>绿通服务</div>
+        <div class="t-price"><small>¥</small>11999</div>
+        <div class="t-btn">立即购买</div>
+      </div>
+    </div>
+    <div class="rebuy">
+      <div class="rk">
+        <svg viewBox="0 0 24 24" style="width:48px;height:48px;stroke:#FFB166;fill:none;stroke-width:2.2;stroke-linecap:round"><path d="M20 12a8 8 0 1 1-2.3-5.6"/><path d="M20 4v5h-5"/></svg>
+      </div>
+      <div class="rt"><h6>健康套餐复购区</h6><p>老客续费 8 折 · 积分可抵扣</p></div>
+      <div class="go">去续费 ›</div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="it on"><div class="ni"><svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg></div><span>首页</span></div>
+    <div class="it"><div class="ni"><svg viewBox="0 0 24 24"><path d="M4 7h16l-1.5 13h-13z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></div><span>商城</span></div>
+    <div class="it"><div class="ni"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5l5 2.5-5 2.5z"/></svg></div><span>看视频</span></div>
+    <div class="it"><div class="ni"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3.5 20c.8-3.4 3-5 5.5-5s4.7 1.6 5.5 5"/><path d="M15 20c.4-2.4 1.6-3.6 3-3.6 1.2 0 2.2.9 2.6 2.6"/></svg></div><span>家人圈</span></div>
+    <div class="it"><div class="ni"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.4"/><path d="M4.5 20c.9-3.8 3.9-6 7.5-6s6.6 2.2 7.5 6"/></svg></div><span>我的</span></div>
+  </div>
+
+</div></body></html>
