@@ -1,0 +1,17 @@
+{
+  "kit": "24-Unichant-MosaicOrange",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "tall21-paint24-clean-zh (IMAGE1 tall-21 CDN; IMAGE2 clean mosaic jpg no logo 01M572SMAT9HQPNP39DXMXWXQ7)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "2adb9023-3bfb-89a1-32e5-25f9954deafb",
+  "ref_urls": {
+    "tall21_cdn": "https://cdn3.dmiapi.com/20261018/c559245bcdf01e209e43ad5d7efaaa7c.png",
+    "paint24_clean": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1643140516.jpg"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/24-Unichant-MosaicOrange/01-上衣正面-2D.png",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1645400635.png",
+    "gen_url": "https://cdn3.dmiapi.com/20261018/f3c9ca62d7ce949fb145b1accb1c6fbc.png?e=1792745117&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:ZgqWob1a6phL0Aq74e1Fx1zVNFw="
+  },
+  "postprocess_alpha": "rembg only + resize 2000 (raw was RGB); no collar paint"
+}

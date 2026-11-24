@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Rebuild a clean flat-front football jersey (01 product style).\n\nIMAGE 1 = GEOMETRY MASTER (kit 18).\nCopy ONLY: silhouette, torso length, raglan, short sleeves, crew collar\nCONSTRUCTION (thickness, opening, rib proportions), gray inner cue,\ncuff/hem proportions. Do NOT keep IMAGE 1 body/sleeve/collar paint.\n\nIMAGE 2 = PAINT MASTER (kit 23).\nCopy ALL paint onto IMAGE 1 shape: body and sleeves with alternating\nyellow and navy horizontal HOOPS, collar BAND color (solid navy matching\nthe dark hoop navy), cuff paint if any. Clean chest — no logos/text/numbers.\nIgnore IMAGE 2 overall size if different; use IMAGE 1 proportions.\nDiscard IMAGE 2 wrong collar shape (white V or any non-kit-18 crew); keep only its paint/colors/pattern.\n\nIMAGE 3 = design sheet (kit 23 color/pattern check only).\nConfirm yellow/navy hoop colors and SOLID NAVY collar band matching dark hoops.\nDo NOT copy logos, numbers, shorts, or typography.\n\nCritical:\n1) Geometry = IMAGE 1 (kit 18 class). Collar SHAPE stays kit 18.\n2) Paint = IMAGE 2 (kit 23 yellow/navy horizontal hoops).\n3) Collar band color = kit 23 paint/design solid navy — never force white from kit 11,\n   never keep geometry kit’s yellow collar, never keep kit 21 white collar.\n4) Transparent flat front, no mannequin, no text.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0012351388.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0012375901.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0012409843.png"
+  ]
+}

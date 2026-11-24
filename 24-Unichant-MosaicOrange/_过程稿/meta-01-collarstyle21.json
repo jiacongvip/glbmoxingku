@@ -1,0 +1,32 @@
+{
+  "kit": "24-Unichant-MosaicOrange",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "collarstyle21-paint24",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "4be1ed0f-dd78-feee-4f77-7e0484c7650c",
+  "req_json": "24-Unichant-MosaicOrange/_过程稿/req-01-collarstyle21-paint24.json",
+  "note": "IMAGE1=kit21 geometry+collar STYLE. IMAGE2=kit24 mosaic orange paint. IMAGE3=design. Collar band WHITE. Gen RGB white-bg; rembg alone clipped orange sleeves — RGBA via rembg∪orange-paint∪blocked neck-hole flood (v5).",
+  "ref_urls": {
+    "geometry_collar21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1046549345.png",
+    "paint24": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1046568501.png",
+    "design24": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1046587725.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/24-Unichant-MosaicOrange/01-上衣正面-2D.png",
+    "bytes": 1384620,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1052581655.png"
+  },
+  "collar_crop": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/24-Unichant-MosaicOrange/_过程稿/01-collar-crop.png",
+    "bytes": 306373,
+    "width": 1129,
+    "height": 326,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1053011413.png"
+  },
+  "backup": "/Users/jiacong/Desktop/球衣套装拆图/24-Unichant-MosaicOrange/_过程稿/01-上衣正面-2D_before-collarstyle21_20261018-104936.png",
+  "created_at_asia_shanghai": "2026-10-18 10:53:02 CST"
+}

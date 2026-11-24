@@ -1,0 +1,18 @@
+{
+  "kit": "22-Unichant-WhitePink",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "tall21-paint22-zh (IMAGE1 tall-21 CDN geom+white collar; IMAGE2 existing whitepink-jersey-f paint; CN prompt kit23/24-OK style)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "7aafbb26-7342-72d9-2c5d-9b66a69c9590",
+  "ref_urls": {
+    "tall21_cdn": "https://cdn3.dmiapi.com/20261018/c559245bcdf01e209e43ad5d7efaaa7c.png",
+    "tall21_qiniu_mirror": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1716204934.png",
+    "paint22": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1716191359.png"
+  },
+  "output": {
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1724231729.png",
+    "gen_url": "https://cdn3.dmiapi.com/20261018/6e294c5d4a5337784cc2414b1a2aaeb9.png?e=1792747424&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:v-UIDxdOXYdRgjDz62sdUq6JQgY=",
+    "bytes": 1185040
+  },
+  "postprocess_alpha": "rembg only + resize 2000 if needed; no collar paint"
+}

@@ -1,0 +1,14 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Rebuild a clean flat-front football jersey (01). Transparent RGBA. No logos/text/numbers/mannequin.\n\nIMAGE 1 = LAYOUT MASTER (kit 19). Copy ENTIRE layout unchanged, ESPECIALLY the collar: overlapping/crossover crew — left and right rib bands overlap at center-front with a small V notch (NOT a plain flush circular crew). Also copy silhouette, raglan, proportions, gray inner. Discard IMAGE 1 beige colors and vertical stripes.\n\nIMAGE 2 = kit 19 collar close-up (skill ref). Reinforce the SAME overlapping crossover collar construction — visible left/right rib overlap and center-front V notch. Shape only.\n\nIMAGE 3 = kit 19 collar crop (extra). Same overlapping crossover crew — do not simplify to a flush round band. Shape only.\n\nIMAGE 4 = kit 23 paint. Yellow/navy horizontal hoops on body+sleeves. Paint the EXISTING overlapping collar shape SOLID NAVY (dark hoop navy). Do NOT flatten the collar into a simple round band. Discard IMAGE 4 old collar geometry.\n\nIMAGE 5 = kit 23 design sheet (color check). Solid navy collar band matching dark hoops; yellow/navy hoop colors. No logos/numbers/shorts/typography.\n\nFORBIDDEN: plain flush circular crew, tipped yellow collar stripe, white collar, beige collar, redesigning away from kit 19 overlap.\nREQUIRED: kit 19 overlapping collar shape (crossover + small center-front V notch) + kit 23 yellow/navy hoops + navy collar paint + gray inner + transparent flat FRONT.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0011115961.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0011136637.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0011152506.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0011179045.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0011193502.png"
+  ]
+}

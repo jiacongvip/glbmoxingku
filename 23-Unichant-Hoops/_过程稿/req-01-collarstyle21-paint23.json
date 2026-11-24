@@ -1,0 +1,12 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Rebuild a clean flat-front football jersey (01 product style).\n\nIMAGE 1 = GEOMETRY + COLLAR STYLE MASTER (kit 21 confirmed FRONT) — LOCK THIS COLLAR.\nCopy ONLY: silhouette, torso length, raglan, short sleeves, and especially the crew collar CONSTRUCTION/STYLE:\n- same collar band THICKNESS (chunky rib, not thin flat rim)\n- same neck OPENING size\n- same front-center SHAPE (slightly squared / shallow bucket U where collar meets torso — NOT a perfect thin circle; NOT a smooth flat round crew)\n- same rib proportions and gray inner neck cue\n- same cuff/hem proportions\nDo NOT keep IMAGE 1 body/sleeve/collar paint (no teal/magenta, no white collar paint, no white center stripes). Paint the locked collar band SOLID NAVY instead.\n\nIMAGE 2 = PAINT MASTER (kit 23).\nCopy ALL paint onto IMAGE 1 shape: body and sleeves with alternating yellow and navy horizontal HOOPS; cuffs if any. Clean chest — no logos/text/numbers. IGNORE IMAGE 2 collar shape completely (it is wrong). Collar STYLE must stay IMAGE 1.\n\nIMAGE 3 = design sheet (kit 23 color check only).\nConfirm yellow/navy hoop colors and SOLID NAVY collar band. Do NOT copy logos, numbers, shorts, or typography.\n\nCritical (priority order):\n1) Collar STYLE = IMAGE 1 (kit 21) EXACTLY — thickness, opening, front-center shape. Reject any thin smooth round navy crew.\n2) Paint = IMAGE 2 yellow/navy horizontal hoops.\n3) Collar band COLOR = solid navy matching dark hoop navy — never white, never yellow.\n4) Transparent flat front, no mannequin, no text.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1026258958.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1026425227.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1026308150.png"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Rebuild a clean flat-front football jersey (01 product style). Transparent RGBA. No mannequin, no logos/text/numbers.\n\nIMAGE 1 = LAYOUT MASTER (kit 19 approved front). Copy the ENTIRE layout unchanged: silhouette, torso length, raglan seams, short sleeves, crew collar construction (thickness, opening, rib proportions), gray inner cue, cuff/hem proportions. Do NOT change the collar shape at all. Do NOT keep IMAGE 1 beige/tan colors or vertical stripes.\n\nIMAGE 2 = collar close-up of the same kit-19 layout (optional reinforce). Shape only.\n\nIMAGE 3 = PAINT STYLE (kit 23). Apply ONLY yellow and navy horizontal HOOPS across body and sleeves onto IMAGE 1’s unchanged layout. Collar BAND color must follow kit 23 paint/design (solid navy matching dark hoops) — paint the existing IMAGE 1 collar shape navy; do not redesign the collar. Discard IMAGE 3’s old collar geometry. Clean chest.\n\nIMAGE 4 = design sheet (kit 23 color check only). Confirm hoop colors and SOLID NAVY collar band matching dark hoops. Do NOT copy logos, numbers, shorts, or typography. Do NOT change IMAGE 1 collar shape.\n\nCritical:\n1) Layout/geometry/collar SHAPE = IMAGE 1 (kit 19) — do not alter.\n2) Colors/pattern = kit 23 yellow/navy hoops.\n3) Collar color = navy on the kit-19 collar shape (not beige, not white tip).\n4) Transparent flat FRONT only.",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "image": [
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0006085026.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0006103795.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0006125279.png",
+    "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0006149602.png"
+  ]
+}

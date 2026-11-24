@@ -1,0 +1,36 @@
+{
+  "kit": "23-Unichant-Hoops",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "collarstyle21-paint23-r2",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "f44469bc-298f-ece7-f29a-22c553d6d099",
+  "prior_tasks": {
+    "first_error": "72f37d09-e721-3092-e86d-b90ada7045e6",
+    "first_ok_thin_collar": "1f4b09b6-7f95-3cdf-5681-1443edc60a3a"
+  },
+  "req_json": "23-Unichant-Hoops/_过程稿/req-01-collarstyle21-paint23.json",
+  "note": "IMAGE1=kit21 FRONT geometry+collar STYLE. IMAGE2=kit23 before-on18 hoop paint. IMAGE3=design. First API error; first OK still thin round collar; r2 stronger collar lock. Gen RGB; rembg RGBA.",
+  "ref_urls": {
+    "geometry_collar21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1026258958.png",
+    "paint23": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1026425227.png",
+    "design23": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1026308150.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/23-Unichant-Hoops/01-上衣正面-2D.png",
+    "bytes": 695234,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1042417244.png"
+  },
+  "collar_crop": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/23-Unichant-Hoops/_过程稿/01-collar-crop.png",
+    "bytes": 278866,
+    "width": 1216,
+    "height": 316,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1042444849.png"
+  },
+  "backup": "/Users/jiacong/Desktop/球衣套装拆图/23-Unichant-Hoops/_过程稿/01-上衣正面-2D_before-collarstyle21-r2_20261018-104240.png",
+  "created_at_asia_shanghai": "2026-10-18 10:42:47 CST"
+}

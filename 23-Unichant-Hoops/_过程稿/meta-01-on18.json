@@ -1,0 +1,32 @@
+{
+  "kit": "23-Unichant-Hoops",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "like21-skeleton-paint23",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "31f379ac-d3a9-696e-21e9-25d0407b357b",
+  "req_json": "23-Unichant-Hoops/_过程稿/req-01-like21-skeleton-paint23.json",
+  "note": "kit21 3-image skeleton. Gen was RGB; rembg to RGBA. FRONT+collar re-uploaded after crop fix.",
+  "ref_urls": {
+    "geometry18": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0012351388.png",
+    "paint23": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0012375901.png",
+    "design23": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0012409843.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/23-Unichant-Hoops/01-上衣正面-2D.png",
+    "bytes": 656636,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0015171243.png"
+  },
+  "collar_crop": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/23-Unichant-Hoops/_过程稿/01-collar-crop.png",
+    "bytes": 314922,
+    "width": 1169,
+    "height": 364,
+    "mode": "RGBA",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_0015192013.png"
+  },
+  "backup": "23-Unichant-Hoops/_过程稿/01-上衣正面-2D_before-like21_20261018-001235.png",
+  "created_at_asia_shanghai": "2026-10-18 00:15:21 CST"
+}

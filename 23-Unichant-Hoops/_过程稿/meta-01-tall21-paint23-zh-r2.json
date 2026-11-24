@@ -1,0 +1,23 @@
+{
+  "kit": "23-Unichant-Hoops",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "tall21-paint23-zh-r2 (IMAGE1 qiniu tall-21; IMAGE2 existing paint23 before-on18 OSS; IMAGE3 kit21 collar crop; CN prompt kit25-OK style)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "0be172b8-03d4-4bef-c3fc-44514aae5f57",
+  "prior_tasks": {
+    "first_cdn_tall21_error": "6aa924c0-071f-ea50-c6d1-1b36cace003f"
+  },
+  "ref_urls": {
+    "tall21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1603395329.png",
+    "paint23_existing": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1026425227.png",
+    "kit21_collar_crop": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1603439463.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/23-Unichant-Hoops/01-上衣正面-2D.png",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_171021b697.png",
+    "gen_url": "https://cdn3.dmiapi.com/20261018/9422ccaff788cce55f5df37560e52eda.png?e=1792746368&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:lwbBeIGHIvrWWRfgWt1cwiqFbnM=",
+    "bytes": 1552894
+  },
+  "postprocess_alpha": "rembg only + resize 2000 (raw was RGB); no collar paint",
+  "created_at_asia_shanghai": "2026-10-18 17:10 CST"
+}

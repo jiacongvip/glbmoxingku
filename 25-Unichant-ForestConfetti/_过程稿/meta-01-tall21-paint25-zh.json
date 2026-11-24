@@ -1,0 +1,19 @@
+{
+  "kit": "25-Unichant-ForestConfetti",
+  "view": "01-上衣正面-2D",
+  "prompt_ref": "tall21-paint25-zh (IMAGE1 tall-21 geom+white collar; IMAGE2 paint25 jfront; IMAGE3 kit21 collar crop; CN prompt kit26-OK style)",
+  "model": "gpt-image-2.5-sunburst",
+  "task_id": "11c50913-102c-04aa-40d9-a3d6ad7c77f2",
+  "ref_urls": {
+    "tall21": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1603395329.png",
+    "paint25": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1603414696.png",
+    "kit21_collar_crop": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_1603439463.png"
+  },
+  "output": {
+    "mac_path": "/Users/jiacong/Desktop/球衣套装拆图/25-Unichant-ForestConfetti/01-上衣正面-2D.png",
+    "cdn": "https://qiniuoss.changzhouyunshan.com/upload/202610/18_160957e484.png",
+    "gen_url": "https://cdn3.dmiapi.com/20261018/034d9b223cb2fc4ffd331b841d1725cd.png?e=1792742737&token=mTvq9hVVEUusCokO8WegAYo2IjxRSvr97Q4j2lrx:RC1ZW2tt8V57RGeV8Gr9GnPgYtY=",
+    "bytes": 2025914
+  },
+  "postprocess_alpha": "rembg only + resize 2000 (raw was RGB); no collar paint"
+}
